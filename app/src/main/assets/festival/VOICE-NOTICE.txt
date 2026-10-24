@@ -1,0 +1,13 @@
+Ziad Arabic HTS voice: ara_norm_ziad_hts
+Kurt American English voice: ked_diphone (classic LPC/diphone, 16 kHz). It is not a neural voice and is not a duplicate of the CMU/HTS speakers.
+Source: https://github.com/linuxscout/festival-tts-arabic-voices
+Authors: Taha Zerrouki, Oussama Heminna, Karim Hemina; preserve the complete bundled upstream AUTHORS and code notices.
+Repository license: GPL-3.0; see VOICE-GPL-3.0.txt. The model and voice source files are included in the accompanying source archive.
+Trained on Arabic Speech Corpus by Nawar Halabi, University of Southampton.
+Corpus source: https://en.arabicspeechcorpus.com/
+Corpus license: Creative Commons Attribution 4.0 International (CC BY 4.0).
+License: https://creativecommons.org/licenses/by/4.0/
+The corpus website explicitly links and acknowledges this Festival voice project.
+Android modifications: private-data installation, relative voice-resource paths, JNI PCM rendering, runtime speed and pitch control, and shadda-before-vowel input normalization required by upstream LTS rules. The trained voice model is unchanged.
+No original authors endorse this application. The software and voice are provided without warranty.
+Festival and Edinburgh Speech Tools retain their bundled permissive licenses; HTS engine notices remain in the included runtime sources.

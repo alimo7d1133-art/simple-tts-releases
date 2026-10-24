@@ -1,0 +1,13 @@
+Rawi v3 Arabic Diacritizer
+
+Model: TigreGotico/rawi-v3/rawi_v3.int8.onnx
+Vocabulary: TigreGotico/rawi-v3/rawi_v3.vocab.json
+Hugging Face revision: b53b4c28a5e432bc041cf2ba4246d78666eb5355
+SHA-256 model: e1253c5c5edfab3a7d47167323413cb3253d26df79eedb6db02100cbbd22ecb7
+SHA-256 vocabulary: 5a8972bc1c5985092973d543d8b04f4c9317b2d11625c242420baf69bb4bf037
+
+License: Apache License 2.0 (see source/LICENSE-APACHE-2.0.txt).
+Credits: TigreGotico is the author of the corpus, model and training notebook.
+Mike Hansen provided GPU training compute for V2/V3. The model card describes
+Embedding(236,128), 2-layer BiLSTM(256), presence and value heads. This app uses
+rawi_v3.int8.onnx locally through ONNX Runtime Android.

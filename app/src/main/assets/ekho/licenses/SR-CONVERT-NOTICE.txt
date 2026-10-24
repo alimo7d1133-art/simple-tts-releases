@@ -1,0 +1,1 @@
+sr-convert DSP source, Copyright (c) 2002, 2003 Edward Kiser. GPL version 2 or any later version, selected under GPLv3 in this application. Full source and original notices are in app/src/main/cpp/ekho/sr-convert.

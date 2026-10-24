@@ -1,0 +1,10 @@
+ClArTTS Arabic Flite voice: clartts_ar.flitevox
+Voice model: trained for Simple TTS 1.7.0 with the Festvox Clustergen toolchain (Carnegie Mellon University, BSD-style licence) and exported as a Flite voice (CMU Flite licence, see FLITE-COPYING.txt).
+Training corpus: ClArTTS, a Classical Arabic single male speaker corpus of about 12 hours extracted from a LibriVox audiobook, segmented and manually transcribed with diacritics by Ajinkya Kulkarni, Atharva Kulkarni, Sara Abedalmon'em Mohammad Shatnawi and Hanan Aldarmaki (MBZUAI).
+Corpus source: https://huggingface.co/datasets/MBZUAI/ClArTTS and http://www.clartts.com/
+Corpus licence: Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
+Citation: A. Kulkarni, A. Kulkarni, S. A. M. Shatnawi, H. Aldarmaki, "ClArTTS: An Open-Source Classical Arabic Text-to-Speech Corpus", Interspeech 2023, pp. 5511-5515, doi:10.21437/Interspeech.2023-2224.
+Changes: the corpus audio was downsampled to 16 kHz and a subset of recordings was used to train the voice; the voice is a statistical Clustergen model, not a neural model. No corpus recordings are bundled in the app.
+The corpus licence requires attribution and does not imply endorsement by the authors, MBZUAI or LibriVox.
+This is a different recorded speaker from the ASC and Ziad voices (those use the Arabic Speech Corpus). Best results use fully diacritized text; the optional local Rawi button can add diacritics.
+The voice and software are provided without warranty.

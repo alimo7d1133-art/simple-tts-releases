@@ -1,0 +1,6 @@
+Ekho source headers: Copyright (C) 2008-2024 Cameron Wong (HUANG GUANNENG), https://eguidedog.net .
+Official upstream: https://github.com/hgneng/ekho . Core GPL-2.0-or-later; selected under GPLv3 for the application code combination. Full source is in app/src/main/cpp/ekho.
+CantoneseWong / jyutping-wong-16000-v6 recordings: Copyright (C) 2008 Cameron Wong, GPL-2.0; separate original recording files and license retained.
+Cantonese dictionary: separate CC BY-SA 3.0, with original source and attribution in DICTIONARY-NOTICE.txt and zhy_list.
+Android modifications: Cantonese-only build, no optional English synthesizers or network/neural paths, checked JNI PCM, private-data installation/temp path, full speed/pitch mapping and Sonic configuration. Original sources and notices are preserved.
+Sonic and libsndfile LGPL-2.1-or-later; GSM original permissive license; sr-convert GPL-2.0-or-later; UTFCPP original permissive notice. No upstream author endorses this application.

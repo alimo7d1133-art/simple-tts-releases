@@ -1,0 +1,13 @@
+ASC Arabic Flite voice: kacst_ar_asc.flitevox
+Voice model and project: Copyright (c) 2019 Abdullah Alrajeh, MIT License.
+Source: https://github.com/asrajeh/arabic-tts
+See asc-MIT-LICENSE.txt for the complete MIT terms.
+
+Trained on Arabic Speech Corpus by Nawar Halabi, University of Southampton.
+Corpus source: https://en.arabicspeechcorpus.com/
+Corpus license: Creative Commons Attribution 4.0 International (CC BY 4.0).
+License: https://creativecommons.org/licenses/by/4.0/
+The corpus may be shared and adapted under its own attribution terms; those rights are not replaced by the application license.
+Android integration changes: private model installation, native grapheme language registration, Arabic metadata and validation, PCM playback and MP3 export. The original compiled Flite voice model is unchanged.
+No corpus recordings are bundled separately. ASC and Ziad use different synthesis models trained from the same corpus; they do not represent two independently recorded speakers.
+No endorsement is implied. The software and voice are provided without warranty.

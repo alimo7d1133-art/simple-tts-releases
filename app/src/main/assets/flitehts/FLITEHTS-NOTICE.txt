@@ -1,0 +1,6 @@
+Flite + HTS (HMM) American English
+This engine combines three separately licensed components, all redistributed with their original notices:
+1. Flite+hts_engine 1.07 (Nagoya Institute of Technology, Modified BSD licence): the unmodified file flite_hts_engine.c builds full-context HTS labels from the bundled CMU Flite 2.x text front end. See licenses/FLITE-HTS-ENGINE-COPYING.txt.
+2. hts_engine API 1.10 (Nagoya Institute of Technology and Tokyo Institute of Technology, Modified BSD licence). See openjtalk/licenses/HTS-COPYING.txt.
+3. The HTS voice "CMU ARCTIC SLT" 1.06 (cmu_us_arctic_slt.htsvoice, 48 kHz), released by the HTS Working Group under the Creative Commons Attribution 3.0 licence and built from the CMU ARCTIC database (Carnegie Mellon University, permissive licence retained in licenses/CMU-ARCTIC-COPYING.txt).
+Source code of all components is in app/src/main/cpp/flitehts and app/src/main/cpp/openjtalk/upstream/hts_engine_API-1.10. The voice is statistical (HMM) and runs fully offline; it is not a neural voice.

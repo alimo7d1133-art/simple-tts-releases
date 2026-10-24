@@ -1,0 +1,12 @@
+Old TTS 1.2.0 Arabic integration
+
+ArabicFrontend.java is an original rule-based Arabic orthography-to-phoneme frontend, AGPL-3.0-or-later. It does not use eSpeak, RHVoice, Flite's English phonemes, or a cloud service to pronounce Arabic. Arabic PCM is synthesized by the actual MBROLA engine using the original AR1 and AR2 databases (1998).
+
+This is experimental MSA synthesis. Vocalized text is preferred. Short vowels in unvocalized Arabic, proper names, mixed-script text and grammar are not inferred perfectly. This is not a full Arabic diacritization model. Historical diphone databases lack some transitions; MBROLA's missing-diphone tolerance is enabled for Arabic and may reduce clarity. Test before selecting as a screen-reader engine; retain an alternative TTS engine for recovery.
+
+AR1: Nawfal Tounsi / Faculte Polytechnique de Mons. AR2: SYSTEMS & ELECTRONIC DEVELOPMENT FZE (SEDCO), Jordan; diphones supplied by Abdel Muez Abukhalaf. The databases are used only with MBROLA. The original licenses and READMEs accompany them in mbrola/licenses/.
+
+No charge is made for distribution of this Old TTS package. The AR1/AR2 databases may be copied and distributed free of charge with their exact notices; they may NOT be sold or incorporated in a product that is sold without prior permission of the respective database owner. Their separate terms are not replaced by the application's AGPL license. Obtain permission before any paid redistribution. No endorsement is implied.
+
+Upstream databases: https://github.com/numediart/MBROLA-voices/tree/master/data/ar1 and https://github.com/numediart/MBROLA-voices/tree/master/data/ar2
+Engine: https://github.com/numediart/MBROLA

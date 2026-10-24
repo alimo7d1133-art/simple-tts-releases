@@ -1,0 +1,90 @@
+Additional genuine Flite voices in Old TTS 1.2.0
+
+Unmodified official CMU Flite 2.3 model files, downloaded from:
+http://festvox.org/flite/packed/flite-2.3/voices/
+
+cmu_us_bdl.flitevox — US English male BDL
+SHA256 e274b108ae41120566290ba8beb4a5141abdc9c1ae1e446c5ab2981ef4683551
+cmu_us_clb.flitevox — US English female CLB
+SHA256 709bd0e8acac4374e8beb704da7e31cd254385a4c73bafb6e3390a6d1281e885
+cmu_us_jmk.flitevox — Canadian-accented English male JMK
+SHA256 deb85a2d90cd8aef2104431cccf096cdba6485c5b83a85330a948657ae6eb5d5
+cmu_us_ksp.flitevox — Indian-accented English male KSP
+SHA256 53927cdb7eb3f83d8db2faa79fdb8115c82e96ca71c4b095eb05c67667d36a02
+
+Official speaker information:
+http://festvox.org/cmu_arctic/dbs_bdl.html
+http://festvox.org/cmu_arctic/dbs_clb.html
+http://festvox.org/cmu_arctic/dbs_jmk.html
+http://festvox.org/cmu_arctic/dbs_ksp.html
+
+Flite software/voice-distribution terms and acknowledgements are preserved in
+FLITE-COPYING.txt and FLITE-ACKNOWLEDGEMENTS.txt in the APK and in flite/COPYING
+and flite/ACKNOWLEDGEMENTS in the source. Flite voices, lexicons and language
+components were developed by Kevin A. Lenzo and Alan W Black.
+
+Underlying CMU ARCTIC databases: John Kominek and Alan W Black,
+CMU-LTI-03-177, CMU ARCTIC databases for speech synthesis, Appendix A.
+Original licensing statement: http://festvox.org/cmu_arctic/cmu_arctic_report.pdf
+The report states that all releases fall under the BSD-style terms below,
+and permits commercial and non-commercial use. The database tar archives
+are not relied upon as a source of missing licensing text; Appendix A is.
+
+The Arctic databases are distributed as “free software” under the following terms.
+
+Carnegie Mellon University
+Copyright (c) 2003
+All Rights Reserved.
+
+Permission to use, copy, modify, and license this software and its documentation
+for any purpose, is hereby granted without fee, subject to the following conditions:
+1. The code must retain the above copyright notice, this list of conditions and
+   the following disclaimer.
+2. Any modifications must be clearly marked as such.
+3. Original authors' names are not deleted.
+
+THE AUTHORS OF THIS WORK DISCLAIM ALL WARRANTIES WITH REGARD TO
+THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS, IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY
+SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
+AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
+THIS SOFTWARE.
+
+Old TTS adds the Android/JNI adapter and model-file selection/extraction only;
+it does not modify the four model files. No author or institution endorsement
+is claimed. These voices do not synthesize Arabic. Arabic is supplied separately
+by MBROLA AR1/AR2 with their own preserved licenses and a new Arabic frontend.
+
+
+Additional CMU ARCTIC voices added by Simple TTS 1.6:
+cmu_us_aew.flitevox — distinct US English male speaker (AEW), SHA256 5fd165e5ea219236e9c20e338efb140163380472f22d60c7a1f79b4997cad50c
+cmu_us_ahw.flitevox — distinct German-accented English male speaker (AHW), SHA256 8bab5975c40ea64fbbc324c20ced3587e02aaa30aba6fa2631af4e2fb8e6f3f5
+cmu_us_aup.flitevox — distinct Indian-accented English male speaker (AUP), SHA256 c464ce87d33fe9718d96909ecf11ebd6267c47fbca97a041fbf17356504c6cc1
+Source models: http://festvox.org/flite/packed/flite-2.3/voices/ (official CMU Flite repository).
+Speaker identities and the additional-database list: http://festvox.org/cmu_arctic/ .
+Voice-data rights: CMU-LTI-03-177, Appendix A (http://festvox.org/cmu_arctic/cmu_arctic_report.pdf),
+which states the CMU ARCTIC databases are free software under the Carnegie Mellon BSD-style
+permission (use, copy, modify, and license for any purpose, with copyright/conditions/disclaimer retained).
+The three models are complete unmodified .flitevox files; only extraction/selection is added here.
+
+
+Version 1.7.0 additions: eight more unmodified official CMU Flite 2.3 model files from the same location (http://festvox.org/flite/packed/flite-2.3/voices/).
+Speaker categories follow the CMU ARCTIC index at http://festvox.org/cmu_arctic/ except that SLP is listed as a female voice here because its measured pitch (about 220 Hz) is female.
+cmu_us_axb.flitevox — Indian-accented English female AXB
+SHA256 6d96bbf4e8ec686ee57d8cf6311ae6269d73c0a9e4fe52180468cfa1892b17ce
+cmu_us_eey.flitevox — US English female EEY
+SHA256 875a9a6f7f3a746549138d5817bb49419ac1290a7023b014114f88bc68f0cab9
+cmu_us_fem.flitevox — German-accented English male FEM
+SHA256 8043ccd6e83cc6679e386eb888f5ed4faac664f06149aecf9529e45b3f91bc88
+cmu_us_gka.flitevox — Indian-accented English male GKA
+SHA256 e8a9fcb10a2a0b6d78022131277bf546fd0e650ebce03108bc4440d4d2367a65
+cmu_us_ljm.flitevox — US English female LJM
+SHA256 90b1c8b507912db357084e33ba8f83f015ae0268bb59fdd0a6298d1110fe23d2
+cmu_us_lnh.flitevox — US English female LNH
+SHA256 d3fb6b1c4f781fc5c9b1ea5efdc8c46c1ce5e74cf349cd78c1fae3c0e19d7c9f
+cmu_us_rxr.flitevox — Israeli-accented English male RXR
+SHA256 e7007354436387f721cdce03f89388507e9ca9f8a76f36c288fc950ea6b56e25
+cmu_us_slp.flitevox — Indian-accented English female SLP
+SHA256 d5022f507d513b3dd78705f8e747015a4c933fdbd872f1c3057a5a9915b145d3

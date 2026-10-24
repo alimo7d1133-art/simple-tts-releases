@@ -1,0 +1,13 @@
+FreeTTS 1.2.2 — Sun Microsystems and Carnegie Mellon University
+Complete corresponding upstream source is bundled under freetts/source.
+Original release: https://sourceforge.net/projects/freetts/files/FreeTTS/FreeTTS%201.2.2/
+Official license (full text in FREETTS-LICENSE-TERMS.txt):
+https://freetts.sourceforge.io/license.terms
+CMU KAL/KAL16 original diphone database and lexicons are retained in app/libs.
+These voices are two bandwidths of the same source voice, not separate speakers.
+The Java runtime is historically based on Flite but runs its own LPC/diphone
+synthesis and does not call the bundled Flite JNI library or MBROLA.
+Old TTS modifications: new serialized Android PCM sink (big-endian input to
+signed shorts), explicit rate/pitch control, and a new minimal AudioFormat value
+shim. No Java Sound device, JSAPI, proprietary runtime, or network service used.
+Only en_us.jar is modified: USEnglish exponent-sign pattern [---+] becomes [-+] for Android ICU; rebuild script and changed source are supplied. Full authors, terms and data notices retained.

@@ -1,0 +1,271 @@
+nohup: ignoring input
+== install 1.7.0 19:32:49
+Success
+    versionCode=10 minSdk=26 targetSdk=36
+    versionName=1.7.0
+== push+upgrade to 1.8.0 19:33:57
+public/Simple-TTS-1.8.0.apk: 1 file pushed, 0 skipped. 9.9 MB/s (478681136 bytes in 45.880s)
+Success
+    versionCode=11 minSdk=26 targetSdk=36
+    versionName=1.8.0
+== install tests 19:36:21
+Success
+START V180Expansion
+INSTRUMENTATION_STATUS: stream=PASS flite voice=iqcorp nativeHz=16000 normal=91920 fast=66560 low=91920 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=cvm nativeHz=16000 normal=68640 fast=49760 low=68640 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=cvf nativeHz=16000 normal=63280 fast=46320 low=63280 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=hf92 nativeHz=16000 normal=73200 fast=52480 low=73200 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=hm6097 nativeHz=16000 normal=80240 fast=57440 low=80240 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=hin_ab nativeHz=16000 normal=38400 fast=27440 low=38400 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=ben_rm nativeHz=16000 normal=44960 fast=32160 low=44960 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=guj_ad nativeHz=16000 normal=44240 fast=31600 low=44240 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=guj_dp nativeHz=16000 normal=37360 fast=26720 low=37360 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=guj_kt nativeHz=16000 normal=43120 fast=30800 low=43120 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=kan_plv nativeHz=16000 normal=43440 fast=31040 low=43440 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=mar_aup nativeHz=16000 normal=39440 fast=28160 low=39440 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=mar_slp nativeHz=16000 normal=52000 fast=37120 low=52000 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=pan_amp nativeHz=16000 normal=40400 fast=28880 low=40400 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=tam_sdr nativeHz=16000 normal=35440 fast=25360 low=35440 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=tel_kpn nativeHz=16000 normal=36160 fast=25840 low=36160 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=tel_sk nativeHz=16000 normal=39760 fast=28480 low=39760 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS flite voice=tel_ss nativeHz=16000 normal=41280 fast=29440 low=41280 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_RESULT: stream=PASS V180: 18 new Flite voices; locale, script validation, normal/rate/pitch/48k PCM, WAV and MP3.
+INSTRUMENTATION_CODE: -1
+PASS V180Expansion
+START SimpleTts
+INSTRUMENTATION_RESULT: stream=PASS Simple TTS 1.8.0 identity, package/version, six localized labels, complete engine UI resources, unique registry IDs, sample validation, bundled license assets, no internet/microphone; engines=11 voices=63
+
+INSTRUMENTATION_CODE: -1
+PASS SimpleTts
+START Localization
+INSTRUMENTATION_RESULT: stream=PASS six actual translations, saved preferences, RTL/LTR, live language Spinner recreation, system default restoration, eleven engines and 63 voices. No human TalkBack claim.
+
+INSTRUMENTATION_CODE: -1
+PASS Localization
+START Standalone
+INSTRUMENTATION_STATUS: stream=PASS package has no TTS intent service or declared service
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS registry engines=11 voices=63
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS cancellation and invalid-text validation
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=kal hz=8000 samples=35859 mp3=38016
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=kal16 hz=16000 samples=71719 mp3=36864
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=awb hz=16000 samples=65040 mp3=33408
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=rms hz=16000 samples=73600 mp3=37728
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=slt hz=16000 samples=66080 mp3=33984
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=bdl hz=16000 samples=63040 mp3=32544
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=clb hz=16000 samples=78880 mp3=40320
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=jmk hz=16000 samples=61440 mp3=31680
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=ksp hz=16000 samples=69120 mp3=35424
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=asc hz=16000 samples=83760 mp3=42912
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=aew hz=16000 samples=76640 mp3=39456
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=ahw hz=16000 samples=74320 mp3=38304
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=aup hz=16000 samples=61600 mp3=31680
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=axb hz=16000 samples=74960 mp3=38592
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=eey hz=16000 samples=63680 mp3=32832
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=fem hz=16000 samples=68880 mp3=35424
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=gka hz=16000 samples=68880 mp3=35424
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=ljm hz=16000 samples=58720 mp3=30240
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=lnh hz=16000 samples=71440 mp3=36864
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=rxr hz=16000 samples=82400 mp3=42336
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=slp hz=16000 samples=74320 mp3=38304
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=clartts hz=16000 samples=71520 mp3=36864
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=iqcorp hz=16000 samples=91920 mp3=46944
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=cvm hz=16000 samples=68640 mp3=35424
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=cvf hz=16000 samples=63280 mp3=32544
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=hf92 hz=16000 samples=64160 mp3=33120
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=hm6097 hz=16000 samples=71680 mp3=36864
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=hin_ab hz=16000 samples=38400 mp3=20160
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=ben_rm hz=16000 samples=44960 mp3=23616
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=guj_ad hz=16000 samples=44240 mp3=23040
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=guj_dp hz=16000 samples=37360 mp3=19584
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=guj_kt hz=16000 samples=43120 mp3=22464
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=kan_plv hz=16000 samples=43440 mp3=22752
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=mar_aup hz=16000 samples=39440 mp3=20736
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=mar_slp hz=16000 samples=52000 mp3=27072
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=pan_amp hz=16000 samples=40400 mp3=21312
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=tam_sdr hz=16000 samples=35440 mp3=18720
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=tel_kpn hz=16000 samples=36160 mp3=19008
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=tel_sk hz=16000 samples=39760 mp3=21024
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=flite voice=tel_ss hz=16000 samples=41280 mp3=21600
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=pico voice=en-US hz=16000 samples=57792 mp3=29952
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=pico voice=en-GB hz=16000 samples=59520 mp3=30816
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=pico voice=de-DE hz=16000 samples=58880 mp3=30528
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=pico voice=es-ES hz=16000 samples=50368 mp3=26208
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=pico voice=fr-FR hz=16000 samples=51840 mp3=26784
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=pico voice=it-IT hz=16000 samples=63040 mp3=32544
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=rsynth voice=default hz=16000 samples=42880 mp3=22464
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=mbrola voice=en1 hz=16000 samples=71540 mp3=36864
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=mbrola voice=ar1 hz=16000 samples=40919 mp3=21600
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=mbrola voice=ar2 hz=22050 samples=56490 mp3=21314
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=mbrola voice=us1 hz=16000 samples=92285 mp3=47232
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=mbrola voice=us2 hz=16000 samples=92285 mp3=47232
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=mbrola voice=us3 hz=16000 samples=92285 mp3=47232
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=gnuspeechsa voice=gnuspeechsa-en-male hz=44100 samples=167459 mp3=30928
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=klatt voice=impulsive hz=10000 samples=36520 mp3=30510
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=klatt voice=natural hz=10000 samples=36520 mp3=30510
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=freetts voice=kal hz=8000 samples=31219 mp3=33408
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=freetts voice=kal16 hz=16000 samples=62438 mp3=32256
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=festival voice=ara_norm_ziad_hts hz=48000 samples=218880 mp3=36864
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS voice engine=festival voice=ked_diphone hz=16000 samples=62083 mp3=31968
+
+INSTRUMENTATION_STATUS_CODE: 1
+FAIL Standalone

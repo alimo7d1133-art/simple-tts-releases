@@ -24,7 +24,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
-/** Deterministic 1.5.0 regression coverage for HQ 48 kHz across all 45 voices. */
+/** Deterministic 1.5.0 regression coverage for HQ 48 kHz across all 63 voices. */
 public final class AllVoices48kInstrumentation extends Instrumentation {
     private static final String TAG = "OldTTS-AllVoices48k";
     private static final float RATE = 1.25f;
@@ -48,7 +48,7 @@ public final class AllVoices48kInstrumentation extends Instrumentation {
             writeJson(new File(root, "all-voices-48k.json"), records);
             note("PASS all-voices 48k instrumentation; JSON=" + new File(root, "all-voices-48k.json"));
             Bundle result = new Bundle();
-            result.putString("stream", "PASS all 45 voices native off/on, deterministic PCM, HQ WAV/MP3, UI persistence; JSON=" + new File(root, "all-voices-48k.json") + "\n");
+            result.putString("stream", "PASS all 63 voices native off/on, deterministic PCM, HQ WAV/MP3, UI persistence; JSON=" + new File(root, "all-voices-48k.json") + "\n");
             finish(Activity.RESULT_OK, result);
         } catch (Throwable failure) {
             note("FAIL " + failure);
@@ -60,7 +60,7 @@ public final class AllVoices48kInstrumentation extends Instrumentation {
     private List<String> verifyAllVoices(Context c, File root) throws Exception {
         require(EngineRegistry.all().size() == 11, "expected 11 engines");
         int totalVoices = 0; for (EnginePlugin e : EngineRegistry.all()) totalVoices += e.voiceIds().length;
-        require(totalVoices == 45, "expected 45 voices, got " + totalVoices);
+        require(totalVoices == 63, "expected 63 voices, got " + totalVoices);
         File wav = new File(root, "wav"); File mp3 = new File(root, "mp3");
         require(wav.mkdirs() || wav.isDirectory(), "cannot create WAV directory");
         require(mp3.mkdirs() || mp3.isDirectory(), "cannot create MP3 directory");
@@ -102,7 +102,7 @@ public final class AllVoices48kInstrumentation extends Instrumentation {
             records.add(jsonRecord(engine, voice, off, deterministicHq, realHq, out, recording)); count++;
             note("PASS " + id + " native=" + off.sampleRate + "Hz/" + off.samples.length + " HQ=48000Hz/" + realHq.samples.length + " MP3=" + out.length());
         }
-        require(count == 45, "rendered " + count + " voices");
+        require(count == 63, "rendered " + count + " voices");
         return records;
     }
 

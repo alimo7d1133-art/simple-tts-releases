@@ -12,8 +12,8 @@ android {
   testInstrumentationRunner 'org.retro.flitetts.StandaloneInstrumentation'
   minSdk 26
   targetSdk 36
-  versionCode 10
-  versionName '1.7.0'
+  versionCode 11
+  versionName '1.8.0'
   ndk { abiFilters 'arm64-v8a', 'armeabi-v7a', 'x86_64', 'x86' }
   externalNativeBuild { cmake { arguments '-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON'; cFlags '-O2','-g0'; cppFlags '-O2','-g0' } }
  }

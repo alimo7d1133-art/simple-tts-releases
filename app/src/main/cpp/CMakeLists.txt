@@ -81,6 +81,10 @@ set(SOURCES
  ${F}/lang/cmu_grapheme_lang/cmu_grapheme_phoneset.c
  ${F}/lang/cmu_grapheme_lang/cmu_grapheme_phrasing_cart.c
  ${F}/lang/cmu_grapheme_lang/graph_gpos.c
+ ${F}/lang/cmu_indic_lang/cmu_indic_lang.c
+ ${F}/lang/cmu_indic_lang/cmu_indic_phoneset.c
+ ${F}/lang/cmu_indic_lang/cmu_indic_phrasing_cart.c
+ ${F}/lang/cmu_indic_lex/cmu_indic_lex.c
  ${F}/lang/usenglish/us_int_accent_cart.c
  ${F}/lang/usenglish/us_int_tone_cart.c
  ${F}/lang/usenglish/us_f0_model.c
@@ -140,7 +144,7 @@ set(SOURCES
  ${F}/lang/cmu_us_slt/cmu_us_slt_spamf0_accent_params.c
 )
 add_library(fliteretro SHARED ${SOURCES} bridge.c)
-target_include_directories(fliteretro PRIVATE ${F}/include ${F}/lang/usenglish ${F}/lang/cmulex ${F}/lang/cmu_grapheme_lang ${F}/lang/cmu_grapheme_lex)
+target_include_directories(fliteretro PRIVATE ${F}/include ${F}/lang/usenglish ${F}/lang/cmulex ${F}/lang/cmu_grapheme_lang ${F}/lang/cmu_grapheme_lex ${F}/lang/cmu_indic_lang ${F}/lang/cmu_indic_lex)
 target_compile_definitions(fliteretro PRIVATE CST_AUDIO_NONE)
 target_compile_options(fliteretro PRIVATE -Wno-error=implicit-function-declaration -Wno-error=incompatible-pointer-types -fno-strict-aliasing)
 target_link_libraries(fliteretro m)

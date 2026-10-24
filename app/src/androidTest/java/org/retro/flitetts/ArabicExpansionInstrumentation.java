@@ -59,7 +59,7 @@ public final class ArabicExpansionInstrumentation extends Instrumentation {
         require(EngineRegistry.all().size() == 11, "expected engines=11");
         int count = 0;
         for (EnginePlugin e : EngineRegistry.all()) count += e.voiceIds().length;
-        require(count == 45, "expected voices=45, got " + count);
+        require(count == 63, "expected voices=63, got " + count);
         EnginePlugin festival = EngineRegistry.find("festival");
         require(festival != null && festival.voiceIds().length == 2, "Festival voice missing");
         require(FESTIVAL.equals(festival.voiceIds()[0]), "wrong Festival id");
@@ -68,7 +68,7 @@ public final class ArabicExpansionInstrumentation extends Instrumentation {
         EnginePlugin flite = EngineRegistry.find("flite");
         require(flite != null && ASC.equals(flite.voiceIds()[9]), "ASC legacy index changed");
         require("ar".equals(flite.voiceLocale(9).getLanguage()), "ASC is not Arabic");
-        note("PASS registry 11/45, Festival ara_norm_ziad_hts 48kHz, ASC retained at legacy index 9");
+        note("PASS registry 11/63, Festival ara_norm_ziad_hts 48kHz, ASC retained at legacy index 9");
     }
 
     private void verifyArabicAudio(Context c) throws Exception {

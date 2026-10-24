@@ -20,7 +20,7 @@ public final class SimpleTtsInstrumentation extends Instrumentation {
   Context c=getTargetContext();PackageManager pm=c.getPackageManager();
   PackageInfo info=pm.getPackageInfo(c.getPackageName(),PackageManager.GET_PERMISSIONS);
   require("org.oldtts.android".equals(c.getPackageName()),"Upgrade package changed");
-  require(info.getLongVersionCode()==10&&"1.7.0".equals(info.versionName),"Wrong release version");
+  require(info.getLongVersionCode()==11&&"1.8.0".equals(info.versionName),"Wrong release version");
   for(String permission:info.requestedPermissions==null?new String[0]:info.requestedPermissions){
    require(!permission.equals("android.permission.INTERNET")&&!permission.equals("android.permission.RECORD_AUDIO"),"Unexpected permission "+permission);
   }
@@ -46,6 +46,6 @@ public final class SimpleTtsInstrumentation extends Instrumentation {
     require(id!=0&&!l.getString(id).trim().isEmpty(),"Missing UI resource "+prefix+e.id()+" "+tag);
    }
   }
-  out.putString("stream","PASS Simple TTS 1.7.0 identity, package/version, six localized labels, complete engine UI resources, unique registry IDs, sample validation, bundled license assets, no internet/microphone; engines="+engineIds.size()+" voices="+voices+"\n");finish(Activity.RESULT_OK,out);
+  out.putString("stream","PASS Simple TTS 1.8.0 identity, package/version, six localized labels, complete engine UI resources, unique registry IDs, sample validation, bundled license assets, no internet/microphone; engines="+engineIds.size()+" voices="+voices+"\n");finish(Activity.RESULT_OK,out);
  }catch(Throwable t){out.putString("error",t.toString());finish(Activity.RESULT_CANCELED,out);}}
 }

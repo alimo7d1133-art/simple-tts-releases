@@ -80,8 +80,8 @@ public final class StandaloneInstrumentation extends Instrumentation {
                     "voice metadata mismatch for " + engine.id());
             voices += engine.voiceIds().length;
         }
-        require(voices == 45, "expected 45 voices, got " + voices);
-        note("PASS registry engines=11 voices=45");
+        require(voices == 63, "expected 63 voices, got " + voices);
+        note("PASS registry engines=11 voices=63");
     }
 
     private void verifyCancellationAndValidation(Context context) throws Exception {
@@ -132,7 +132,7 @@ public final class StandaloneInstrumentation extends Instrumentation {
                         + " mp3=" + mp3.length());
             }
         }
-        require(rendered == 45, "rendered " + rendered + " voices, expected 45");
+        require(rendered == 63, "rendered " + rendered + " voices, expected 63");
     }
 
     private void verifyArabicRatePitchAndChunking(Context context) throws Exception {

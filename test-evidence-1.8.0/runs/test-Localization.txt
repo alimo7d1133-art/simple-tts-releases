@@ -1,0 +1,3 @@
+INSTRUMENTATION_RESULT: stream=PASS six actual translations, saved preferences, RTL/LTR, live language Spinner recreation, system default restoration, eleven engines and 63 voices. No human TalkBack claim.
+
+INSTRUMENTATION_CODE: -1

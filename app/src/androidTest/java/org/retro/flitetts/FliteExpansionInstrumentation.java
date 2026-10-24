@@ -20,7 +20,7 @@ public final class FliteExpansionInstrumentation extends Instrumentation {
  private void note(String m){Bundle b=new Bundle();b.putString("stream",m+"\n");sendStatus(1,b);}
  @Override public void onStart(){Bundle result=new Bundle();try{
   Context c=getTargetContext();EnginePlugin e=EngineRegistry.find("flite");require(e!=null,"Missing Flite");
-  require(e.voiceIds().length==22,"Expected twenty-two Flite options");require("asc".equals(e.voiceIds()[9]),"Existing Arabic index changed");
+  require(e.voiceIds().length==40,"Expected forty Flite options");require("asc".equals(e.voiceIds()[9]),"Existing Arabic index changed");
   File dir=new File(c.getExternalFilesDir(null),"new-flite-voices");require(dir.isDirectory()||dir.mkdirs(),"Sample directory");
   Set<Integer> waveHashes=new HashSet<>();
   for(String id:new String[]{"aew","ahw","aup"}){

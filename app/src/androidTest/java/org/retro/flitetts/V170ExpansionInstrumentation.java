@@ -37,7 +37,7 @@ public final class V170ExpansionInstrumentation extends Instrumentation {
  }
  @Override public void onStart(){Bundle result=new Bundle();try{
   Context c=getTargetContext();
-  EnginePlugin flite=EngineRegistry.find("flite");require(flite!=null&&flite.voiceIds().length==22,"Expected 22 Flite options");
+  EnginePlugin flite=EngineRegistry.find("flite");require(flite!=null&&flite.voiceIds().length==40,"Expected 40 Flite options");
   require("asc".equals(flite.voiceIds()[9])&&"clartts".equals(flite.voiceIds()[21]),"Arabic indexes changed");
   EnginePlugin hts=EngineRegistry.find("flitehts");require(hts!=null&&hts.voiceIds().length==1,"Missing Flite+HTS");
   require(EngineRegistry.all().size()==11,"Expected 11 engines");

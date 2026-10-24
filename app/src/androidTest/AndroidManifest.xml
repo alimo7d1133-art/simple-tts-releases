@@ -39,5 +39,6 @@
         android:name="org.retro.flitetts.SimpleTtsInstrumentation"
         android:targetPackage="org.oldtts.android"
         android:label="Simple TTS release identity instrumentation" />
+ <instrumentation android:name="org.retro.flitetts.V180ExpansionInstrumentation" android:targetPackage="org.oldtts.android" android:label="Simple TTS 1.8 additions instrumentation" />
  <instrumentation android:name="org.retro.flitetts.V170ExpansionInstrumentation" android:targetPackage="org.oldtts.android" android:label="Simple TTS 1.7 additions instrumentation" />
 </manifest>

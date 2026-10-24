@@ -38,7 +38,7 @@
  <string name="language_spanish">Español</string>
  <string name="language_french">Français</string>
  <string name="language_italian">Italiano</string>
- <string name="notice_flite">Flite: venti voci inglesi locali (inclusi i nuovi parlanti CMU ARCTIC AXB, EEY, FEM, GKA, LJM, LNH, RXR e SLP) e due voci arabe, ASC e ClArTTS. Per l’arabo sono consigliati i segni diacritici; Rawi è facoltativo.</string>
+ <string name="notice_flite">Flite: 22 voci inglesi locali, 5 arabe e 13 di lingue indiane (hindi, bengalese, gujarati, kannada, marathi, punjabi, tamil, telugu). Scrivi nella scrittura della voce; l’arabo migliora con i segni diacritici (Rawi è facoltativo).</string>
  <string name="notice_pico">Pico: inglese, tedesco, spagnolo, francese e italiano; niente arabo.</string>
  <string name="notice_rsynth">rsynth: solo inglese; sintesi formantica locale.</string>
  <string name="notice_mbrola">MBROLA: arabo e inglese britannico e americano.</string>

@@ -1,0 +1,66 @@
+Simple TTS 1.8.0 - new voices (Arabic, American English, Indian languages)
+
+The Arabic and American English voices listed first were trained for Simple TTS 1.8.0 with the Festvox Clustergen toolchain
+(Carnegie Mellon University, BSD-style licence; Edinburgh Speech Tools and Festival, X11-style
+licence) on openly licensed recordings, and exported as Flite voice files (CMU Flite licence, see
+FLITE-COPYING.txt). They are statistical (random-forest / parametric) voices. They are not neural
+networks and they are not AI-generated voices. No corpus recordings are bundled in the app; only the
+trained model files are. The training scripts are included in the source package (training/ folder).
+
+Common changes for every voice: recordings were downsampled to 16 kHz, a subset was selected by
+duration (1-10 s) and quality filters, and the voice was trained on the training portion of the selected clips (a held-out part was used for the quality measurement).
+The voices are provided without warranty and do not imply endorsement by any corpus author,
+publisher, or reader.
+
+------------------------------------------------------------------------------------------------
+IQC (iqcorp_ar.flitevox) - Arabic, male, Modern Standard Arabic
+Corpus: Iraqi Dialect TTS Corpus, "ar_hayder" diacritized Modern Standard Arabic subset (1349 clips
+used, about 2 hours).
+Authors: Hayder Kharrufa, Adam Taha, Mohammed Baraq (2024), "Training a Text-to-Speech System for
+Dialectal Arabic with a Focus on the Iraqi Dialect", Zenodo, doi:10.5281/zenodo.11170567,
+https://github.com/hayderkharrufa/iraqi-dialect-tts-corpus
+Licence: Creative Commons Attribution 4.0 International (CC BY 4.0),
+https://creativecommons.org/licenses/by/4.0/ . The dialect subset of that corpus was not used.
+Text must be diacritized for best results (the optional local Rawi button can add diacritics).
+
+------------------------------------------------------------------------------------------------
+CVM and CVF (cvm_ar.flitevox, cvf_ar.flitevox) - Arabic, male and female
+Corpus: Mozilla Common Voice, Arabic, release 18, as mirrored at
+https://huggingface.co/datasets/MohamedRashad/common-voice-18-arabic . One male and one female
+volunteer contributor (anonymous client identifiers only; no names are used or stored) were selected
+because they contributed the most validated clips. Clips with more up-votes than down-votes, 1-10 s
+long, without digits, Latin letters or zero-width characters were used.
+Licence: CC0 1.0 Universal (public-domain dedication), https://creativecommons.org/publicdomain/zero/1.0/
+Mozilla Common Voice: https://commonvoice.mozilla.org/
+Text preparation: Common Voice sentences are undiacritized, so they were diacritized automatically
+with the same local Rawi model that ships in the app (Apache-2.0). Automatic diacritics can contain
+mistakes and the crowd-sourced microphones are noisier than studio recordings, so these two voices
+sound rougher than IQC and ClArTTS. They are included because they are additional, clearly licensed,
+non-neural Arabic options (a male and a female voice).
+
+------------------------------------------------------------------------------------------------
+HF92 and HM6097 (hf92_us.flitevox, hm6097_us.flitevox) - American English, female and male
+Corpus: Hi-Fi Multi-Speaker English TTS Dataset (Hi-Fi TTS), speakers 92 and 6097, "clean" training
+split, about 1200 clips each. Bakhturina, Lavrukhin, Ginsburg, Zhang, "Hi-Fi Multi-Speaker English
+TTS Dataset", Interspeech 2021, arXiv:2104.01497, https://www.openslr.org/109/
+Licence: Creative Commons Attribution 4.0 International (CC BY 4.0). The recordings derive from
+LibriVox audiobooks (public domain) of Project Gutenberg texts; the speakers are identified here only
+by their dataset speaker numbers.
+
+------------------------------------------------------------------------------------------------
+Indian-language voices (cmu_indic_*.flitevox) - Hindi (hin_ab), Bengali (ben_rm),
+Gujarati (guj_ad, guj_dp, guj_kt), Kannada (kan_plv), Marathi (mar_aup, mar_slp),
+Panjabi (pan_amp), Tamil (tam_sdr), Telugu (tel_kpn, tel_sk, tel_ss)
+These 13 voice files are the unmodified CMU_INDIC Clustergen voices distributed with
+CMU Flite 2.x (http://festvox.org/flite/packed/flite-2.3/voices/). Flite's
+README lists them as "12 Indian Voices ... usually with bilingual (with English) support"
+and Flite's COPYING grants the CMU licence reproduced in FLITE-COPYING.txt ("use and
+distribute ... without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell", subject to keeping
+the notice, marking modifications, keeping author names and not using them to endorse
+products). The underlying CMU_INDIC databases (http://festvox.org/cmu_indic/) were built
+at the Language Technologies Institute, Carnegie Mellon University, "with help from
+Hear2Read"; the same permissive CMU licence is printed in the project's build script.
+The voices are used here unmodified and are provided without warranty. Type text in the
+voice's own script; Latin letters are also accepted because the voices are bilingual.
+The voice names (hin_ab etc.) are the upstream CMU dataset codes.

@@ -38,7 +38,7 @@
  <string name="language_spanish">Español</string>
  <string name="language_french">Français</string>
  <string name="language_italian">Italiano</string>
- <string name="notice_flite">Flite : vingt voix anglaises locales (dont les nouveaux locuteurs CMU ARCTIC AXB, EEY, FEM, GKA, LJM, LNH, RXR et SLP) et deux voix arabes, ASC et ClArTTS. Les diacritiques améliorent l’arabe ; Rawi est facultatif.</string>
+ <string name="notice_flite">Flite : 22 voix anglaises locales, 5 arabes et 13 voix de langues indiennes (hindi, bengali, gujarati, kannada, marathi, pendjabi, tamoul, télougou). Saisissez le texte dans l’écriture de la voix ; l’arabe est meilleur avec les diacritiques (Rawi est facultatif).</string>
  <string name="notice_pico">Pico : anglais, allemand, espagnol, français et italien ; pas d’arabe.</string>
  <string name="notice_rsynth">rsynth : anglais uniquement ; synthèse de formants locale.</string>
  <string name="notice_mbrola">MBROLA : arabe et anglais britannique et américain.</string>

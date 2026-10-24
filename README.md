@@ -1,9 +1,9 @@
 # Simple TTS
 
-Simple TTS is a standalone, fully offline Android app that turns text into speech, plays it, and saves it as MP3. It bundles **11 speech engines and 45 voice options** (English, Arabic, Japanese, Cantonese and more) and needs no internet connection, no account and no cloud service. It is **not** an Android system TTS engine: it cannot be selected as the default engine or used by TalkBack.
+Simple TTS is a standalone, fully offline Android app that turns text into speech, plays it, and saves it as MP3. It bundles **11 speech engines and 63 voice options** (English, Arabic, Japanese, Cantonese and more) and needs no internet connection, no account and no cloud service. It is **not** an Android system TTS engine: it cannot be selected as the default engine or used by TalkBack.
 
 - Package id: `org.oldtts.android` (kept stable so updates install over older versions)
-- Version: `1.7.0` (versionCode `10`), minSdk 26 (Android 8), targetSdk 36
+- Version: `1.8.0` (versionCode `11`), minSdk 26 (Android 8), targetSdk 36
 - ABIs: `arm64-v8a`, `armeabi-v7a`, `x86_64`, `x86`
 - UI languages: Arabic (RTL), English, German, Spanish, French, Italian
 - Arabic documentation: [README_AR.md](README_AR.md) (full feature description, in Arabic)
@@ -12,7 +12,7 @@ Simple TTS is a standalone, fully offline Android app that turns text into speec
 
 ## What is in this repository
 
-This repository is the complete corresponding source of the 1.7.0 release: the Android app, all engine sources and runtime data, voice models, build scripts, tests, test evidence, and the license notices of every component. Nothing needed to build is left out. Signing keys and credentials were never part of the source and are not here.
+This repository is the complete corresponding source of the 1.8.0 release: the Android app, all engine sources and runtime data, voice models, build scripts, tests, test evidence, and the license notices of every component. Nothing needed to build is left out. Signing keys and credentials were never part of the source and are not here.
 
 | Path | Contents |
 |---|---|
@@ -22,9 +22,10 @@ This repository is the complete corresponding source of the 1.7.0 release: the A
 | `gnuspeech/` | GnuspeechSA source and English data with Android build patches |
 | `freetts/` | FreeTTS 1.2.2 source, jars and KAL data (Android port rebuilt by `tools/rebuild-freetts-android-port.sh`) |
 | `festival-runtime/`, `festival-data/`, `festival-lexicon-source/`, `festival-voice-source/`, `asc-voice-source/` | Festival, Edinburgh Speech Tools, HTS runtime and the voice and lexicon data (Ziad Arabic, Kurt English, ASC) |
+| `training/voices-1.8/` | Data-preparation, Clustergen training and Flite conversion scripts for the 1.8.0 trained voices (no corpus audio is included) |
 | `training/arabic-clartts/` | Scripts, text list and MCD report used to train the ClArTTS Arabic voice (no corpus audio is included) |
 | `tools/`, `tests/` | Build helpers (Festival cross-build, source packaging, FreeTTS port) and host tests |
-| `docs/`, `test-evidence-*/` | Test results and raw logs for 1.5.0, 1.6.0 and 1.7.0 |
+| `docs/`, `test-evidence-*/` | Test results and raw logs for 1.5.0, 1.6.0, 1.7.0 and 1.8.0 |
 | `ADDITIONS-*.md`, `ENGINE-SOURCES.md`, `MODULES.md`, `*-ASSESSMENT.md` | Engineering notes: what was added in each release, where each engine came from, what was evaluated and rejected and why (some are written in Arabic) |
 
 C/C++ sources for MBROLA, rsynth, Klatt, Ekho (with libsndfile, Sonic, sr-convert, UTFCPP), LAME 3.100, Open JTalk 1.11 (with hts_engine API 1.10 and MeCab) and Flite+hts_engine live under `app/src/main/cpp/`.
@@ -33,7 +34,7 @@ C/C++ sources for MBROLA, rsynth, Klatt, Ekho (with libsndfile, Sonic, sr-conver
 
 | Engine | Voice options |
 |---|---|
-| Flite (22) | KAL, KAL16, AWB, RMS, SLT, BDL, CLB, JMK, KSP, AEW, AHW, AUP, AXB, EEY, FEM, GKA, LJM, LNH, RXR, SLP (English variants and accents), **ASC** (Arabic) and **ClArTTS** (Classical Arabic, male) |
+| Flite (40) | KAL, KAL16, AWB, RMS, SLT, BDL, CLB, JMK, KSP, AEW, AHW, AUP, AXB, EEY, FEM, GKA, LJM, LNH, RXR, SLP (English variants and accents), **ASC** (Arabic) and **ClArTTS** (Classical Arabic, male); new in 1.8.0: Arabic **IQC** (male, Iraqi corpus MSA), **CVM** and **CVF** (Common Voice, male and female), American English **HF92** (female) and **HM6097** (male) from Hi-Fi TTS, and 13 official CMU Indic voices: Hindi HIN_AB, Bengali BEN_RM, Gujarati GUJ_AD/GUJ_DP/GUJ_KT, Kannada KAN_PLV, Marathi MAR_AUP/MAR_SLP, Punjabi PAN_AMP, Tamil TAM_SDR, Telugu TEL_KPN/TEL_SK/TEL_SS |
 | Flite + hts_engine | CMU ARCTIC SLT HTS, American English, female, 48 kHz |
 | SVOX Pico | en-US, en-GB, de-DE, es-ES, fr-FR, it-IT |
 | rsynth | English formant synthesizer |
@@ -45,7 +46,7 @@ C/C++ sources for MBROLA, rsynth, Klatt, Ekho (with libsndfile, Sonic, sr-conver
 | Open JTalk | Nitech ATR503 (Japanese, 48 kHz) |
 | Ekho | CantoneseWong (Cantonese, 16 kHz) |
 
-The count is options, not unique speakers: KAL and KAL16 are one speaker at two bandwidths, the two Klatt options are excitation modes, and ASC and Ziad are both trained on the Arabic Speech Corpus. The Arabic voices are Flite ASC, Flite ClArTTS (a different speaker, best with fully diacritized text), Festival Ziad (HTS), and MBROLA AR1 and AR2. An optional on-device diacritizer (Rawi v3, via ONNX Runtime) can add Arabic diacritics. Details and limits are in [ADDITIONS-1.7.0.md](ADDITIONS-1.7.0.md) and [README_AR.md](README_AR.md).
+The count is options, not unique speakers: KAL and KAL16 are one speaker at two bandwidths, the two Klatt options are excitation modes, and ASC and Ziad are both trained on the Arabic Speech Corpus. The Arabic voices are Flite ASC, Flite ClArTTS (a different speaker, best with fully diacritized text), Festival Ziad (HTS), and MBROLA AR1 and AR2. An optional on-device diacritizer (Rawi v3, via ONNX Runtime) can add Arabic diacritics. Details and limits are in [ADDITIONS-1.8.0.md](ADDITIONS-1.8.0.md), [ADDITIONS-1.7.0.md](ADDITIONS-1.7.0.md) and [README_AR.md](README_AR.md).
 
 Not included, deliberately: eSpeak, RHVoice, IBM TTS, DECtalk, SAM, ClaritySynth, the Saeeda/Acapela pack, Epos voices, and any neural TTS engine. Each had missing or incompatible redistribution rights; the reasons are written down in the `ADDITIONS-*.md` files.
 
@@ -85,7 +86,7 @@ The large Open JTalk dictionary `app/src/main/assets/openjtalk/open_jtalk_dic_ut
 
 All claims below come from [docs/TEST-RESULTS-1.7.0.txt](docs/TEST-RESULTS-1.7.0.txt) and the raw logs in [test-evidence-1.7.0/](test-evidence-1.7.0/).
 
-- **Tested:** all 45 voice options produce real PCM and MP3, at normal, fast, low-pitch and 48 kHz settings, on an Android 9 (API 28) x86_64 emulator without hardware acceleration and in airplane mode. Installing over a previous version worked with an identical signing certificate. Localization (six languages, RTL), the engine registry and license file presence passed. `assembleRelease`, `assembleDebugAndroidTest` and `lintRelease` succeeded for all four ABIs with 16 KiB page alignment.
+- **Tested:** all 63 voice options produce real PCM and MP3, at normal, fast, low-pitch and 48 kHz settings, on an Android 9 (API 28) x86_64 emulator without hardware acceleration and in airplane mode. Installing over a previous version worked with an identical signing certificate. Localization (six languages, RTL), the engine registry and license file presence passed. `assembleRelease`, `assembleDebugAndroidTest` and `lintRelease` succeeded for all four ABIs with 16 KiB page alignment.
 - **Not tested:** any real phone; any ARM device (ARM builds compile but were never run); Android versions newer than 9; human TalkBack testing; human listening evaluation of voice quality or accent; saving MP3 to the shared folder with runtime permissions (the emulator's permission dialogs could not be automated, so this is unverified in 1.6.0 and 1.7.0); the permission-denied path.
 - **This repository snapshot** was assembled from the release source archive without changing code, apart from replacing hard-coded sandbox paths in four helper scripts (two in `tools/`, two in `training/arabic-clartts/`) with relative or environment-variable paths. It has not been rebuilt from a fresh clone of this repository.
 - Known quality limits: the ClArTTS and ASC Arabic voices are statistical and robotic and need diacritized text; Arabic MBROLA uses a simple rule-based frontend; text is limited to 4000 characters per request; `MANAGE_EXTERNAL_STORAGE` (needed on Android 11+ to create the shared folder) is restricted on Google Play, so the app is intended for direct APK distribution.

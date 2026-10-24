@@ -1,0 +1,12 @@
+INSTRUMENTATION_STATUS: stream=PASS Flite new=aew nativeHz=16000 normalSamples=98000 changedSamples=70000 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS Flite new=ahw nativeHz=16000 normalSamples=89680 changedSamples=64000 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS Flite new=aup nativeHz=16000 normalSamples=76560 changedSamples=54720 hqHz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_RESULT: stream=PASS three additional distinct Flite models: AEW, AHW, AUP; actual normal and changed-parameter PCM; MP3 and 48k WAV/MP3; old Arabic index and text validation preserved. Samples=/storage/emulated/0/Android/data/org.oldtts.android/files/new-flite-voices
+
+INSTRUMENTATION_CODE: -1

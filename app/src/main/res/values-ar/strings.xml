@@ -38,7 +38,7 @@
  <string name="language_spanish">Español</string>
  <string name="language_french">Français</string>
  <string name="language_italian">Italiano</string>
- <string name="notice_flite">Flite: عشرون صوتًا إنجليزيًا محليًا (منها متحدثو CMU ARCTIC الجدد AXB وEEY وFEM وGKA وLJM وLNH وRXR وSLP) وصوتان عربيان: ASC وClArTTS. العربية أفضل مع التشكيل؛ راوي اختياري.</string>
+ <string name="notice_flite">Flite: 22 صوتًا إنجليزيًا محليًا و5 أصوات عربية و13 صوتًا هنديًا (هندي وبنغالي وغوجاراتي وكانادا وماراثي وبنجابي وتاميل وتيلوغو). اكتب بحرف لغة الصوت؛ العربية أفضل مع التشكيل (راوي اختياري).</string>
  <string name="notice_pico">Pico: الإنجليزية والألمانية والإسبانية والفرنسية والإيطالية؛ لا يدعم العربية.</string>
  <string name="notice_rsynth">rsynth: الإنجليزية فقط؛ تركيب فورمانت محلي.</string>
  <string name="notice_mbrola">MBROLA: العربية والإنجليزية؛ AR1 وAR2 للعربية.</string>

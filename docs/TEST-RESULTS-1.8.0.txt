@@ -1,0 +1,37 @@
+Simple TTS 1.8.0 - test results
+================================
+APK: Simple-TTS-1.8.0.apk, package org.oldtts.android, versionCode 11, versionName 1.8.0
+SHA-256: cc0d7b787c910ca5e1583acf7568c97f22f9117a7e2591c15cb14a915402af43
+Signing certificate SHA-256: d6dd597bff7d93705d810318f5540c989a9b2ea511fc185449d62805966ab75c
+(identical to 1.7.0; APK Signature Scheme v2 and v3 verified)
+
+What changed: 18 new Flite voice options (63 options in 11 engines, was 45).
+ Arabic: IQC, CVM, CVF. American English: HF92, HM6097.
+ Indian languages (official CMU Indic Flite voices): HIN_AB, BEN_RM, GUJ_AD, GUJ_DP, GUJ_KT,
+ KAN_PLV, MAR_AUP, MAR_SLP, PAN_AMP, TAM_SDR, TEL_KPN, TEL_SK, TEL_SS.
+
+Test environment: Android 9 (API 28) x86_64 emulator, software emulation (no hardware acceleration).
+No real phone, no ARM device, no Android version newer than 9.
+
+Passed (raw output in test-evidence-1.8.0/runs/):
+ 1. Upgrade: 1.7.0 installed, then 1.8.0 installed over it with "pm install -r": success;
+    versionCode changed 10 -> 11. Same signing certificate.
+ 2. V180Expansion: all 18 new voices - locale and sample-text validation, wrong-script text rejected,
+    distinct PCM per voice, real audio at normal, rate 1.4 and pitch 0.7, 48 kHz output, WAV and MP3.
+ 3. Standalone: all 63 voice options (11 engines) produce PCM and MP3, offline.
+ 4. SimpleTts: identity, package/version 1.8.0, localized labels, registry, license assets.
+ 5. Localization: six UI languages, RTL, 11 engines, 63 voices.
+ 6. FliteExpansion, ArabicExpansion, V170Expansion: earlier Flite/Arabic/1.7.0 voices unchanged and still working.
+Build: assembleRelease, assembleDebugAndroidTest and lintRelease succeeded for the four ABIs.
+
+Notes and limits:
+ - FliteExpansion first failed because its hard-coded option count was still 22; the test was corrected
+   to 40 (a test-only change), rebuilt and re-run: PASS. The other runs used the earlier test package;
+   the only differences between the two test packages are the two count assertions.
+ - Not re-run for 1.8.0 because the code is unchanged: Festival, Ekho, Open JTalk, Rawi, manual
+   diacritization and MP3 export permission tests (see the 1.7.0 results for those).
+ - The first Standalone run on the emulator stalled (emulator hang, not a test failure); the emulator was
+   restarted and the run repeated from the start and passed.
+ - No human listening evaluation. Host speech-to-text matched the sample sentences for the new voices
+   that were checked. CVM/CVF are rougher than the others (crowd-sourced recordings, automatic diacritics).
+ - Not added in 1.8.0 (unfinished at cut-off, planned for 1.9.0): LJSpeech American voice, two Russian voices.

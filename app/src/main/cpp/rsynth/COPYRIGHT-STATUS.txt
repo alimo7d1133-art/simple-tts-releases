@@ -1,0 +1,8 @@
+rsynth source: rsynth-2005-12-16, downloaded from the SourceForge project release.
+The release README states that its files are under GPL or LGPL. Core library files
+carry Nick Ing-Simmons' GNU Library General Public License notice; COPYING is GPLv2
+and COPYING.LIB is LGPLv2. All upstream notices are retained in this directory.
+The bundled engine uses algorithmic formant tables (Elements.def/phones.def), not
+CMU or Beep dictionary databases. No external dictionary or non-commercial data is
+included. The Android JNI adapter is new project code and does not replace notices.
+Source: https://sourceforge.net/projects/rsynth/files/rsynth/2005-12-16/

@@ -1,0 +1,11 @@
+# SVOX Pico AOSP library, kept as a subsidiary target to avoid Flite symbols.
+set(PICO_ROOT ${CMAKE_CURRENT_LIST_DIR}/../../../../../pico/pico)
+file(GLOB PICO_LIB_SOURCES CONFIGURE_DEPENDS ${PICO_ROOT}/lib/*.c)
+add_library(pico SHARED pico_bridge.c ${PICO_LIB_SOURCES})
+target_include_directories(pico PRIVATE ${PICO_ROOT}/lib)
+target_compile_definitions(pico PRIVATE PICO_NO_DEBUG)
+target_compile_options(pico PRIVATE -Wno-error=implicit-function-declaration -Wno-error=unused-variable -fno-strict-aliasing)
+target_link_libraries(pico log android m)
+if(ANDROID)
+ target_link_options(pico PRIVATE -Wl,-z,max-page-size=16384 -Wl,-z,common-page-size=16384)
+endif()

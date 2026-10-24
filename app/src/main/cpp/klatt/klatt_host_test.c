@@ -1,0 +1,4 @@
+#include <stdio.h>
+#include <string.h>
+#include "parwave.h"
+int main(void){klatt_global_t g; klatt_frame_t f; int w[10000]; memset(&g,0,sizeof g); g.synthesis_model=CASCADE_PARALLEL; g.samrate=10000; g.nfcascade=5; g.glsource=IMPULSIVE; g.nspfr=100; g.quiet_flag=1; parwave_init(&g); memset(&f,0,sizeof f); f.F0hz10=1100; f.AVdb=58; f.Kopen=200; f.AB=40; f.AVpdb=58; f.Gain0=60; f.F1hz=700;f.B1hz=90;f.F2hz=1100;f.B2hz=100;f.F3hz=2450;f.B3hz=150;f.F4hz=3500;f.B4hz=250;f.F5hz=4500;f.B5hz=300;f.F6hz=4900;f.B6hz=350; for(int i=0;i<100;i++){ memset(&f,0,sizeof f); f.F0hz10=1100; f.AVdb=58; f.Kopen=200; f.AB=40; f.AVpdb=58; f.Gain0=60; f.F1hz=700;f.B1hz=90;f.F2hz=1100;f.B2hz=100;f.F3hz=2450;f.B3hz=150;f.F4hz=3500;f.B4hz=250;f.F5hz=4500;f.B5hz=300;f.F6hz=4900;f.B6hz=350; parwave(&g,&f,w+i*100); } long long energy=0;for(int i=9000;i<10000;i++){int x=w[i];if(x<0)x=-x;energy+=x;} printf("samples=10000 abs_energy=%lld first=%d last=%d\n",energy,w[0],w[9999]); return 0;}

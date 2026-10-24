@@ -1,0 +1,1 @@
+hts_engine API 1.10 is included in upstream/hts_engine_API-1.10 with its original COPYING file and source headers. The hts_engine API is distributed under its original BSD-style license by the HTS Working Group. Do not remove upstream license text.

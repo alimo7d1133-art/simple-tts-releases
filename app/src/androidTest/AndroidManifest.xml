@@ -1,0 +1,43 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <instrumentation
+        android:name="org.retro.flitetts.StandaloneInstrumentation"
+        android:targetPackage="org.oldtts.android"
+        android:label="Simple TTS standalone 1.3.1 instrumentation" />
+    <instrumentation
+        android:name="org.retro.flitetts.LocalizationInstrumentation"
+        android:targetPackage="org.oldtts.android"
+        android:label="Simple TTS localization instrumentation" />
+    <instrumentation
+        android:name="org.retro.flitetts.RawiInstrumentation"
+        android:targetPackage="org.oldtts.android"
+        android:label="Simple TTS Rawi instrumentation" />
+    <instrumentation
+        android:name="org.retro.flitetts.ExportInstrumentation"
+        android:targetPackage="org.oldtts.android"
+        android:label="Simple TTS playback and MP3 export instrumentation" />
+    <instrumentation
+        android:name="org.retro.flitetts.ArabicExpansionInstrumentation"
+        android:targetPackage="org.oldtts.android"
+        android:label="Simple TTS Arabic expansion and controls instrumentation" />
+    <instrumentation
+        android:name="org.retro.flitetts.ManualDiacritizationInstrumentation"
+        android:targetPackage="org.oldtts.android"
+        android:label="Simple TTS manual diacritization instrumentation" />
+    <instrumentation
+        android:name="org.retro.flitetts.AllVoices48kInstrumentation"
+        android:targetPackage="org.oldtts.android"
+        android:label="Simple TTS all voices 48 kHz instrumentation" />
+    <instrumentation
+        android:name="org.retro.flitetts.OpenJtalkInstrumentation"
+        android:targetPackage="org.oldtts.android"
+        android:label="Simple TTS Open JTalk Nitech Japanese instrumentation" />
+    <instrumentation android:name="org.retro.flitetts.FliteExpansionInstrumentation" android:targetPackage="org.oldtts.android" android:label="Simple TTS additional Flite voices instrumentation" />
+ <instrumentation android:name="org.retro.flitetts.FestivalExpansionInstrumentation" android:targetPackage="org.oldtts.android" android:label="Simple TTS FestivalExpansionInstrumentation" />
+ <instrumentation android:name="org.retro.flitetts.EkhoInstrumentation" android:targetPackage="org.oldtts.android" android:label="Simple TTS EkhoInstrumentation" />
+
+    <instrumentation
+        android:name="org.retro.flitetts.SimpleTtsInstrumentation"
+        android:targetPackage="org.oldtts.android"
+        android:label="Simple TTS release identity instrumentation" />
+ <instrumentation android:name="org.retro.flitetts.V170ExpansionInstrumentation" android:targetPackage="org.oldtts.android" android:label="Simple TTS 1.7 additions instrumentation" />
+</manifest>

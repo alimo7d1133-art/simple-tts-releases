@@ -1,0 +1,5 @@
+Open JTalk legacy Japanese TTS bundle
+
+This app includes Open JTalk 1.11 (Modified BSD license), hts_engine API 1.10 (BSD-style license), MeCab (BSD-style license), the Open JTalk UTF-8 dictionary derived from NAIST Japanese Dictionary (its original license is retained as open_jtalk_dic_utf_8-1.11/COPYING), and the Nitech Japanese Speech Database voice nitech_jp_atr503_m001. The voice data are CC-BY 3.0; the original Debian copyright notice retaining the upstream/HTK EULA caveat is included as voice/COPYRIGHT.
+
+All original upstream notices and source are retained under app/src/main/cpp/openjtalk/upstream and assets/openjtalk. This engine is offline and supports Japanese only; it does not support Arabic.

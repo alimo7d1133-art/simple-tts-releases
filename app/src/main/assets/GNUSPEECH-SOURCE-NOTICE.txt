@@ -1,0 +1,5 @@
+GnuSpeechSA is incorporated from the official Savannah gnuspeechsa source.
+License: GNU General Public License, version 3 or later (GPL-3.0-or-later).
+Corresponding source: gnuspeech/source/ in this project.
+Android integration and JNI bridge are GPL-3.0-or-later; see gnuspeech/source/COPYING.
+The bundled data/en files are upstream GnuSpeechSA data distributed with that source.

@@ -1,0 +1,14 @@
+MP3 encoding uses LAME 3.100, an LGPL-2.0 licensed library.
+
+LAME source is vendored at app/src/main/cpp/mp3/lame/ and the complete source
+and license are included with the application source. Upstream project:
+https://lame.sourceforge.io/
+Source release:
+https://sourceforge.net/projects/lame/files/lame/3.100/lame-3.100.tar.gz
+
+The Android app links LAME as the separate mp3encoder shared library. LAME's
+LGPL license permits use in this application; see LAME-COPYING.txt for the
+complete license. LAME upstream notes that some jurisdictions may claim
+software patents; users should obtain their own legal advice.
+
+Android configuration: optional MPGLIB decoder disabled in config.h; scalar portable encoder enabled for all ABIs. Upstream encoder algorithm sources unchanged.

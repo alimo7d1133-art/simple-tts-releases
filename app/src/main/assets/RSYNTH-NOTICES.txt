@@ -1,0 +1,12 @@
+rsynth - Text-to-Speech (Formant Synth), release 2005-12-16.
+Original author/copyright holder named in source: Nick Ing-Simmons (1994, 2001-2003).
+english.c says its rules derive from sources on comp.lang.speech believed public domain;
+its changes are copyright Nick Ing-Simmons. deutsch.c identifies a contributed German
+module based on english.c. All upstream source headers, COPYING, COPYING.LIB, README,
+and data tables are retained under app/src/main/cpp/rsynth/.
+This Android adapter is separate new code: rsynth_jni.c. No eSpeak code or wrapper is used.
+
+Old TTS Android portability modification: opsynth.c FPCHECK now uses !isfinite(x).
+The original numeric fpclassify(x) < FP_ZERO comparison is not portable: Bionic
+FP_* classification constants are unordered and falsely abort normal samples.
+Original rsynth copyright and GNU Library GPL notices remain unchanged.

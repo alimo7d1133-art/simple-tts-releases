@@ -1,0 +1,5 @@
+rsynth-2005-12-16 license texts are included in app/src/main/cpp/rsynth/COPYING
+(GNU GPL version 2) and COPYING.LIB (GNU LGPL version 2). The rsynth README states
+that files in the distribution are either GPL or LGPL. Core library files identify
+Nick Ing-Simmons and retain their full notices. See the source directory for the
+complete unmodified notices and all author attributions.

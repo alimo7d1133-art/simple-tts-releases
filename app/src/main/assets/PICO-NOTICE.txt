@@ -1,0 +1,6 @@
+SVOX Pico / Android Open Source Project
+Copyright (C) 2008-2009 SVOX AG; Android Open Source Project contributions.
+Source: https://android.googlesource.com/platform/external/svox/
+The source and this integration are distributed under the Apache License 2.0.
+The six lingware files are the AOSP SVOX Pico language packs: en-US, en-GB, de-DE, es-ES, fr-FR, it-IT. No eSpeak code or data is included.
+See pico/pico/lib/NOTICE, pico/pico/tts/NOTICE, and the per-module MODULE_LICENSE_APACHE2 files.

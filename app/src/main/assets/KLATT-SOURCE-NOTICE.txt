@@ -1,0 +1,11 @@
+Klatt standalone source notice
+
+Upstream: https://github.com/rhdunn/klatt redirects to https://github.com/espeak-ng/klatt . This is the separate cascade/parallel formant synthesizer, GPL-3.0-or-later, not the eSpeak engine. No eSpeak engine, phonemizer, dictionaries or voice data are bundled.
+
+Complete upstream parwave.c/.h and project materials, including full GPL text and original attribution to Dennis Klatt, Jon Iles, Nick Ing-Simmons and Reece H. Dunn, are retained in app/src/main/cpp/klatt/upstream.
+
+Old TTS modifications: new Android JNI adapter and original approximate Flite CMU phone-to-formant schedule. Flite supplies English Segment durations; the standalone Klatt core generates the waveform. Frames use independent F1-F3 targets, consonant noise/bursts and short interpolated transitions. Actual 10 kHz signed-16 PCM is returned.
+
+The two options select the upstream IMPULSIVE and NATURAL mathematical glottal source algorithms respectively and produce different PCM. NATURAL does not require recorded excitation samples; no SAMPLED mode/data is used. These are configurations of one engine, not separate engines or named human speakers.
+
+English only. This new approximate schedule may mispronounce words and does not reproduce DECtalk or any commercial voice. It must not be represented as a faithful commercial-voice clone. Adapter: AGPL-3.0-or-later; upstream core: GPL-3.0-or-later. No warranty.

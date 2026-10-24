@@ -1,0 +1,90 @@
+Simple TTS 1.6.0 — standalone offline text-to-audio application
+
+Modules: CMU Flite, AOSP SVOX Pico, rsynth, MBROLA, GnuSpeechSA, standalone
+Klatt, FreeTTS, Festival, Open JTalk and Ekho. Only working synthesis modules are registered.
+No Internet permission, cloud speech, proprietary commercial voice packs,
+eSpeak engine, phonemizer or voices, or RHVoice is included.
+
+The combined application and original collection integration are distributed
+under GNU Affero General Public License version 3 or later. The complete matching
+source, build scripts and original voices/data notices accompany the APK in
+Simple-TTS-1.6.0-source.zip. Private signing keys and credentials are excluded from all public files. Each upstream
+component and voice database retains its exact original license; names and
+attribution do not imply institutional endorsement.
+
+Flite revision 6c9f20dc915b17f5619340069889db0aa007fcdc, CMU/BSD-style terms.
+Thirteen Flite options: KAL, KAL16, AWB, RMS, SLT, BDL, CLB, JMK, KSP, Arabic ASC, AEW, AHW and AUP. Full source and voice
+notices retained. Flite also supplies linguistic analysis to MBROLA and Klatt.
+
+Pico/SVOX core and six official language model pairs from AOSP external/svox,
+Apache-2.0 and original SVOX notices. Original source preserved; Android JNI
+extraction, checked initialization and PCM path are collection additions.
+
+rsynth release 2005-12-16: original GPL/Library-GPL author notices retained,
+including LGPL version 2 or later code. Android configuration/JNI are additions;
+opsynth portability fix replaces ordered glibc-specific FP_* comparisons with
+!isfinite(x). No external commercial dictionary added.
+
+MBROLA core: AGPL-3.0-or-later. It generates the audio from phoneme commands.
+Six actual databases: EN1, AR1, AR2, US1, US2 and US3. English text is analyzed
+by Flite, with original SAMPA mappings separately matching documented EN1 and
+American inventories. Arabic text uses new independent local ArabicFrontend
+rules, with explicit limitations and optional missing-diphone tolerance.
+Rate/pitch, database switching and PCM buffering are new integration code.
+
+MBROLA VOICE DATA ARE NOT RELICENSED UNDER AGPL. EN1 retains FPMs/Edinburgh terms.
+AR1: FPMs/Nawfal Tounsi; AR2: SEDCO; US1/US2: Babel Technology; US3: Oregon
+Graduate Institute. Their original license.txt and README files are retained.
+They require use with MBROLA. Gratis copying/distribution with original notices
+is allowed; sale or incorporation in a product which is sold requires prior
+permission from the voice database owner. This package is supplied without charge.
+See the exact database notices, not only this summary, before redistributing.
+
+GnuSpeechSA code/runtime data: GPL-3.0-or-later. Actual articulatory synthesis,
+not a replacement engine. Android CMake disables inapplicable -march=native and
+host-only executable/install steps. JNI uses separate temporary parameter files
+and actual native tempo/pitch settings. Android compilation explicitly uses signed char to preserve the upstream negative parser sentinels on ARM. Original source/data/notices retained.
+
+Standalone Klatt cascade-parallel runtime: GPL-3.0-or-later. Dennis Klatt's
+Fortran algorithm; original C work Jon Iles/Nick Ing-Simmons; upstream Reece H.
+Dunn. Core maintained separately at github.com/espeak-ng/klatt is not the eSpeak
+engine. Full upstream parwave code, materials and GPL text retained. New JNI
+uses Flite segments and an original approximate phone-to-formant schedule.
+Impulsive and NATURAL are distinct mathematical source modes, not speakers;
+no sampled proprietary excitation data is used. Approximate English only.
+
+FreeTTS 1.2.2: Sun Microsystems and Carnegie Mellon University. BSD-style
+permission in FREETTS-LICENSE-TERMS.txt, also at the official FreeTTS license.terms
+URL. Complete upstream Java source and jars/data retained. en_us.jar has a marked Android ICU regex portability fix in USEnglish/TokenToWords. KAL/KAL16
+are two bandwidths of one speaker, using FreeTTS's own Java LPC/diphone runtime,
+historically based on Flite but not calling the bundled Flite JNI. New Android
+adapter, correct big-endian PCM conversion, rate/pitch controls and minimal
+AudioFormat compatibility value type are original collection modifications.
+No Java Sound device implementation or proprietary JDK runtime is bundled.
+
+No Microsoft SAM, TruVoice, BestSpeech/Keynote Gold or DECtalk code/data is
+present. Festival/HTS is included in this release. Open JTalk was added in 1.5.0 with the Nitech ATR503 Japanese voice and remains included.
+Android NDK/LLVM and C++ runtime notices are retained in NDK-NOTICE.txt.
+
+Unmodified official BDL, CLB, JMK and KSP Flite models are included. Additional CMU ARCTIC permission, sources and hashes are preserved in assets/flite-extra/EXTRA-VOICES-NOTICE.txt. Android model extraction and selection are new modifications; no author endorsement is implied.
+
+Old TTS 1.3.0 changes: standalone application only. No Android TTS engine service is registered. Offline MP3 encoding is provided by the separate LAME 3.100 shared library under LGPL-2.0; complete source is in app/src/main/cpp/mp3/lame.
+Optional Arabic diacritization uses Rawi v3 INT8 (TigreGotico; GPU training by Mike Hansen), Apache-2.0, with ONNX Runtime Android 1.31.0 under MIT and its bundled third-party notices. See rawi/MODEL-NOTICE.txt, rawi/source/LICENSE-APACHE-2.0.txt, ONNX-RUNTIME-LICENSE.txt, and ONNX-RUNTIME-THIRD-PARTY-NOTICES.txt in application assets.
+
+Old TTS 1.4.0 additions: Festival and Edinburgh Speech Tools retain their
+permissive COPYING notices; embedded HTS engine retains its BSD-style COPYING.
+Ziad ara_norm_ziad_hts voice/model and repository: GPL-3.0, authors Taha Zerrouki,
+Oussama Heminna and Karim Hemina. Upstream source, unmodified trained model and
+complete notices are included. Android JNI, no-editline history pointer,
+portable ftell, host-dependency removal, absolute HTS speed/pitch controls,
+private resource paths and shadda-order normalization are marked modifications.
+ASC kacst_ar_asc Flite model and repository: MIT, Copyright (c) 2019 Abdullah
+Alrajeh. Its original Flitevox model is unchanged. Both ASC and Ziad are trained
+on Arabic Speech Corpus by Nawar Halabi, University of Southampton, CC BY 4.0.
+Corpus and license: https://en.arabicspeechcorpus.com/ and
+https://creativecommons.org/licenses/by/4.0/ . Keep attribution, license links
+and modification notices. These are different synthesis models, not independent
+recorded speakers. See assets/festival/ and assets/asc/ for full notices.
+No author or institution endorses this application.
+
+Simple TTS 1.6.0 additions: AEW, AHW and AUP are distinct official Flite models under their original CMU permissions. Festival Kurt is a distinct American English LPC/diphone voice with Edinburgh free-use terms; CMU/POSLEX dictionaries and their original notices accompany it. Ekho is an actual Cantonese-only syllable synthesis module. Its core and sr-convert permit GPL-2.0-or-later and are used under GPLv3; separate unmodified CantoneseWong recordings remain GPL-2.0. The independent shared Cantonese dictionary remains CC BY-SA 3.0 with source and attribution. The dictionary text format being shared with another project does not bundle that project engine. Sonic, libsndfile, GSM and UTFCPP retain their original notices. Complete matching source and data accompany this APK. See ekho/licenses and festival notices; no author endorsement is implied.

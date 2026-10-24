@@ -1,0 +1,2 @@
+INSTRUMENTATION_RESULT: error=java.lang.AssertionError: Permission control not found: [android:id/button1]
+INSTRUMENTATION_CODE: 0

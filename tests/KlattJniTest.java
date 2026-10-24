@@ -1,0 +1,8 @@
+package org.retro.flitetts;
+import java.io.*;import java.nio.*;import java.nio.file.*;import java.util.*;
+class NativeKlatt{static{System.loadLibrary("klattretro");}static synchronized native int sampleRate(int v);static synchronized native short[] render(String s,int v,float r,float p);}
+public class KlattJniTest{
+ static void wav(String name,short[] a)throws Exception{ByteBuffer b=ByteBuffer.allocate(44+a.length*2).order(ByteOrder.LITTLE_ENDIAN);b.put("RIFF".getBytes()).putInt(36+a.length*2).put("WAVEfmt ".getBytes()).putInt(16).putShort((short)1).putShort((short)1).putInt(10000).putInt(20000).putShort((short)2).putShort((short)16).put("data".getBytes()).putInt(a.length*2);for(short x:a)b.putShort(x);Files.write(Paths.get(name),b.array());}
+ public static void main(String[] args)throws Exception{short[][] voices=new short[2][];for(int v=0;v<2;v++){short[] normal=NativeKlatt.render("Hello. This is the standalone Klatt formant synthesizer.",v,1,1),fast=NativeKlatt.render("Hello. This is the standalone Klatt formant synthesizer.",v,2,1),high=NativeKlatt.render("Hello. This is the standalone Klatt formant synthesizer.",v,1,1.5f);long e=0;int peak=0;for(short x:normal){e+=Math.abs((int)x);peak=Math.max(peak,Math.abs((int)x));}if(e<100000||fast.length>=normal.length||Arrays.equals(normal,high))throw new AssertionError("Klatt "+v);voices[v]=normal;wav(args[0]+"/Klatt-"+v+"-demo.wav",normal);System.out.println("PASS Klatt source="+v+" samples="+normal.length+" fast="+fast.length+" energy="+e+" peak="+peak);}
+ if(Arrays.equals(voices[0],voices[1]))throw new AssertionError("Sources identical");System.out.println("PASS actual impulse and natural configurations produce different PCM");}
+}

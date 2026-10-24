@@ -1,0 +1,9 @@
+PASS rate=8000 frequencies=110,220,1000 Hz duration<=0.5 output sample
+PASS rate=10000 frequencies=110,220,1000 Hz duration<=0.5 output sample
+PASS rate=16000 frequencies=110,220,1000 Hz duration<=0.5 output sample
+PASS rate=22050 frequencies=110,220,1000 Hz duration<=0.5 output sample
+PASS rate=32000 frequencies=110,220,1000 Hz duration<=0.5 output sample
+PASS rate=44100 frequencies=110,220,1000 Hz duration<=0.5 output sample
+PASS rate=48000 frequencies=110,220,1000 Hz duration<=0.5 output sample
+PASS rate=96000 frequencies=110,220,1000 Hz duration<=0.5 output sample
+HostResamplerTest: PASS (frequency, duration, DC, finite/bounds, native48k, cancellation, lengths)

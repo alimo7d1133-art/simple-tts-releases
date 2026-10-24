@@ -1,0 +1,2 @@
+PASS six actual translations, saved preferences, RTL/LTR, live language Spinner recreation, system default restoration, nine engines and 30 voices. No human TalkBack claim.
+

@@ -1,0 +1,15 @@
+INSTRUMENTATION_STATUS: stream=PASS six ordinary Buttons and real diacritize button
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS real performClick produced marked text without deleting words
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS edit during processing preserved user text
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS local MBROLA listen action completed
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_RESULT: stream=PASS real diacritize click, snapshot guard, and MBROLA listen
+
+INSTRUMENTATION_CODE: -1

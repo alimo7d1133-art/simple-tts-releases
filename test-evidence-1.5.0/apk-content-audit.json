@@ -1,0 +1,250 @@
+{
+  "passed": true,
+  "certificate_sha256": "d6dd597bff7d93705d810318f5540c989a9b2ea511fc185449d62805966ab75c",
+  "apk_sha256": "e962a2ef84204ad4b7637606d07d25be0356d7683d40b7a9ec1a383a1f2cb38a",
+  "apk_bytes": 232059889,
+  "native_libraries": 48,
+  "elf_load_alignments": {
+    "lib/arm64-v8a/libfestivalretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/arm64-v8a/libfliteretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/arm64-v8a/libgnuspeech_jni.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/arm64-v8a/libgnuspeechsa.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/arm64-v8a/libklattretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/arm64-v8a/libmbrolaretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/arm64-v8a/libmp3encoder.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/arm64-v8a/libonnxruntime.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/arm64-v8a/libonnxruntime4j_jni.so": [
+      16384,
+      16384
+    ],
+    "lib/arm64-v8a/libopenjtalk.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/arm64-v8a/libpico.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/arm64-v8a/librsynthretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/armeabi-v7a/libfestivalretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/armeabi-v7a/libfliteretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/armeabi-v7a/libgnuspeech_jni.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/armeabi-v7a/libgnuspeechsa.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/armeabi-v7a/libklattretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/armeabi-v7a/libmbrolaretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/armeabi-v7a/libmp3encoder.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/armeabi-v7a/libonnxruntime.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/armeabi-v7a/libonnxruntime4j_jni.so": [
+      16384,
+      16384
+    ],
+    "lib/armeabi-v7a/libopenjtalk.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/armeabi-v7a/libpico.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/armeabi-v7a/librsynthretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86/libfestivalretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86/libfliteretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86/libgnuspeech_jni.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86/libgnuspeechsa.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86/libklattretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86/libmbrolaretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86/libmp3encoder.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86/libonnxruntime.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86/libonnxruntime4j_jni.so": [
+      16384,
+      16384
+    ],
+    "lib/x86/libopenjtalk.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86/libpico.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86/librsynthretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86_64/libfestivalretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86_64/libfliteretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86_64/libgnuspeech_jni.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86_64/libgnuspeechsa.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86_64/libklattretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86_64/libmbrolaretro.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86_64/libmp3encoder.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86_64/libonnxruntime.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86_64/libonnxruntime4j_jni.so": [
+      16384,
+      16384
+    ],
+    "lib/x86_64/libopenjtalk.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86_64/libpico.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "lib/x86_64/librsynthretro.so": [
+      16384,
+      16384,
+      16384
+    ]
+  },
+  "old_asset_count": 90,
+  "changed_old_assets": [],
+  "all_plugin_txt_notices_present": true,
+  "no_user_identity_or_signing_credentials": true,
+  "no_new_network_or_microphone_permission": true
+}

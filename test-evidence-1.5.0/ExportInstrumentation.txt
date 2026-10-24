@@ -1,0 +1,5 @@
+PASS first-launch explanation displayed and Open permissions selected
+PASS permission grant automatically created root Old TTS folder before first save
+PASS two genuine MP3 saves without folder/document picker or filename collision
+PASS first-launch permission grant, automatic root folder creation and direct MP3 exports
+

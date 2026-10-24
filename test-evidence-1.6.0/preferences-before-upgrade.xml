@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="rate_percent" value="100" />
+    <int name="voice:pico" value="5" />
+    <int name="voice:rsynth" value="0" />
+    <boolean name="storage_intro_131" value="true" />
+    <int name="voice:openjtalk" value="0" />
+    <int name="voice:gnuspeechsa" value="0" />
+    <int name="voice:flite" value="0" />
+    <int name="speed_slider_140" value="0" />
+    <int name="voice:festival" value="0" />
+    <int name="voice:mbrola" value="5" />
+    <boolean name="rawi_enabled" value="true" />
+    <string name="engine">flite</string>
+    <boolean name="high_quality_48000" value="false" />
+    <int name="voice:klatt" value="1" />
+    <int name="pitch_slider_140" value="100" />
+    <int name="voice:freetts" value="1" />
+    <int name="pitch_percent" value="100" />
+</map>

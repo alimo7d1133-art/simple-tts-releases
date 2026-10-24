@@ -1,0 +1,2 @@
+PASS openjtalk:ja-JP-nitech rate=48000Hz samples=205440 parameterized=164880 elapsedMs=9838 artifacts=/data/user/0/org.oldtts.android/files/openjtalk-tests
+INSTRUMENTATION_CODE: -1

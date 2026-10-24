@@ -1,0 +1,26 @@
+# Build outputs
+/build/
+/build-host/
+app/build/
+.gradle/
+.cxx/
+local.properties
+*.iml
+.idea/
+
+# Signing material must never be committed
+*.jks
+*.keystore
+*.p12
+*.pfx
+keystore.properties
+signing.properties
+
+# Release binaries live in GitHub Releases, not in git
+*.apk
+*.aab
+
+# Host test outputs
+tests/classes/
+tests/voice-previews/
+tests/mbrola-pho-test

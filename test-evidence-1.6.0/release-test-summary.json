@@ -1,0 +1,91 @@
+{
+  "apk_sha256": "f5ff05d3cf1a3194452f394210204dc28393002a1ba018830d620749c4d35687",
+  "groups": {
+    "new-voices": [
+      {
+        "runner": "SimpleTts",
+        "passed": true,
+        "seconds": 6.05
+      },
+      {
+        "runner": "FliteExpansion",
+        "passed": true,
+        "seconds": 80.72
+      },
+      {
+        "runner": "FestivalExpansion",
+        "passed": true,
+        "seconds": 34.29
+      },
+      {
+        "runner": "Ekho",
+        "passed": true,
+        "seconds": 28.52
+      }
+    ],
+    "regression": [
+      {
+        "runner": "OpenJtalk",
+        "passed": true,
+        "seconds": 36.62
+      },
+      {
+        "runner": "ArabicExpansion",
+        "passed": true,
+        "seconds": 84.79
+      },
+      {
+        "runner": "Standalone",
+        "passed": true,
+        "seconds": 162.51
+      },
+      {
+        "runner": "Localization",
+        "passed": true,
+        "seconds": 9.78
+      },
+      {
+        "runner": "Rawi",
+        "passed": true,
+        "seconds": 17.03
+      },
+      {
+        "runner": "ManualDiacritization",
+        "passed": true,
+        "seconds": 77.65
+      },
+      {
+        "runner": "AllVoices48k",
+        "passed": true,
+        "seconds": 407.06
+      }
+    ],
+    "final-apk": [
+      {
+        "runner": "SimpleTts",
+        "passed": true,
+        "seconds": 6.22
+      },
+      {
+        "runner": "Localization",
+        "passed": true,
+        "seconds": 9.7
+      },
+      {
+        "runner": "Ekho",
+        "passed": true,
+        "seconds": 11.83
+      }
+    ],
+    "export-grant": [],
+    "export-deny": []
+  },
+  "permission_checks": {
+    "export-grant": false,
+    "export-deny": false
+  },
+  "historical_failed_export_attempt_preserved": true,
+  "all_voice_count": 35,
+  "tested_android": "9 / API 28 / x86_64 emulator",
+  "physical_phone_or_human_talkback_tested": false
+}

@@ -1,0 +1,30 @@
+INSTRUMENTATION_STATUS: stream=PASS registry 10/35, Festival ara_norm_ziad_hts 48kHz, ASC retained at legacy index 9
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS Arabic festival rawi PCM and MP3
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS Arabic flite rawi PCM and MP3
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS Festival independent speed and pitch controls
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS HQ 48k/same-PCM duration/MP3 flite; independent render delta seconds=0.0
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS HQ 48k/same-PCM duration/MP3 festival; independent render delta seconds=0.0
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS HQ 48k/same-PCM duration/MP3 mbrola; independent render delta seconds=0.00182171201814052
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS logarithmic speed/pitch factor endpoints and center
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS slider persistence, recreate, 100% center migration, and old 25..400/50..200 bounds
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_RESULT: stream=PASS Arabic Festival/ASC voices, Rawi enable, HQ 48k PCM/MP3, logarithmic factors, slider endpoints/center, recreate and legacy migration
+
+INSTRUMENTATION_CODE: -1

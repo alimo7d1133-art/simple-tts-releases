@@ -1,0 +1,17 @@
+[
+  {
+    "runner": "SimpleTts",
+    "passed": true,
+    "seconds": 6.22
+  },
+  {
+    "runner": "Localization",
+    "passed": true,
+    "seconds": 9.7
+  },
+  {
+    "runner": "Ekho",
+    "passed": true,
+    "seconds": 11.83
+  }
+]

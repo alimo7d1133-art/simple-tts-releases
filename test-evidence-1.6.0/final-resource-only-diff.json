@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tested_engine_build_sha256": "a9abe2b5f45ef85e38fd20f715dd933308894ffefa391829b62034b5b8c181e6",
+  "final_apk_sha256": "f5ff05d3cf1a3194452f394210204dc28393002a1ba018830d620749c4d35687",
+  "changed_zip_entries": [
+    "resources.arsc",
+    "META-INF/OLDTTS.SF",
+    "META-INF/OLDTTS.RSA",
+    "META-INF/MANIFEST.MF"
+  ],
+  "all_dex_native_libraries_assets_and_manifest_identical": true
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "from_version": "1.5.0",
+  "to_version": "1.6.0",
+  "package": "org.oldtts.android",
+  "in_place_adb_install_r": "Success",
+  "preferences_byte_identical": true,
+  "preferences_sha256": "f4e7c0aa43dd027ea8e1cd376f9fd3d0af368081a8fbb67731fcd35270a61c6e"
+}

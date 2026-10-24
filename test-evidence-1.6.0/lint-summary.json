@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "Warning": 52
+  },
+  "issue_ids": [
+    "AndroidGradlePluginVersion",
+    "AppBundleLocaleChanges",
+    "DataExtractionRules",
+    "DiscouragedApi",
+    "InlinedApi",
+    "MissingApplicationIcon",
+    "ObsoleteSdkInt",
+    "OldTargetApi",
+    "PluralsCandidate",
+    "ScopedStorage",
+    "Typos",
+    "UnusedResources"
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "test": "OpenJtalkInstrumentation",
+    "passed": true,
+    "elapsedSeconds": 38.0,
+    "evidence": "Suite-specific completion PASS present; shell exited 0. Custom UI runners do not all print an instrumentation code."
+  },
+  {
+    "test": "StandaloneInstrumentation",
+    "passed": true,
+    "elapsedSeconds": 137.83,
+    "evidence": "Suite-specific completion PASS present; shell exited 0. Custom UI runners do not all print an instrumentation code."
+  },
+  {
+    "test": "LocalizationInstrumentation",
+    "passed": true,
+    "elapsedSeconds": 14.3,
+    "evidence": "Suite-specific completion PASS present; shell exited 0. Custom UI runners do not all print an instrumentation code."
+  },
+  {
+    "test": "RawiInstrumentation",
+    "passed": true,
+    "elapsedSeconds": 15.06,
+    "evidence": "Suite-specific completion PASS present; shell exited 0. Custom UI runners do not all print an instrumentation code."
+  },
+  {
+    "test": "ArabicExpansionInstrumentation",
+    "passed": true,
+    "elapsedSeconds": 83.21,
+    "evidence": "Suite-specific completion PASS present; shell exited 0. Custom UI runners do not all print an instrumentation code."
+  },
+  {
+    "test": "ManualDiacritizationInstrumentation",
+    "passed": true,
+    "elapsedSeconds": 61.3,
+    "evidence": "Suite-specific completion PASS present; shell exited 0. Custom UI runners do not all print an instrumentation code."
+  },
+  {
+    "test": "ExportInstrumentation",
+    "passed": true,
+    "elapsedSeconds": 5.29,
+    "evidence": "Final rerun PASS after revoking pre-granted permissions and dismissing emulator System UI ANR; original setup failures retained in logs."
+  },
+  {
+    "test": "AllVoices48kInstrumentation",
+    "passed": true,
+    "elapsedSeconds": 353.56,
+    "evidence": "Suite-specific completion PASS present; shell exited 0. Custom UI runners do not all print an instrumentation code."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "runner": "SimpleTts",
+    "passed": true,
+    "seconds": 6.05
+  },
+  {
+    "runner": "FliteExpansion",
+    "passed": true,
+    "seconds": 80.72
+  },
+  {
+    "runner": "FestivalExpansion",
+    "passed": true,
+    "seconds": 34.29
+  },
+  {
+    "runner": "Ekho",
+    "passed": true,
+    "seconds": 28.52
+  }
+]

@@ -1,0 +1,5 @@
+package org.retro.flitetts;
+import java.nio.*;import java.nio.file.*;import java.util.*;
+public class FreeTtsJniTest{
+ public static void main(String[] args)throws Exception{FreeTtsPlugin p=new FreeTtsPlugin();int v=Integer.parseInt(args[0]);String text=p.sampleText();short[] a=p.synthesize(text,v,1,1),fast=p.synthesize(text,v,2,1),high=p.synthesize(text,v,1,1.5f);long energy=0;for(short x:a)energy+=Math.abs((int)x);if(energy<10000||fast.length>=a.length||Arrays.equals(a,high))throw new AssertionError("No meaningful FreeTTS synthesis or rate/pitch");int hz=p.sampleRate(v);ByteBuffer b=ByteBuffer.allocate(44+a.length*2).order(ByteOrder.LITTLE_ENDIAN);b.put("RIFF".getBytes()).putInt(36+a.length*2).put("WAVEfmt ".getBytes()).putInt(16).putShort((short)1).putShort((short)1).putInt(hz).putInt(hz*2).putShort((short)2).putShort((short)16).put("data".getBytes()).putInt(a.length*2);for(short x:a)b.putShort(x);Files.write(Paths.get(args[1]),b.array());System.out.println("PASS FreeTTS "+p.voiceIds()[v]+" Hz="+hz+" samples="+a.length+" fast="+fast.length+" energy="+energy+" pitch differs; "+args[1]);}
+}

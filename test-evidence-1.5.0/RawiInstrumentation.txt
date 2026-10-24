@@ -1,0 +1,6 @@
+PASS Rawi resource keys in six locales
+PASS Rawi Arabic marks and per-word preservation
+PASS AR1/AR2 Rawi MP3 and English render with either Rawi setting (native waveform is non-deterministic)
+PASS UI MBROLA AR1/AR2 visibility, English hiding, and preference
+PASS Rawi inference, preservation, UI, localized resources, and MP3/PCM checks
+

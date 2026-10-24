@@ -1,0 +1,11 @@
+PASS registry 9/30, Festival ara_norm_ziad_hts 48kHz, ASC final Flite voice
+PASS Arabic festival rawi PCM and MP3
+PASS Arabic flite rawi PCM and MP3
+PASS Festival independent speed and pitch controls
+PASS HQ 48k/same-PCM duration/MP3 flite; independent render delta seconds=0.0
+PASS HQ 48k/same-PCM duration/MP3 festival; independent render delta seconds=0.0
+PASS HQ 48k/same-PCM duration/MP3 mbrola; independent render delta seconds=0.00182171201814052
+PASS logarithmic speed/pitch factor endpoints and center
+PASS slider persistence, recreate, 100% center migration, and old 25..400/50..200 bounds
+PASS Arabic Festival/ASC voices, Rawi enable, HQ 48k PCM/MP3, logarithmic factors, slider endpoints/center, recreate and legacy migration
+

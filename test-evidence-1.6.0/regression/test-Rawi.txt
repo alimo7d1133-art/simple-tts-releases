@@ -1,0 +1,15 @@
+INSTRUMENTATION_STATUS: stream=PASS Rawi resource keys in six locales
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS Rawi Arabic marks and per-word preservation
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS AR1/AR2 Rawi MP3 and English render with either Rawi setting (native waveform is non-deterministic)
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS UI MBROLA AR1/AR2 visibility, English hiding, and preference
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_RESULT: stream=PASS Rawi inference, preservation, UI, localized resources, and MP3/PCM checks
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,6 @@
+INSTRUMENTATION_STATUS: stream=PASS Kurt native16000 normalSamples=81443 fastSamples=58403 pitchedSamples=81443 HQ48000; English-Arabic-English restoration
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_RESULT: stream=PASS Festival Kurt actual LPC synthesis, speed, pitch, 48k, WAV/MP3, text/locales, and Ziad restoration. Samples=/storage/emulated/0/Android/data/org.oldtts.android/files/new-festival-voice
+
+INSTRUMENTATION_CODE: -1

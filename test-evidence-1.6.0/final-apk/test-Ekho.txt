@@ -1,0 +1,3 @@
+INSTRUMENTATION_RESULT: stream=PASS Ekho registered Cantonese voice, supported-text validation, actual nonzero PCM, speed shortened 79286 -> 56635, independent pitch change, shared StandaloneAudio 16k/48k WAV/MP3 exports. Samples=/data/user/0/org.oldtts.android/files/ekho-test
+
+INSTRUMENTATION_CODE: -1

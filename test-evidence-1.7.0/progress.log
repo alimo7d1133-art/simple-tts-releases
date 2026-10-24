@@ -1,0 +1,41 @@
+== V170Expansion 18:16:41
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_RESULT: stream=PASS V170: eight CMU ARCTIC Flite voices, ClArTTS Arabic, Flite+HTS SLT; normal/rate/pitch/48k PCM, WAV and MP3.
+INSTRUMENTATION_CODE: -1
+== SimpleTts 18:21:37
+INSTRUMENTATION_RESULT: stream=PASS Simple TTS 1.7.0 identity, package/version, six localized labels, complete engine UI resources, unique registry IDs, sample validation, bundled license assets, no internet/microphone; engines=11 voices=45
+INSTRUMENTATION_CODE: -1
+== Standalone 18:21:40
+INSTRUMENTATION_RESULT: stream=PASS standalone instrumentation 1.3.1
+INSTRUMENTATION_CODE: -1
+== Localization 18:25:45
+INSTRUMENTATION_RESULT: stream=PASS six actual translations, saved preferences, RTL/LTR, live language Spinner recreation, system default restoration, eleven engines and 45 voices. No human TalkBack claim.
+INSTRUMENTATION_CODE: -1
+== FliteExpansion 18:25:58
+INSTRUMENTATION_RESULT: stream=PASS three additional distinct Flite models: AEW, AHW, AUP; actual normal and changed-parameter PCM; MP3 and 48k WAV/MP3; old Arabic index and text validation preserved. Samples=/storage/emulated/0/Android/data/org.oldtts.android/files/new-flite-voices
+INSTRUMENTATION_CODE: -1
+== FestivalExpansion 18:27:22
+INSTRUMENTATION_RESULT: stream=PASS Festival Kurt actual LPC synthesis, speed, pitch, 48k, WAV/MP3, text/locales, and Ziad restoration. Samples=/storage/emulated/0/Android/data/org.oldtts.android/files/new-festival-voice
+INSTRUMENTATION_CODE: -1
+== ArabicExpansion 18:27:51
+INSTRUMENTATION_RESULT: stream=PASS Arabic Festival/ASC voices, Rawi enable, HQ 48k PCM/MP3, logarithmic factors, slider endpoints/center, recreate and legacy migration
+INSTRUMENTATION_CODE: -1
+== ManualDiacritization 18:29:21
+INSTRUMENTATION_RESULT: stream=PASS real diacritize click, snapshot guard, and MBROLA listen
+INSTRUMENTATION_CODE: -1
+== Rawi 18:31:35
+INSTRUMENTATION_RESULT: stream=PASS Rawi inference, preservation, UI, localized resources, and MP3/PCM checks
+INSTRUMENTATION_CODE: -1
+== Ekho 18:31:59
+INSTRUMENTATION_RESULT: stream=PASS Ekho registered Cantonese voice, supported-text validation, actual nonzero PCM, speed shortened 79286 -> 56635, independent pitch change, shared StandaloneAudio 16k/48k WAV/MP3 exports. Samples=/data/user/0/org.oldtts.android/files/ekho-test
+INSTRUMENTATION_CODE: -1
+== OpenJtalk 18:32:15
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_CODE: -1
+== AllVoices48k 18:32:51
+INSTRUMENTATION_RESULT: stream=PASS all 45 voices native off/on, deterministic PCM, HQ WAV/MP3, UI persistence; JSON=/data/user/0/org.oldtts.android/files/all-voices-48k/all-voices-48k.json
+INSTRUMENTATION_CODE: -1
+== Export 18:42:43
+INSTRUMENTATION_RESULT: error=java.lang.AssertionError: Test must begin without storage access
+INSTRUMENTATION_CODE: 0
+ALLDONE

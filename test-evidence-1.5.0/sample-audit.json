@@ -1,0 +1,35 @@
+[
+  {
+    "file": "nitech-1.25x-0.8pitch-48000.wav",
+    "sampleRate": 48000,
+    "channels": 1,
+    "bits": 16,
+    "samples": 164880,
+    "durationSeconds": 3.435,
+    "peak": 14001,
+    "rms": 2238.3221178704125,
+    "sha256": "4d6b7fbeefbc3e85b195edae2e11bc0117bff0d82179456e2a02ebe82948a7de"
+  },
+  {
+    "file": "nitech-1x-48000-off.wav",
+    "sampleRate": 48000,
+    "channels": 1,
+    "bits": 16,
+    "samples": 205440,
+    "durationSeconds": 4.28,
+    "peak": 12718,
+    "rms": 2073.486099424686,
+    "sha256": "a6b5903d9a51666314fbef9b9a4079d1aa9269b9da761a80dd1467cb92f06929"
+  },
+  {
+    "file": "nitech-1x-48000-on.wav",
+    "sampleRate": 48000,
+    "channels": 1,
+    "bits": 16,
+    "samples": 205440,
+    "durationSeconds": 4.28,
+    "peak": 12718,
+    "rms": 2073.486099424686,
+    "sha256": "a6b5903d9a51666314fbef9b9a4079d1aa9269b9da761a80dd1467cb92f06929"
+  }
+]

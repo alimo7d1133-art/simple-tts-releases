@@ -1,0 +1,6 @@
+PASS six ordinary Buttons and real diacritize button
+PASS real performClick produced marked text without deleting words
+PASS edit during processing preserved user text
+PASS local MBROLA listen action completed
+PASS real diacritize click, snapshot guard, and MBROLA listen
+

@@ -1,0 +1,35 @@
+PASS 48k passthrough bit exact
+PASS flite-kal native=8000Hz/27580 HQ=48000Hz/166080 MP3=28224
+PASS flite-kal16 native=16000Hz/55161 HQ=48000Hz/166080 MP3=28224
+PASS flite-awb native=16000Hz/49920 HQ=48000Hz/149760 MP3=25344
+PASS flite-rms native=16000Hz/56880 HQ=48000Hz/170640 MP3=28992
+PASS flite-slt native=16000Hz/49600 HQ=48000Hz/148800 MP3=25344
+PASS flite-bdl native=16000Hz/47280 HQ=48000Hz/141840 MP3=24192
+PASS flite-clb native=16000Hz/60480 HQ=48000Hz/181440 MP3=30720
+PASS flite-jmk native=16000Hz/45840 HQ=48000Hz/137520 MP3=23424
+PASS flite-ksp native=16000Hz/52720 HQ=48000Hz/158160 MP3=26880
+PASS flite-asc native=16000Hz/67520 HQ=48000Hz/202560 MP3=34176
+PASS pico-en-US native=16000Hz/50176 HQ=48000Hz/150528 MP3=25536
+PASS pico-en-GB native=16000Hz/51648 HQ=48000Hz/154944 MP3=26304
+PASS pico-de-DE native=16000Hz/51328 HQ=48000Hz/153984 MP3=26112
+PASS pico-es-ES native=16000Hz/41920 HQ=48000Hz/125760 MP3=21504
+PASS pico-fr-FR native=16000Hz/42944 HQ=48000Hz/128832 MP3=21888
+PASS pico-it-IT native=16000Hz/52416 HQ=48000Hz/157248 MP3=26688
+PASS rsynth-default native=16000Hz/51520 HQ=48000Hz/154560 MP3=26304
+PASS mbrola-en1 native=16000Hz/57337 HQ=48000Hz/172308 MP3=29184
+PASS mbrola-ar1 native=16000Hz/32760 HQ=48000Hz/98496 MP3=16896
+PASS mbrola-ar2 native=22050Hz/45095 HQ=48000Hz/98488 MP3=16896
+PASS mbrola-us1 native=16000Hz/71904 HQ=48000Hz/215982 MP3=36480
+PASS mbrola-us2 native=16000Hz/71874 HQ=48000Hz/215868 MP3=36480
+PASS mbrola-us3 native=16000Hz/71923 HQ=48000Hz/215922 MP3=36480
+PASS gnuspeechsa-gnuspeechsa-en-male native=44100Hz/135531 HQ=48000Hz/147517 MP3=25152
+PASS klatt-impulsive native=10000Hz/29214 HQ=48000Hz/140227 MP3=23808
+PASS klatt-natural native=10000Hz/29214 HQ=48000Hz/140227 MP3=23808
+PASS freetts-kal native=8000Hz/24903 HQ=48000Hz/149418 MP3=25344
+PASS freetts-kal16 native=16000Hz/49807 HQ=48000Hz/149421 MP3=25344
+PASS festival-ara_norm_ziad_hts native=48000Hz/176160 HQ=48000Hz/176160 MP3=29760
+PASS openjtalk-ja-JP-nitech native=48000Hz/164880 HQ=48000Hz/164880 MP3=28032
+PASS UI persistence on restart and HQ visible across all 30 engine/voice choices
+PASS all-voices 48k instrumentation; JSON=/data/user/0/org.oldtts.android/files/all-voices-48k/all-voices-48k.json
+PASS all 30 voices native off/on, deterministic PCM, HQ WAV/MP3, UI persistence; JSON=/data/user/0/org.oldtts.android/files/all-voices-48k/all-voices-48k.json
+

@@ -1,0 +1,37 @@
+[
+  {
+    "runner": "OpenJtalk",
+    "passed": true,
+    "seconds": 36.62
+  },
+  {
+    "runner": "ArabicExpansion",
+    "passed": true,
+    "seconds": 84.79
+  },
+  {
+    "runner": "Standalone",
+    "passed": true,
+    "seconds": 162.51
+  },
+  {
+    "runner": "Localization",
+    "passed": true,
+    "seconds": 9.78
+  },
+  {
+    "runner": "Rawi",
+    "passed": true,
+    "seconds": 17.03
+  },
+  {
+    "runner": "ManualDiacritization",
+    "passed": true,
+    "seconds": 77.65
+  },
+  {
+    "runner": "AllVoices48k",
+    "passed": true,
+    "seconds": 407.06
+  }
+]

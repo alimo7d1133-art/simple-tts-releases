@@ -1,0 +1,2 @@
+INSTRUMENTATION_RESULT: error=java.lang.AssertionError: Test must begin without storage access
+INSTRUMENTATION_CODE: 0

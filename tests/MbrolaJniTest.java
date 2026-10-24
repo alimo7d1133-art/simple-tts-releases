@@ -1,0 +1,6 @@
+package org.retro.flitetts;
+import java.nio.*;import java.nio.file.*;
+class NativeMbrola{static{System.loadLibrary("mbrolaretro");}static synchronized native boolean initialize(String dir,Object assets);static synchronized native short[] render(String text,int v,float r,float p);static synchronized native short[] renderPhones(String text,int v);}
+public class MbrolaJniTest{
+ public static void main(String[] args)throws Exception{int v=Integer.parseInt(args[1]);if(!NativeMbrola.initialize(args[0],null))throw new AssertionError("init");String text="Hello. This is an American English MBROLA voice. Welcome to Old TTS.";short[] a=NativeMbrola.render(text,v,1,1);if(a==null||a.length<1000)throw new AssertionError("render "+v);long energy=0;for(short s:a)energy+=Math.abs((int)s);if(energy<10000)throw new AssertionError("silent");int hz=16000;ByteBuffer b=ByteBuffer.allocate(44+a.length*2).order(ByteOrder.LITTLE_ENDIAN);b.put("RIFF".getBytes()).putInt(36+a.length*2).put("WAVEfmt ".getBytes()).putInt(16).putShort((short)1).putShort((short)1).putInt(hz).putInt(hz*2).putShort((short)2).putShort((short)16).put("data".getBytes()).putInt(a.length*2);for(short s:a)b.putShort(s);Files.write(Paths.get(args[2]),b.array());System.out.println("PASS actual MBROLA voice="+v+" hz="+hz+" samples="+a.length+" energy="+energy+" text="+text+" WAV="+args[2]);}
+}

@@ -14,7 +14,7 @@ android {
   targetSdk 36
   versionCode 11
   versionName '1.8.0'
-  ndk { abiFilters 'arm64-v8a', 'armeabi-v7a', 'x86_64', 'x86' }
+  ndk { abiFilters.addAll(((project.findProperty('simpleTtsAbis') ?: 'arm64-v8a,armeabi-v7a,x86_64,x86') as String).split(',')*.trim()) }
   externalNativeBuild { cmake { arguments '-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON'; cFlags '-O2','-g0'; cppFlags '-O2','-g0' } }
  }
  externalNativeBuild { cmake { path 'src/main/cpp/CMakeLists.txt'; version '3.22.1' } }

@@ -8,6 +8,8 @@ Simple TTS is a standalone, fully offline Android app that turns text into speec
 - UI languages: Arabic (RTL), English, German, Spanish, French, Italian
 - Arabic documentation: [README_AR.md](README_AR.md) (full feature description, in Arabic)
 
+**Per-ABI builds (smaller downloads):** release 1.8.0 also has one APK per architecture (`arm64-v8a`, `armeabi-v7a`, `x86_64`, `x86`) with the same package, versionCode and signing certificate. To build one: `./gradlew :app:assembleRelease -PsimpleTtsAbis=arm64-v8a`. Without the property all four ABIs are built into one universal APK.
+
 **Download the built app:** [Releases](../../releases) (APK and a source archive, with SHA-256 sums in the release notes).
 
 ## What is in this repository

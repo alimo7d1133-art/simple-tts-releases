@@ -5,7 +5,7 @@ import android.speech.tts.TextToSpeech;
 import java.util.*;
 
 public final class EngineRegistry {
- private static final List<EnginePlugin> ENGINES=Collections.unmodifiableList(Arrays.asList(new FlitePlugin(),new PicoPlugin(),new RsynthPlugin(),new MbrolaPlugin(),new GnuspeechPlugin(),new KlattPlugin(),new FreeTtsPlugin(),new FestivalPlugin(),new OpenJtalkPlugin(),new EkhoPlugin(),new FliteHtsPlugin()));
+ private static final List<EnginePlugin> ENGINES=Collections.unmodifiableList(Arrays.asList(new FlitePlugin(),new PicoPlugin(),new RsynthPlugin(),new MbrolaPlugin(),new GnuspeechPlugin(),new KlattPlugin(),new FreeTtsPlugin(),new FestivalPlugin(),new OpenJtalkPlugin(),new EkhoPlugin(),new FliteHtsPlugin(),new SystemTtsPlugin()));
  private static final Set<String> PREPARED=new HashSet<>();
  public static List<EnginePlugin> all(){return ENGINES;}
  public static synchronized void prepare(Context context,EnginePlugin engine){

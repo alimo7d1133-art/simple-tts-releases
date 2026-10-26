@@ -1,0 +1,27 @@
+Simple TTS 1.9.0 (versionCode 12) - test results
+================================================
+Environment: Android 9 x86_64 emulator without hardware acceleration (API 28), universal APK.
+Raw logs: test-evidence-1.9.0/runs/
+
+PASSED
+- Build: release APK + instrumentation package, signed with the same certificate as 1.0-1.8 (see test-evidence-1.9.0/signature.txt).
+  The universal APK and the arm64-v8a / armeabi-v7a APKs were checked with apksigner (v2 and v3 valid, same certificate),
+  zipalign (4-byte and 16 KB page alignment) and aapt (package org.oldtts.android, versionCode 12, no INTERNET permission).
+- Upgrade 1.8.0 -> 1.9.0 over the installed app: versionCode 11 -> 12 succeeded.
+- V190Packs (test-V190Packs-passing-run.txt): packs removed (fresh-install state); the base voice (Flite ASC) works without any
+  pack; voices of absent packs report the exact pack and refuse to render; scanning the "Simple TTS data" folder activates valid
+  packs (Hindi, MBROLA English, Open JTalk, Ekho); a pack with one flipped byte is rejected by the SHA-256 check and leaves no
+  partial files; a missing pack stays missing; activated voices render audible audio; deleting a pack removes its voices but not the
+  user's folder; re-activation works; a fake system TTS engine placed in the test package is listed, loaded and renders audio.
+- Regression with all 14 packs installed: V180Expansion, SimpleTts, Localization, Standalone (UI: 4 spinners, 7 buttons),
+  FliteExpansion, ArabicExpansion, V170Expansion: all PASS.
+
+NOT TESTED
+- Real phone hardware: only the emulator was used.
+- The arm64-v8a and armeabi-v7a APKs were never run (the emulator is x86_64); they were only checked with apksigner, zipalign and aapt.
+- Real vendor system engines (Google, Samsung ...): only a fake engine in the test package was used.
+- Screen readers (TalkBack, Jieshuo): controls have content descriptions, but no screen-reader session was run.
+- The V190Packs test was not re-run after the last test-only edits (UI-count assertions in other runners); its passing run was made
+  on the same application code. A later re-run could not be completed because the emulator's adb became unresponsive.
+- AllVoices48k, Rawi, ManualDiacritization, Export, Ekho and OpenJtalk runners were not re-run for 1.9.0.
+- LJSpeech (American English) and the Russian voices RF9014/RM8169 were not completed and are not in 1.9.0.

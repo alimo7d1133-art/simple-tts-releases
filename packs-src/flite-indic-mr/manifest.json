@@ -1,0 +1,19 @@
+{
+ "files": [
+  {
+   "path": "cmu_indic_mar_aup.flitevox",
+   "sha256": "981957b433d87cb7a95a8883c3072f0227ef33450160e5d50ee2773c3748b9f4",
+   "size": 11815465
+  },
+  {
+   "path": "cmu_indic_mar_slp.flitevox",
+   "sha256": "ad2ab6ee479ad400824fbd50b91d5fd934b3517aab9d29403c92d91d8a47bc8d",
+   "size": 13418271
+  }
+ ],
+ "format": 1,
+ "pack": "flite-indic-mr",
+ "target": "flite-extra",
+ "title": "Marathi (CMU Indic, 2 voices)",
+ "version": "1.9.0"
+}

@@ -58,7 +58,7 @@ public final class AllVoices48kInstrumentation extends Instrumentation {
     }
 
     private List<String> verifyAllVoices(Context c, File root) throws Exception {
-        require(EngineRegistry.all().size() == 11, "expected 11 engines");
+        require(EngineRegistry.all().size() == 12, "expected 12 engines");
         int totalVoices = 0; for (EnginePlugin e : EngineRegistry.all()) totalVoices += e.voiceIds().length;
         require(totalVoices == 63, "expected 63 voices, got " + totalVoices);
         File wav = new File(root, "wav"); File mp3 = new File(root, "mp3");

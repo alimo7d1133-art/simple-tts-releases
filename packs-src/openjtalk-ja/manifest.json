@@ -1,0 +1,54 @@
+{
+ "files": [
+  {
+   "path": "dict/char.bin",
+   "sha256": "888ee94c5a8a7a26d24ab3f1b7155441351954fd51ea06b4a2f78bd742492b2f",
+   "size": 262496
+  },
+  {
+   "path": "dict/left-id.def",
+   "sha256": "db1adac8a7f9e5854cd82ea044c85115249206c8181b9d88cf92ae2ee5e87b84",
+   "size": 77672
+  },
+  {
+   "path": "dict/matrix.bin",
+   "sha256": "62fd16b4f64c851d5dc352ef0d5740c5fc83ddc7c203b2b0b1fc5271969a14ce",
+   "size": 3792262
+  },
+  {
+   "path": "dict/pos-id.def",
+   "sha256": "3460aa742053085af47cdfc889a1e0e6f557e89b406e501ba81c9ccc286de0c7",
+   "size": 1923
+  },
+  {
+   "path": "dict/rewrite.def",
+   "sha256": "7f7c8dfbfe24092e8a149a9b6e0a3a7f1c2cf37d6c3dc29d1cccc6c004da9c1c",
+   "size": 7457
+  },
+  {
+   "path": "dict/right-id.def",
+   "sha256": "db1adac8a7f9e5854cd82ea044c85115249206c8181b9d88cf92ae2ee5e87b84",
+   "size": 77672
+  },
+  {
+   "path": "dict/sys.dic",
+   "sha256": "ca57d9029691a70a5dfb99afc2844180256161d7130da65b1a867510e129b9a6",
+   "size": 103073776
+  },
+  {
+   "path": "dict/unk.dic",
+   "sha256": "ce97851ecda075914fa3ffe7294a1ab34ee4f6d56ba6bf9197d74143b5dffbfe",
+   "size": 5690
+  },
+  {
+   "path": "voice/nitech_jp_atr503_m001.htsvoice",
+   "sha256": "1329c5e4c0176dc037eef50a73712c60bede2b26ff4a1cba5008223608ca942f",
+   "size": 1169264
+  }
+ ],
+ "format": 1,
+ "pack": "openjtalk-ja",
+ "target": "openjtalk",
+ "title": "Open JTalk Japanese (dictionary and Nitech voice)",
+ "version": "1.9.0"
+}

@@ -1,0 +1,14 @@
+{
+ "files": [
+  {
+   "path": "cmu_indic_kan_plv.flitevox",
+   "sha256": "da04aa70fe0992e59ac74bc572fb892b73fed3ef1297da3c71ad6d1ba24ecc68",
+   "size": 8901763
+  }
+ ],
+ "format": 1,
+ "pack": "flite-indic-kn",
+ "target": "flite-extra",
+ "title": "Kannada (CMU Indic)",
+ "version": "1.9.0"
+}

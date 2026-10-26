@@ -52,7 +52,7 @@ JNIEXPORT jboolean JNICALL Java_org_retro_flitetts_NativeMbrola_initialize(JNIEn
  if(ready)return JNI_TRUE;const char *path=(*e)->GetStringUTFChars(e,directory,NULL);if(!path)return JNI_FALSE;
  const char *ids[]={"en1","ar1","ar2","us1","us2","us3"};int valid=1;
  for(int i=0;i<6;i++){int n=snprintf(databases[i],sizeof(databases[i]),"%s/%s",path,ids[i]);if(n<0||(size_t)n>=sizeof(databases[i]))valid=0;}
- (*e)->ReleaseStringUTFChars(e,directory,path);if(!valid||!select_database(0))return JNI_FALSE;
+ (*e)->ReleaseStringUTFChars(e,directory,path);if(!valid)return JNI_FALSE; /* databases are selected on first use: the English ones live in an optional pack */
  frontend_init();ready=1;return JNI_TRUE;
 }
 JNIEXPORT jshortArray JNICALL Java_org_retro_flitetts_NativeMbrola_renderPhones(JNIEnv *e,jclass c,jstring phones,jint voice){

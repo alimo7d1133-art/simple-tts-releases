@@ -39,7 +39,7 @@ public final class V180ExpansionInstrumentation extends Instrumentation {
    Context c=getTargetContext();
    EnginePlugin flite=EngineRegistry.find("flite");require(flite!=null&&flite.voiceIds().length==40,"Expected 40 Flite options");
    require("asc".equals(flite.voiceIds()[9])&&"clartts".equals(flite.voiceIds()[21]),"Arabic indexes changed");
-   require(EngineRegistry.all().size()==11,"Expected 11 engines");
+   require(EngineRegistry.all().size()==12,"Expected 12 engines");
    File dir=new File(c.getExternalFilesDir(null),"v180-samples");require(dir.isDirectory()||dir.mkdirs(),"Sample directory");
    Set<Integer> hashes=new HashSet<>();
    check(c,dir,flite,"flite","iqcorp",new String[]{"ar","SA"},"\u0645\u064e\u0631\u0652\u062d\u064e\u0628\u064b\u0627 \u0628\u0650\u0643\u064f\u0645\u0652. \u0647\u064e\u0630\u0650\u0647\u0650 \u062a\u064e\u062c\u0652\u0631\u0650\u0628\u064e\u0629\u064c \u0644\u0650\u0644\u0635\u064e\u0651\u0648\u0652\u062a\u0650 \u0627\u0644\u0652\u0639\u064e\u0631\u064e\u0628\u0650\u064a\u0650\u0651 \u0627\u0644\u0652\u0642\u064e\u062f\u0650\u064a\u0645\u0650.",true,hashes);

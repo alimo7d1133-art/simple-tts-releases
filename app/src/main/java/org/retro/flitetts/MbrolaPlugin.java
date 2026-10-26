@@ -19,12 +19,13 @@ public final class MbrolaPlugin implements EnginePlugin {
  public String sampleText(){return "Hello. This is MBROLA using the bundled Flite phoneme frontend.";}
  public String sampleText(int voice){return voice==1||voice==2?"مَرْحَبًا. هَذَا صَوْتٌ عَرَبِيٌّ.":voice>=3?"Hello. This is an American English MBROLA voice. Welcome to Simple TTS.":sampleText();}
  public String[] noticeAssets(){ArrayList<String> a=new ArrayList<>();a.add("mbrola/licenses/MBROLA-AGPL-3.0.txt");a.add("mbrola/licenses/MBROLA-VOICES-LICENSE.md");a.add("mbrola/licenses/EN1-README.txt");for(String id:new String[]{"AR1","AR2","US1","US2","US3"}){a.add("mbrola/licenses/"+id+"-LICENSE.txt");a.add("mbrola/licenses/"+id+"-README.txt");}a.add("mbrola/ARABIC-FRONTEND-NOTICE.txt");return a.toArray(new String[0]);}
- public String languageNotice(){return "MBROLA: EN1 بريطاني؛ US1 وUS2 وUS3 أمريكية أصلية؛ AR1 وAR2 صوتان عربيان من 1998. الإنجليزية بواجهة Flite مع تحويل فونيمات أمريكي مستقل. العربية بقواعد محلية، وأفضل مع التشكيل؛ غير المشكول والأسماء تقديرية وقد تخطئ. توزيع قواعد الأصوات مجاني فقط مع الإشعارات؛ البيع داخل منتج يحتاج إذن أصحاب الحقوق. جرّب قبل استخدامها لقارئ الشاشة.";}
+ public String languageNotice(){return "MBROLA: AR1 وAR2 صوتان عربيان من 1998 (في التطبيق الأساسي)؛ EN1 بريطاني وUS1 وUS2 وUS3 أمريكية (حزمة mbrola-english). الإنجليزية بواجهة Flite مع تحويل فونيمات أمريكي مستقل. العربية بقواعد محلية، وأفضل مع التشكيل؛ غير المشكول والأسماء تقديرية وقد تخطئ. توزيع قواعد الأصوات مجاني فقط مع الإشعارات؛ البيع داخل منتج يحتاج إذن أصحاب الحقوق. جرّب قبل استخدامها لقارئ الشاشة.";}
+ public String requiredPack(int voice){return voice==1||voice==2?null:"mbrola-english";}
  public void initialize(Context context){
   if(ready)return;synchronized(this){if(ready)return;
    try{
     File dir=new File(context.getFilesDir(),"mbrola-v120");if(!dir.isDirectory()&&!dir.mkdirs())throw new IOException("Cannot create MBROLA directory");
-    for(String id:IDS){File out=new File(dir,id);if(!out.isFile()){
+    for(String id:new String[]{"ar1","ar2"}){File out=new File(dir,id);if(!out.isFile()){
      File temp=new File(dir,id+".tmp");try(InputStream in=context.getAssets().open("mbrola/"+id);FileOutputStream f=new FileOutputStream(temp)){byte[] b=new byte[16384];int n;while((n=in.read(b))!=-1)f.write(b,0,n);}if(!temp.renameTo(out))throw new IOException("Cannot install "+id);
     }}
     if(!NativeMbrola.initialize(dir.getAbsolutePath(),context.getAssets()))throw new IllegalStateException("MBROLA databases failed to initialize");ready=true;

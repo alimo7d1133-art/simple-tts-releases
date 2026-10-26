@@ -1,0 +1,34 @@
+{
+ "files": [
+  {
+   "path": "cmu_us_aup.flitevox",
+   "sha256": "c464ce87d33fe9718d96909ecf11ebd6267c47fbca97a041fbf17356504c6cc1",
+   "size": 5701990
+  },
+  {
+   "path": "cmu_us_axb.flitevox",
+   "sha256": "6d96bbf4e8ec686ee57d8cf6311ae6269d73c0a9e4fe52180468cfa1892b17ce",
+   "size": 7260569
+  },
+  {
+   "path": "cmu_us_gka.flitevox",
+   "sha256": "e8a9fcb10a2a0b6d78022131277bf546fd0e650ebce03108bc4440d4d2367a65",
+   "size": 6902785
+  },
+  {
+   "path": "cmu_us_ksp.flitevox",
+   "sha256": "53927cdb7eb3f83d8db2faa79fdb8115c82e96ca71c4b095eb05c67667d36a02",
+   "size": 11765452
+  },
+  {
+   "path": "cmu_us_slp.flitevox",
+   "sha256": "d5022f507d513b3dd78705f8e747015a4c933fdbd872f1c3057a5a9915b145d3",
+   "size": 7280743
+  }
+ ],
+ "format": 1,
+ "pack": "flite-en-in",
+ "target": "flite-extra",
+ "title": "Indian-accent English CMU ARCTIC (ksp, aup, axb, gka, slp)",
+ "version": "1.9.0"
+}

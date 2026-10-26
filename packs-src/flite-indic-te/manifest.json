@@ -1,0 +1,24 @@
+{
+ "files": [
+  {
+   "path": "cmu_indic_tel_kpn.flitevox",
+   "sha256": "aeca7468a2ea7d18d12a36af8f19383353e851693b9e216089b4f715a3fb050d",
+   "size": 13379640
+  },
+  {
+   "path": "cmu_indic_tel_sk.flitevox",
+   "sha256": "acfc5423abf4bf77909784d2b9cdb2c5cf8eae6540932df26de2ce44d406a0cb",
+   "size": 13740312
+  },
+  {
+   "path": "cmu_indic_tel_ss.flitevox",
+   "sha256": "6f0ce8fcd77140366a0ef84c313d47ec26762d36566bf7be622bc6c919346459",
+   "size": 22656084
+  }
+ ],
+ "format": 1,
+ "pack": "flite-indic-te",
+ "target": "flite-extra",
+ "title": "Telugu (CMU Indic, 3 voices)",
+ "version": "1.9.0"
+}

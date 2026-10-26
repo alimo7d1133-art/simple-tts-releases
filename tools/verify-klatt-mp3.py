@@ -172,7 +172,7 @@ def analyze(pair: str, wav: Path, mp3: Path) -> dict:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--evidence-dir", type=Path, default=Path("audio-evidence"))
+    ap.add_argument("--evidence-dir", type=Path, default=Path("/workspace/old-tts-1.4.1-delivery/audio-evidence"))
     ap.add_argument("--json", type=Path, default=None)
     args = ap.parse_args()
     wav_dir, mp3_dir = args.evidence_dir / "wav", args.evidence_dir / "mp3"

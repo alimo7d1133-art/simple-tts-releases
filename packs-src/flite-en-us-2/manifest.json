@@ -1,0 +1,39 @@
+{
+ "files": [
+  {
+   "path": "cmu_us_ahw.flitevox",
+   "sha256": "8bab5975c40ea64fbbc324c20ced3587e02aaa30aba6fa2631af4e2fb8e6f3f5",
+   "size": 6949326
+  },
+  {
+   "path": "cmu_us_eey.flitevox",
+   "sha256": "875a9a6f7f3a746549138d5817bb49419ac1290a7023b014114f88bc68f0cab9",
+   "size": 6092398
+  },
+  {
+   "path": "cmu_us_fem.flitevox",
+   "sha256": "8043ccd6e83cc6679e386eb888f5ed4faac664f06149aecf9529e45b3f91bc88",
+   "size": 6193447
+  },
+  {
+   "path": "cmu_us_ljm.flitevox",
+   "sha256": "90b1c8b507912db357084e33ba8f83f015ae0268bb59fdd0a6298d1110fe23d2",
+   "size": 5688553
+  },
+  {
+   "path": "cmu_us_lnh.flitevox",
+   "sha256": "d3fb6b1c4f781fc5c9b1ea5efdc8c46c1ce5e74cf349cd78c1fae3c0e19d7c9f",
+   "size": 11903497
+  },
+  {
+   "path": "cmu_us_rxr.flitevox",
+   "sha256": "e7007354436387f721cdce03f89388507e9ca9f8a76f36c288fc950ea6b56e25",
+   "size": 7645602
+  }
+ ],
+ "format": 1,
+ "pack": "flite-en-us-2",
+ "target": "flite-extra",
+ "title": "American English CMU ARCTIC, part 2 (ahw, eey, fem, ljm, lnh, rxr)",
+ "version": "1.9.0"
+}

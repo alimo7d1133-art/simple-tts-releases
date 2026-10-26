@@ -19,4 +19,8 @@ public interface EnginePlugin {
  default boolean acceptsText(String text,int voice){return acceptsText(text);}
  int sampleRate(int voice);
  short[] synthesize(String text,int voice,float rate,float pitch);
+ /** Id of the downloadable voice pack this voice needs, or null when it is part of the base app. */
+ default String requiredPack(int voice){return null;}
+ /** True when the voice can be used now (base voice, or its pack is installed). */
+ default boolean voiceAvailable(android.content.Context context,int voice){String p=requiredPack(voice);return p==null||PackStore.complete(context,p);}
 }

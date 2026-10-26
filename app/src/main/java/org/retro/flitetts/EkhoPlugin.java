@@ -12,6 +12,7 @@ public final class EkhoPlugin implements EnginePlugin {
  private static boolean ready;
  private static final Object LOCK=new Object();
  private static void checkVoice(int voice){if(voice!=0)throw new IllegalArgumentException("Invalid Ekho voice");}
+ public String requiredPack(int voice){return "ekho-cantonese";}
  public String id(){return "ekho";}
  public String label(){return "Ekho — CantoneseWong";}
  public Locale locale(){return Locale.forLanguageTag("yue-HK");}
@@ -28,7 +29,7 @@ public final class EkhoPlugin implements EnginePlugin {
  }
  public int sampleRate(int voice){checkVoice(voice);return 16000;}
  public void initialize(Context context){synchronized(LOCK){if(ready)return;File root=new File(context.getFilesDir(),"ekho-160"),marker=new File(root,"installed");try{
-  if(!marker.isFile()){copyTree(context.getAssets(),"ekho",root);try(FileOutputStream f=new FileOutputStream(marker)){f.write(1);}}
+  if(!marker.isFile()||!PackStore.complete(context,"ekho-cantonese"))throw new PackStore.PackMissingException("ekho-cantonese");
   if(!nativeInit(root.getAbsolutePath()))throw new IOException("Ekho initialization failed");ready=true;
  }catch(IOException failure){throw new IllegalStateException("Cannot install Cantonese voice",failure);}}}
  public short[] synthesize(String text,int voice,float rate,float pitch){checkVoice(voice);if(!acceptsText(text)||!Float.isFinite(rate)||!Float.isFinite(pitch))throw new IllegalArgumentException("Ekho requires supported Cantonese text and finite parameters");synchronized(LOCK){if(!ready)throw new IllegalStateException("Ekho is not initialized");short[] pcm=nativeRender(text,Math.max(.25f,Math.min(4f,rate)),Math.max(.5f,Math.min(2f,pitch)));if(pcm==null||pcm.length==0)throw new IllegalStateException("Ekho returned no speech");return pcm;}}

@@ -1,0 +1,99 @@
+INSTRUMENTATION_STATUS: stream=catalog packs=14
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS all packs removed (fresh-install state)
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS render flite:asc samples=14160 hz=16000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS unavailable-without-pack flite:hin_ab -> flite-indic-hi
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS unavailable-without-pack mbrola:en1 -> mbrola-english
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS unavailable-without-pack openjtalk:ja-JP-nitech -> openjtalk-ja
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS unavailable-without-pack ekho:yue-HK-cantonese-wong -> ekho-cantonese
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=status flite-en-us-1 state=1 
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=status flite-en-us-2 state=1 
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=status flite-en-in state=1 
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=status flite-indic-hi state=0 
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=status flite-indic-bn state=2 checksum mismatch (corrupt download or modified file): cmu_indic_ben_rm.flitevox
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=status flite-indic-gu state=1 
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=status flite-indic-kn state=1 
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=status flite-indic-mr state=1 
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=status flite-indic-pa state=1 
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=status flite-indic-ta state=1 
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=status flite-indic-te state=1 
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=status mbrola-english state=0 
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=status openjtalk-ja state=0 
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=status ekho-cantonese state=0 
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS tampered pack rejected, valid packs activated, no temp files
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS render flite:hin_ab samples=44000 hz=16000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS render mbrola:en1 samples=41670 hz=16000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS render openjtalk:ja-JP-nitech samples=77040 hz=48000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS render ekho:yue-HK-cantonese-wong samples=9809 hz=16000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS unavailable-without-pack flite:hin_ab -> flite-indic-hi
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS render mbrola:us1 samples=17560 hz=16000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS render flite:hin_ab samples=15280 hz=16000
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=system engines on device: 1
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=engine Fake test engine voices=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=PASS system voice org.oldtts.android.test:test-en-us samples=46305 fast=28940 hz=22050
+
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_RESULT: stream=V190-PACKS-ALL-PASS
+
+INSTRUMENTATION_CODE: -1

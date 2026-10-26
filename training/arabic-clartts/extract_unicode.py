@@ -1,6 +1,6 @@
 import pyarrow.parquet as pq, glob, os, re, unicodedata, numpy as np
 from scipy.io import wavfile
-root=os.environ.get('TRAIN_ROOT','arabic-train-clartts'); os.makedirs(root+'/wav',exist_ok=True)
+root='/workspace/arabic-train-clartts'; os.makedirs(root+'/wav',exist_ok=True)
 # Same phone inventory as ArabicFrontend.java; explicit diacritized ClArTTS text is used.
 vals=dict(zip('بتثجحخدذرزسشصضطظعغفقكلمنهويء', ['b','t','T','j','H','x','d','D','r','z','s','S','s.','d.','t.','z.','E','G','f','q','k','l','m','n','h','w','j','?']))
 vals.update({'أ':'?','إ':'?','ؤ':'?','ئ':'?','ک':'k','ی':'j','ة':'h','ا':'a','ى':'aa','آ':'? aa'})

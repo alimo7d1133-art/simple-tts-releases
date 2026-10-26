@@ -40,7 +40,7 @@ public final class V170ExpansionInstrumentation extends Instrumentation {
   EnginePlugin flite=EngineRegistry.find("flite");require(flite!=null&&flite.voiceIds().length==40,"Expected 40 Flite options");
   require("asc".equals(flite.voiceIds()[9])&&"clartts".equals(flite.voiceIds()[21]),"Arabic indexes changed");
   EnginePlugin hts=EngineRegistry.find("flitehts");require(hts!=null&&hts.voiceIds().length==1,"Missing Flite+HTS");
-  require(EngineRegistry.all().size()==11,"Expected 11 engines");
+  require(EngineRegistry.all().size()==12,"Expected 12 engines");
   File dir=new File(c.getExternalFilesDir(null),"v170-samples");require(dir.isDirectory()||dir.mkdirs(),"Sample directory");
   Set<Integer> hashes=new HashSet<>();
   String en="Hello. This is a new voice in Simple TTS. One, two, three.";

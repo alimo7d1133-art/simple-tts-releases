@@ -1,24 +1,26 @@
 # Simple TTS
 
-Simple TTS is a standalone, fully offline Android app that turns text into speech, plays it, and saves it as MP3. It bundles **11 speech engines and 63 voice options** (English, Arabic, Japanese, Cantonese and more) and needs no internet connection, no account and no cloud service. It is **not** an Android system TTS engine: it cannot be selected as the default engine or used by TalkBack.
+Simple TTS is a standalone, fully offline Android app that turns text into speech, plays it, and saves it as MP3. It offers **12 engine entries and 63 built-in voice options** (plus whatever text-to-speech engines are installed on the phone) (English, Arabic, Japanese, Cantonese and more) and needs no internet connection, no account and no cloud service. It is **not** an Android system TTS engine: it cannot be selected as the default engine or used by TalkBack.
 
 - Package id: `org.oldtts.android` (kept stable so updates install over older versions)
-- Version: `1.8.0` (versionCode `11`), minSdk 26 (Android 8), targetSdk 36
+- Version: `1.9.0` (versionCode `12`), minSdk 26 (Android 8), targetSdk 36
 - ABIs: `arm64-v8a`, `armeabi-v7a`, `x86_64`, `x86`
 - UI languages: Arabic (RTL), English, German, Spanish, French, Italian
 - Arabic documentation: [README_AR.md](README_AR.md) (full feature description, in Arabic)
 
-**Per-ABI builds (smaller downloads):** release 1.8.0 also has one APK per architecture (`arm64-v8a`, `armeabi-v7a`, `x86_64`, `x86`) with the same package, versionCode and signing certificate. To build one: `./gradlew :app:assembleRelease -PsimpleTtsAbis=arm64-v8a`. Without the property all four ABIs are built into one universal APK.
+**Voice packs (new in 1.9.0):** the app itself is much smaller because the large voice data (English Flite voices, Indian-language voices, MBROLA English, Open JTalk Japanese and Ekho Cantonese) is split into 14 separate packs published as ZIP files on the release page. The app has **no INTERNET permission** and never downloads anything. To add a pack: download its ZIP, unzip it, move the folder into `Simple TTS data/` in the phone's internal storage (the app asks for file access only for this), and open the app: it verifies every file with SHA-256 against a manifest whose hash is compiled into the app, copies the files to private storage and activates the voices. The *Voice packs* screen lists every pack with its size and status and can delete a pack again (the folder you copied is never touched). Voices of packs that are not installed are hidden and the app says which pack to add. Arabic basics (MBROLA AR1/AR2, Flite ASC, ClArTTS, IQC, CVM, CVF, Festival Ziad), Pico, rsynth, Klatt, Gnuspeech, FreeTTS, HF92/HM6097 and the SLT HTS voice stay inside the app. Updating from 1.8.0 keeps the voices that were already extracted. A new engine entry, *Android installed voices*, lists the voices of other TTS engines installed on the phone; those engines are not part of this project and may be neural. See [ADDITIONS-1.9.0.md](ADDITIONS-1.9.0.md).
 
+**Per-ABI builds (smaller downloads):** release 1.9.0 also has one APK per architecture (`arm64-v8a`, `armeabi-v7a`) with the same package, versionCode and signing certificate. To build one: `./gradlew :app:assembleRelease -PsimpleTtsAbis=arm64-v8a`. Without the property all four ABIs are built into one universal APK.
 **Download the built app:** [Releases](../../releases) (APK and a source archive, with SHA-256 sums in the release notes).
 
 ## What is in this repository
 
-This repository is the complete corresponding source of the 1.8.0 release: the Android app, all engine sources and runtime data, voice models, build scripts, tests, test evidence, and the license notices of every component. Nothing needed to build is left out. Signing keys and credentials were never part of the source and are not here.
+This repository is the complete corresponding source of the 1.9.0 release: the Android app, all engine sources and runtime data, voice models, build scripts, tests, test evidence, and the license notices of every component. Nothing needed to build is left out. Signing keys and credentials were never part of the source and are not here.
 
 | Path | Contents |
 |---|---|
 | `app/` | Android app: Java UI and engine plugins (`app/src/main/java`), JNI/CMake native code (`app/src/main/cpp`), bundled voices, models and license files (`app/src/main/assets`), instrumentation tests (`app/src/androidTest`) |
+| `packs-src/` | The exact files of the 14 voice packs (voice data and manifests); `tools/make-packs.py` zips them |
 | `flite/` | CMU Flite source (revision `6c9f20dc915b17f5619340069889db0aa007fcdc`) |
 | `pico/` | SVOX Pico from AOSP `external/svox`, with the six official language packs |
 | `gnuspeech/` | GnuspeechSA source and English data with Android build patches |
@@ -27,7 +29,7 @@ This repository is the complete corresponding source of the 1.8.0 release: the A
 | `training/voices-1.8/` | Data-preparation, Clustergen training and Flite conversion scripts for the 1.8.0 trained voices (no corpus audio is included) |
 | `training/arabic-clartts/` | Scripts, text list and MCD report used to train the ClArTTS Arabic voice (no corpus audio is included) |
 | `tools/`, `tests/` | Build helpers (Festival cross-build, source packaging, FreeTTS port) and host tests |
-| `docs/`, `test-evidence-*/` | Test results and raw logs for 1.5.0, 1.6.0, 1.7.0 and 1.8.0 |
+| `docs/`, `test-evidence-*/` | Test results and raw logs for 1.5.0 to 1.9.0 |
 | `ADDITIONS-*.md`, `ENGINE-SOURCES.md`, `MODULES.md`, `*-ASSESSMENT.md` | Engineering notes: what was added in each release, where each engine came from, what was evaluated and rejected and why (some are written in Arabic) |
 
 C/C++ sources for MBROLA, rsynth, Klatt, Ekho (with libsndfile, Sonic, sr-convert, UTFCPP), LAME 3.100, Open JTalk 1.11 (with hts_engine API 1.10 and MeCab) and Flite+hts_engine live under `app/src/main/cpp/`.
@@ -86,7 +88,7 @@ The large Open JTalk dictionary `app/src/main/assets/openjtalk/open_jtalk_dic_ut
 
 ## What has actually been tested
 
-All claims below come from [docs/TEST-RESULTS-1.7.0.txt](docs/TEST-RESULTS-1.7.0.txt) and the raw logs in [test-evidence-1.7.0/](test-evidence-1.7.0/).
+The 1.9.0 voice-pack tests are in [docs/TEST-RESULTS-1.9.0.txt](docs/TEST-RESULTS-1.9.0.txt) (with raw logs in [test-evidence-1.9.0/](test-evidence-1.9.0/)), including what was not tested. The general claims below come from [docs/TEST-RESULTS-1.7.0.txt](docs/TEST-RESULTS-1.7.0.txt) and the raw logs in [test-evidence-1.7.0/](test-evidence-1.7.0/).
 
 - **Tested:** all 63 voice options produce real PCM and MP3, at normal, fast, low-pitch and 48 kHz settings, on an Android 9 (API 28) x86_64 emulator without hardware acceleration and in airplane mode. Installing over a previous version worked with an identical signing certificate. Localization (six languages, RTL), the engine registry and license file presence passed. `assembleRelease`, `assembleDebugAndroidTest` and `lintRelease` succeeded for all four ABIs with 16 KiB page alignment.
 - **Not tested:** any real phone; any ARM device (ARM builds compile but were never run); Android versions newer than 9; human TalkBack testing; human listening evaluation of voice quality or accent; saving MP3 to the shared folder with runtime permissions (the emulator's permission dialogs could not be automated, so this is unverified in 1.6.0 and 1.7.0); the permission-denied path.

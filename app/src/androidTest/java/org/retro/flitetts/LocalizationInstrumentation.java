@@ -15,7 +15,7 @@ public class LocalizationInstrumentation extends Instrumentation {
    for(String key:keys){int id=localized.getResources().getIdentifier(key,"string",target.getPackageName());require(id!=0&&!localized.getString(id).isEmpty(),tag+" missing "+key);}
    if(!"en".equals(tag))require(!localized.getString(R.string.speak).equals(englishSpeak),"Untranslated speak label: "+tag);
   }
-  require(EngineRegistry.all().size()==11,"Expected 11 engines");int voices=0;for(EnginePlugin e:EngineRegistry.all())voices+=e.voiceIds().length;require(voices==63,"Expected 63 voices");
+  require(EngineRegistry.all().size()==12,"Expected 12 engines");int voices=0;for(EnginePlugin e:EngineRegistry.all())voices+=e.voiceIds().length;require(voices==63,"Expected 63 voices");
   UiLocale.save(target,UiLocale.SYSTEM);initial=startActivitySync(new Intent(target,MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));waitForIdleSync();final Activity original=initial;final Spinner[] selector={null};runOnMainSync(()->selector[0]=findSpinner(original.getWindow().getDecorView(),original.getString(R.string.interface_language_desc)));
   require(selector[0]!=null&&selector[0].getAdapter().getCount()==7,"Expected system default plus six language choices");
   ActivityMonitor monitor=addMonitor(MainActivity.class.getName(),null,false);runOnMainSync(()->selector[0].setSelection(2));switched=monitor.waitForActivityWithTimeout(20000);removeMonitor(monitor);require(switched!=null,"Language selection did not recreate Activity");waitForIdleSync();

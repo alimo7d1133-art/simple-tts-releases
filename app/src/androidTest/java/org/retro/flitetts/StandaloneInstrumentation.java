@@ -73,7 +73,7 @@ public final class StandaloneInstrumentation extends Instrumentation {
     }
 
     private void verifyRegistry() {
-        require(EngineRegistry.all().size() == 11, "expected 11 engines");
+        require(EngineRegistry.all().size() == 12, "expected 12 engines");
         int voices = 0;
         for (EnginePlugin engine : EngineRegistry.all()) {
             require(engine.voiceIds().length == engine.voiceLabels().length,
@@ -157,9 +157,9 @@ public final class StandaloneInstrumentation extends Instrumentation {
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
         waitForIdleSync();
         View root = activity.getWindow().getDecorView();
-        require(count(root, Spinner.class) == 3, "UI must expose 3 spinners");
+        require(count(root, Spinner.class) == 4, "UI must expose 4 spinners (language, engine, installed-engine picker, voice)");
         require(count(root, SeekBar.class) == 2, "UI must expose 2 seekbars");
-        require(count(root, Button.class) == 6, "UI must expose 6 buttons (excluding Switch controls)");
+        require(count(root, Button.class) == 7, "UI must expose 7 buttons (excluding Switch controls)");
         require(find(root, EditText.class) != null, "UI missing sample editor");
         require(activity.getString(R.string.standalone_notice).length() > 0,
                 "standalone_notice resource missing");

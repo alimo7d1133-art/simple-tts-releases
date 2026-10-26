@@ -1,0 +1,29 @@
+{
+ "files": [
+  {
+   "path": "en1",
+   "sha256": "edb8eaae6f0e38493d88ed627518632e6ff8a3843bcf08474a1a70aa786fd99f",
+   "size": 6716280
+  },
+  {
+   "path": "us1",
+   "sha256": "9f1cd90de6334f43cb4f7348cacd0806fb414b0fbc762492bde7000b9e192a9a",
+   "size": 7238094
+  },
+  {
+   "path": "us2",
+   "sha256": "75f7f6b605945f4b65713c3ad1fba5be38fb720cde01bdc3d2facf988634c0d5",
+   "size": 7080251
+  },
+  {
+   "path": "us3",
+   "sha256": "7cc5c49e098f80091e34ed0bd50f0af3908ac2427fbbe7d2b16c57defb7611ec",
+   "size": 7410252
+  }
+ ],
+ "format": 1,
+ "pack": "mbrola-english",
+ "target": "mbrola-v120",
+ "title": "MBROLA English (EN1, US1, US2, US3)",
+ "version": "1.9.0"
+}

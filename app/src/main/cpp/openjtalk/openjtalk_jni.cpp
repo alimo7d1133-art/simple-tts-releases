@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include <jni.h>
 #include <android/asset_manager_jni.h>
 #include <android/asset_manager.h>
@@ -81,7 +82,10 @@ extern "C" JNIEXPORT jboolean JNICALL Java_org_retro_flitetts_OpenJtalkPlugin_na
     AAssetManager* manager = AAssetManager_fromJava(env, assetManager); if (!manager) return JNI_FALSE;
     if (mkdir(g_root.c_str(), 0755) != 0 && errno != EEXIST) return JNI_FALSE;
     const std::string dict = g_root + "/dict", voice = g_root + "/voice";
-    if (!copyFlatDir(manager, "openjtalk/open_jtalk_dic_utf_8-1.11", dict) || (mkdir(voice.c_str(), 0755) != 0 && errno != EEXIST) || !copyAsset(manager, "openjtalk/voice/nitech_jp_atr503_m001.htsvoice", voice + "/nitech_jp_atr503_m001.htsvoice")) return JNI_FALSE;
+    const std::string voiceFile0 = voice + "/nitech_jp_atr503_m001.htsvoice";
+    /* Dictionary and voice come from the optional openjtalk-ja pack, already verified and placed in the private files directory. */
+    if (access((dict + "/sys.dic").c_str(), R_OK) != 0 || access(voiceFile0.c_str(), R_OK) != 0) return JNI_FALSE;
+    (void)manager;
     Open_JTalk_initialize(&g_oj);
     std::string voiceFile = voice + "/nitech_jp_atr503_m001.htsvoice";
     if (!Open_JTalk_load(&g_oj, const_cast<char*>(dict.c_str()), const_cast<char*>(voiceFile.c_str()))) { Open_JTalk_clear(&g_oj); return JNI_FALSE; }

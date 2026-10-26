@@ -1,0 +1,14 @@
+{
+ "files": [
+  {
+   "path": "cmu_indic_pan_amp.flitevox",
+   "sha256": "b5edeff169f1e443b364fc5beaa3af07b17e94b0f807edf64bdc40f852bd5143",
+   "size": 8035698
+  }
+ ],
+ "format": 1,
+ "pack": "flite-indic-pa",
+ "target": "flite-extra",
+ "title": "Punjabi (CMU Indic)",
+ "version": "1.9.0"
+}

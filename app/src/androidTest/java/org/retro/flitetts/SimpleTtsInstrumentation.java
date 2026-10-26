@@ -20,14 +20,14 @@ public final class SimpleTtsInstrumentation extends Instrumentation {
   Context c=getTargetContext();PackageManager pm=c.getPackageManager();
   PackageInfo info=pm.getPackageInfo(c.getPackageName(),PackageManager.GET_PERMISSIONS);
   require("org.oldtts.android".equals(c.getPackageName()),"Upgrade package changed");
-  require(info.getLongVersionCode()==11&&"1.8.0".equals(info.versionName),"Wrong release version");
+  require(info.getLongVersionCode()==12&&"1.9.0".equals(info.versionName),"Wrong release version");
   for(String permission:info.requestedPermissions==null?new String[0]:info.requestedPermissions){
    require(!permission.equals("android.permission.INTERNET")&&!permission.equals("android.permission.RECORD_AUDIO"),"Unexpected permission "+permission);
   }
   int voices=0;Set<String> engineIds=new HashSet<>(),voiceIds=new HashSet<>();
   for(EnginePlugin e:EngineRegistry.all()){
    require(engineIds.add(e.id()),"Duplicate engine id "+e.id());
-   require(e.voiceIds().length>0&&e.voiceIds().length==e.voiceLabels().length,"Voice metadata "+e.id());
+   require((e.voiceIds().length>0||"system".equals(e.id()))&&e.voiceIds().length==e.voiceLabels().length,"Voice metadata "+e.id());
    for(int i=0;i<e.voiceIds().length;i++){
     require(voiceIds.add(EngineRegistry.voiceName(e,i)),"Duplicate voice id");
     require(EngineRegistry.resolve(EngineRegistry.voiceName(e,i))!=null,"Voice resolution");

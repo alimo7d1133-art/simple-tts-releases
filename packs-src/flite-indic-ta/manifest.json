@@ -1,0 +1,14 @@
+{
+ "files": [
+  {
+   "path": "cmu_indic_tam_sdr.flitevox",
+   "sha256": "48cd0b0061f70201f2957a097c9800fb6b1030a442e425ea88b415dde0938a58",
+   "size": 11361848
+  }
+ ],
+ "format": 1,
+ "pack": "flite-indic-ta",
+ "target": "flite-extra",
+ "title": "Tamil (CMU Indic)",
+ "version": "1.9.0"
+}

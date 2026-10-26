@@ -1,0 +1,29 @@
+{
+ "files": [
+  {
+   "path": "cmu_us_aew.flitevox",
+   "sha256": "5fd165e5ea219236e9c20e338efb140163380472f22d60c7a1f79b4997cad50c",
+   "size": 12640161
+  },
+  {
+   "path": "cmu_us_bdl.flitevox",
+   "sha256": "e274b108ae41120566290ba8beb4a5141abdc9c1ae1e446c5ab2981ef4683551",
+   "size": 10283514
+  },
+  {
+   "path": "cmu_us_clb.flitevox",
+   "sha256": "709bd0e8acac4374e8beb704da7e31cd254385a4c73bafb6e3390a6d1281e885",
+   "size": 12538083
+  },
+  {
+   "path": "cmu_us_jmk.flitevox",
+   "sha256": "deb85a2d90cd8aef2104431cccf096cdba6485c5b83a85330a948657ae6eb5d5",
+   "size": 10401617
+  }
+ ],
+ "format": 1,
+ "pack": "flite-en-us-1",
+ "target": "flite-extra",
+ "title": "American/Canadian English CMU ARCTIC, part 1 (bdl, clb, jmk, aew)",
+ "version": "1.9.0"
+}

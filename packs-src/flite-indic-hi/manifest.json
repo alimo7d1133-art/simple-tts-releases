@@ -1,0 +1,14 @@
+{
+ "files": [
+  {
+   "path": "cmu_indic_hin_ab.flitevox",
+   "sha256": "4be49f3da1c46c32f155d74974c73bcf10ffd91ec508c74210274fc074cf60ad",
+   "size": 30897320
+  }
+ ],
+ "format": 1,
+ "pack": "flite-indic-hi",
+ "target": "flite-extra",
+ "title": "Hindi (CMU Indic)",
+ "version": "1.9.0"
+}

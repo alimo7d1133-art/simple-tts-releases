@@ -1,0 +1,9510 @@
+[
+ {
+  "files": [
+   {
+    "path": "cmu_us_aew.flitevox",
+    "size": 12640161
+   },
+   {
+    "path": "cmu_us_bdl.flitevox",
+    "size": 10283514
+   },
+   {
+    "path": "cmu_us_clb.flitevox",
+    "size": 12538083
+   },
+   {
+    "path": "cmu_us_jmk.flitevox",
+    "size": 10401617
+   }
+  ],
+  "id": "flite-en-us-1",
+  "installBytes": 45863375,
+  "manifestSha256": "a01281535cc5f37d2adeffd25e008cfb8158ecc1c1f85354a2613cced522078a",
+  "target": "flite-extra",
+  "title": "American/Canadian English CMU ARCTIC, part 1 (bdl, clb, jmk, aew)",
+  "zip": "flite-en-us-1.zip",
+  "zipBytes": 35942520,
+  "zipSha256": "b0004f871575e3f46961fb3c7eae484779617057aaf5e069433e044530f652fc"
+ },
+ {
+  "files": [
+   {
+    "path": "cmu_us_ahw.flitevox",
+    "size": 6949326
+   },
+   {
+    "path": "cmu_us_eey.flitevox",
+    "size": 6092398
+   },
+   {
+    "path": "cmu_us_fem.flitevox",
+    "size": 6193447
+   },
+   {
+    "path": "cmu_us_ljm.flitevox",
+    "size": 5688553
+   },
+   {
+    "path": "cmu_us_lnh.flitevox",
+    "size": 11903497
+   },
+   {
+    "path": "cmu_us_rxr.flitevox",
+    "size": 7645602
+   }
+  ],
+  "id": "flite-en-us-2",
+  "installBytes": 44472823,
+  "manifestSha256": "291903757d4f466499fd728a5178f67788669836b8a399be737c0a0642905d8d",
+  "target": "flite-extra",
+  "title": "American English CMU ARCTIC, part 2 (ahw, eey, fem, ljm, lnh, rxr)",
+  "zip": "flite-en-us-2.zip",
+  "zipBytes": 34475495,
+  "zipSha256": "57323dbcaab11f9ab97112f0905cc662ddc23be2477b8365518ef946c18514ac"
+ },
+ {
+  "files": [
+   {
+    "path": "cmu_us_aup.flitevox",
+    "size": 5701990
+   },
+   {
+    "path": "cmu_us_axb.flitevox",
+    "size": 7260569
+   },
+   {
+    "path": "cmu_us_gka.flitevox",
+    "size": 6902785
+   },
+   {
+    "path": "cmu_us_ksp.flitevox",
+    "size": 11765452
+   },
+   {
+    "path": "cmu_us_slp.flitevox",
+    "size": 7280743
+   }
+  ],
+  "id": "flite-en-in",
+  "installBytes": 38911539,
+  "manifestSha256": "8de0e7ec4538cf904885caf7e75a51d0723aa947d6d10843ab9ad14b2bd22074",
+  "target": "flite-extra",
+  "title": "Indian-accent English CMU ARCTIC (ksp, aup, axb, gka, slp)",
+  "zip": "flite-en-in.zip",
+  "zipBytes": 30216540,
+  "zipSha256": "9095c3dad8251008f099c6b5ed4cac79d138a294cac806c8e5b3e645c9899157"
+ },
+ {
+  "files": [
+   {
+    "path": "cmu_indic_hin_ab.flitevox",
+    "size": 30897320
+   }
+  ],
+  "id": "flite-indic-hi",
+  "installBytes": 30897320,
+  "manifestSha256": "7926e05e4947760b07228ddf08f1176b33d588dca49767d537bffa5e51fe57c4",
+  "target": "flite-extra",
+  "title": "Hindi (CMU Indic)",
+  "zip": "flite-indic-hi.zip",
+  "zipBytes": 24755504,
+  "zipSha256": "2d46b4e3573cec368cbca8ded5e9a0478dc2ba85349a12feddfcc19b0c41b08c"
+ },
+ {
+  "files": [
+   {
+    "path": "cmu_indic_ben_rm.flitevox",
+    "size": 8868578
+   }
+  ],
+  "id": "flite-indic-bn",
+  "installBytes": 8868578,
+  "manifestSha256": "56f6ee9669c888842f7f058998b0c2e3f05bea4c70539554be0a4ac15ec7998d",
+  "target": "flite-extra",
+  "title": "Bengali (CMU Indic)",
+  "zip": "flite-indic-bn.zip",
+  "zipBytes": 7053100,
+  "zipSha256": "e10dcd8797df103b6f1280d40a2e186cc065160c95ea94285c01b10b8a9cbedb"
+ },
+ {
+  "files": [
+   {
+    "path": "cmu_indic_guj_ad.flitevox",
+    "size": 11368818
+   },
+   {
+    "path": "cmu_indic_guj_dp.flitevox",
+    "size": 10235186
+   },
+   {
+    "path": "cmu_indic_guj_kt.flitevox",
+    "size": 5912668
+   }
+  ],
+  "id": "flite-indic-gu",
+  "installBytes": 27516672,
+  "manifestSha256": "2f3cf70fe2090f5b30e28f333faa791f869898b1054a1be04c3a3a8cb9ece7f9",
+  "target": "flite-extra",
+  "title": "Gujarati (CMU Indic, 3 voices)",
+  "zip": "flite-indic-gu.zip",
+  "zipBytes": 21831774,
+  "zipSha256": "f8e2b5edf9f2d82c4bcb252ebf58ac7f4c96a848f79f72b8a1cdb862566da675"
+ },
+ {
+  "files": [
+   {
+    "path": "cmu_indic_kan_plv.flitevox",
+    "size": 8901763
+   }
+  ],
+  "id": "flite-indic-kn",
+  "installBytes": 8901763,
+  "manifestSha256": "beb8793d4aa755f9717a9e7239179f9901a7c75762c442d2275374a26a2ef6c0",
+  "target": "flite-extra",
+  "title": "Kannada (CMU Indic)",
+  "zip": "flite-indic-kn.zip",
+  "zipBytes": 7109232,
+  "zipSha256": "93678593309c41619b7f83d5483120ad34ae2a89e35b1cb0353ee36bbd20d8e6"
+ },
+ {
+  "files": [
+   {
+    "path": "cmu_indic_mar_aup.flitevox",
+    "size": 11815465
+   },
+   {
+    "path": "cmu_indic_mar_slp.flitevox",
+    "size": 13418271
+   }
+  ],
+  "id": "flite-indic-mr",
+  "installBytes": 25233736,
+  "manifestSha256": "07c186fe580f3731d49e6eaa0fa908ef0c0eabe27d7d1cad169d41c48244e061",
+  "target": "flite-extra",
+  "title": "Marathi (CMU Indic, 2 voices)",
+  "zip": "flite-indic-mr.zip",
+  "zipBytes": 19617306,
+  "zipSha256": "fd252ebb1792f40ab6c50ff3b48bdc364e2158646069943c8473ca3ff5bc6801"
+ },
+ {
+  "files": [
+   {
+    "path": "cmu_indic_pan_amp.flitevox",
+    "size": 8035698
+   }
+  ],
+  "id": "flite-indic-pa",
+  "installBytes": 8035698,
+  "manifestSha256": "d52ad54a558d2e80f9055bc70a4c295ba7eff550c865d523a7d890a126a8298b",
+  "target": "flite-extra",
+  "title": "Punjabi (CMU Indic)",
+  "zip": "flite-indic-pa.zip",
+  "zipBytes": 6315693,
+  "zipSha256": "86a8682c32e7ac20e1b41e91ec6c175430a59c38ac854a4881dc6b263cdfcb50"
+ },
+ {
+  "files": [
+   {
+    "path": "cmu_indic_tam_sdr.flitevox",
+    "size": 11361848
+   }
+  ],
+  "id": "flite-indic-ta",
+  "installBytes": 11361848,
+  "manifestSha256": "0cc9b81af0d8da1aa4d341363171788c6733759b7cbcfa22f8fa923f59db1d68",
+  "target": "flite-extra",
+  "title": "Tamil (CMU Indic)",
+  "zip": "flite-indic-ta.zip",
+  "zipBytes": 8841179,
+  "zipSha256": "a360dc3e08bc773adcf1cef08320ffdb7cf5e39a39215ff49da1e190b2ccda7e"
+ },
+ {
+  "files": [
+   {
+    "path": "cmu_indic_tel_kpn.flitevox",
+    "size": 13379640
+   },
+   {
+    "path": "cmu_indic_tel_sk.flitevox",
+    "size": 13740312
+   },
+   {
+    "path": "cmu_indic_tel_ss.flitevox",
+    "size": 22656084
+   }
+  ],
+  "id": "flite-indic-te",
+  "installBytes": 49776036,
+  "manifestSha256": "c56023b8bd606b74c8c7b139ae3dafd6d83a7bd447b19e2f3410426d9b897eaf",
+  "target": "flite-extra",
+  "title": "Telugu (CMU Indic, 3 voices)",
+  "zip": "flite-indic-te.zip",
+  "zipBytes": 39823636,
+  "zipSha256": "1af38f171f3ee977b84b2cdbeaff61fb8f7c137c924c6cf856ac6afc75ba7e51"
+ },
+ {
+  "files": [
+   {
+    "path": "en1",
+    "size": 6716280
+   },
+   {
+    "path": "us1",
+    "size": 7238094
+   },
+   {
+    "path": "us2",
+    "size": 7080251
+   },
+   {
+    "path": "us3",
+    "size": 7410252
+   }
+  ],
+  "id": "mbrola-english",
+  "installBytes": 28444877,
+  "manifestSha256": "573589abb0df62cbb1aa41d9a44e888b2319dae879ff1fba19eaebe95073dd2a",
+  "target": "mbrola-v120",
+  "title": "MBROLA English (EN1, US1, US2, US3)",
+  "zip": "mbrola-english.zip",
+  "zipBytes": 24944454,
+  "zipSha256": "252425178373eb52cb55ece864c1483ab6f0cd9fe066546e4c50ab91d17faf49"
+ },
+ {
+  "files": [
+   {
+    "path": "dict/char.bin",
+    "size": 262496
+   },
+   {
+    "path": "dict/left-id.def",
+    "size": 77672
+   },
+   {
+    "path": "dict/matrix.bin",
+    "size": 3792262
+   },
+   {
+    "path": "dict/pos-id.def",
+    "size": 1923
+   },
+   {
+    "path": "dict/rewrite.def",
+    "size": 7457
+   },
+   {
+    "path": "dict/right-id.def",
+    "size": 77672
+   },
+   {
+    "path": "dict/sys.dic",
+    "size": 103073776
+   },
+   {
+    "path": "dict/unk.dic",
+    "size": 5690
+   },
+   {
+    "path": "voice/nitech_jp_atr503_m001.htsvoice",
+    "size": 1169264
+   }
+  ],
+  "id": "openjtalk-ja",
+  "installBytes": 108468212,
+  "manifestSha256": "f19e4eb57a76ce3adf2c3cc51e5b8ed1fe7522481f34e80b9d837daaedaf6759",
+  "target": "openjtalk",
+  "title": "Open JTalk Japanese (dictionary and Nitech voice)",
+  "zip": "openjtalk-ja.zip",
+  "zipBytes": 24408294,
+  "zipSha256": "f2152697f934f704cc0e10b7f5c409b5668b7e62b034d9575eb9e3e8eb2b1034"
+ },
+ {
+  "files": [
+   {
+    "path": "installed",
+    "size": 1
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aa1.wav",
+    "size": 8262
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aa2.wav",
+    "size": 8114
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aa3.wav",
+    "size": 8320
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aa5.wav",
+    "size": 8118
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aa6.wav",
+    "size": 8136
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aai1.wav",
+    "size": 8442
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aai2.wav",
+    "size": 8468
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aai3.wav",
+    "size": 8618
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aak1.wav",
+    "size": 7976
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aak3.wav",
+    "size": 7530
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aam1.wav",
+    "size": 8480
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aam2.wav",
+    "size": 8896
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aam3.wav",
+    "size": 9168
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aam4.wav",
+    "size": 9284
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aan3.wav",
+    "size": 8658
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aang1.wav",
+    "size": 10022
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aap3.wav",
+    "size": 7388
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aap6.wav",
+    "size": 6050
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aat1.wav",
+    "size": 6798
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aat3.wav",
+    "size": 7412
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aau1.wav",
+    "size": 8220
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aau2.wav",
+    "size": 8090
+   },
+   {
+    "path": "jyutping-wong-16000-v6/aau3.wav",
+    "size": 8082
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ai1.wav",
+    "size": 8172
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ai2.wav",
+    "size": 8062
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ai3.wav",
+    "size": 8656
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ak1.wav",
+    "size": 7482
+   },
+   {
+    "path": "jyutping-wong-16000-v6/am1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/am2.wav",
+    "size": 10244
+   },
+   {
+    "path": "jyutping-wong-16000-v6/am3.wav",
+    "size": 10786
+   },
+   {
+    "path": "jyutping-wong-16000-v6/am6.wav",
+    "size": 10150
+   },
+   {
+    "path": "jyutping-wong-16000-v6/an2.wav",
+    "size": 9824
+   },
+   {
+    "path": "jyutping-wong-16000-v6/an3.wav",
+    "size": 10540
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ang1.wav",
+    "size": 7684
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ang2.wav",
+    "size": 8230
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ap1.wav",
+    "size": 5686
+   },
+   {
+    "path": "jyutping-wong-16000-v6/at1.wav",
+    "size": 6800
+   },
+   {
+    "path": "jyutping-wong-16000-v6/at3.wav",
+    "size": 6800
+   },
+   {
+    "path": "jyutping-wong-16000-v6/au1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/au2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/au3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/au6.wav",
+    "size": 9046
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baa1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baa2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baa3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baa6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baai1.wav",
+    "size": 9744
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baai2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baai3.wav",
+    "size": 10628
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baai6.wav",
+    "size": 10064
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baak1.wav",
+    "size": 7940
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baak3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baak6.wav",
+    "size": 8712
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baan1.wav",
+    "size": 10492
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baan2.wav",
+    "size": 10520
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baan3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baan6.wav",
+    "size": 10570
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baang1.wav",
+    "size": 10744
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baang4.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baang6.wav",
+    "size": 10558
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baat1.wav",
+    "size": 8838
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baat3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baat6.wav",
+    "size": 8716
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baau1.wav",
+    "size": 9714
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baau2.wav",
+    "size": 10746
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baau3.wav",
+    "size": 10706
+   },
+   {
+    "path": "jyutping-wong-16000-v6/baau6.wav",
+    "size": 9696
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bai1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bai2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bai3.wav",
+    "size": 10192
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bai6.wav",
+    "size": 10026
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bak1.wav",
+    "size": 6790
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bak3.wav",
+    "size": 7362
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bak6.wav",
+    "size": 7092
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bam1.wav",
+    "size": 9822
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ban1.wav",
+    "size": 10630
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ban2.wav",
+    "size": 10788
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ban3.wav",
+    "size": 10484
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ban6.wav",
+    "size": 10302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bang1.wav",
+    "size": 10412
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bang2.wav",
+    "size": 9866
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bang5.wav",
+    "size": 10332
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bat1.wav",
+    "size": 6742
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bat6.wav",
+    "size": 6800
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bau1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bau2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bau6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/be1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/be6.wav",
+    "size": 10154
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bei1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bei2.wav",
+    "size": 9726
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bei3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bei4.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bei6.wav",
+    "size": 9740
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bek3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/beng2.wav",
+    "size": 10312
+   },
+   {
+    "path": "jyutping-wong-16000-v6/beng3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/beng6.wav",
+    "size": 10374
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bik1.wav",
+    "size": 5536
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bik3.wav",
+    "size": 7304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bik6.wav",
+    "size": 6184
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bin1.wav",
+    "size": 10068
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bin2.wav",
+    "size": 11286
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bin3.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bin6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bing1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bing2.wav",
+    "size": 11008
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bing3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bing4.wav",
+    "size": 9888
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bing6.wav",
+    "size": 10728
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bit1.wav",
+    "size": 6800
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bit3.wav",
+    "size": 8980
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bit6.wav",
+    "size": 7946
+   },
+   {
+    "path": "jyutping-wong-16000-v6/biu1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/biu2.wav",
+    "size": 9720
+   },
+   {
+    "path": "jyutping-wong-16000-v6/biu3.wav",
+    "size": 10852
+   },
+   {
+    "path": "jyutping-wong-16000-v6/biu6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bo1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bo2.wav",
+    "size": 10312
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bo3.wav",
+    "size": 10270
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bok1.wav",
+    "size": 6782
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bok3.wav",
+    "size": 8112
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bok6.wav",
+    "size": 7542
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bong1.wav",
+    "size": 10596
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bong2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bong3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bong4.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bong6.wav",
+    "size": 11226
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bou1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bou2.wav",
+    "size": 9764
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bou3.wav",
+    "size": 10430
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bou4.wav",
+    "size": 9050
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bou6.wav",
+    "size": 9958
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bu4.wav",
+    "size": 10072
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bui1.wav",
+    "size": 10358
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bui3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bui4.wav",
+    "size": 10528
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bui6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/buk1.wav",
+    "size": 6800
+   },
+   {
+    "path": "jyutping-wong-16000-v6/buk6.wav",
+    "size": 8784
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bun1.wav",
+    "size": 10286
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bun2.wav",
+    "size": 10316
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bun3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bun6.wav",
+    "size": 10668
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bung2.wav",
+    "size": 11300
+   },
+   {
+    "path": "jyutping-wong-16000-v6/bung6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/but1.wav",
+    "size": 8030
+   },
+   {
+    "path": "jyutping-wong-16000-v6/but3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/but6.wav",
+    "size": 9046
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caa1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caa2.wav",
+    "size": 12024
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caa3.wav",
+    "size": 13352
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caa4.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caa5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caai1.wav",
+    "size": 12038
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caai2.wav",
+    "size": 12086
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caai3.wav",
+    "size": 12558
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caai4.wav",
+    "size": 12486
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caak1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caak3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caak6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caam1.wav",
+    "size": 12018
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caam2.wav",
+    "size": 13008
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caam3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caam4.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caam5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caan1.wav",
+    "size": 12976
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caan2.wav",
+    "size": 13010
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caan3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caan4.wav",
+    "size": 13290
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caan5.wav",
+    "size": 13386
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caang1.wav",
+    "size": 12060
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caang2.wav",
+    "size": 12184
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caang3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caang4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caap1.wav",
+    "size": 10678
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caap3.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caat3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caau1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caau2.wav",
+    "size": 11988
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caau3.wav",
+    "size": 13490
+   },
+   {
+    "path": "jyutping-wong-16000-v6/caau4.wav",
+    "size": 12750
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cai3.wav",
+    "size": 12202
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cai4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cai5.wav",
+    "size": 12542
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cai6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cak1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cak3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cam1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cam2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cam3.wav",
+    "size": 12428
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cam4.wav",
+    "size": 10686
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cam5.wav",
+    "size": 12534
+   },
+   {
+    "path": "jyutping-wong-16000-v6/can1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/can2.wav",
+    "size": 12024
+   },
+   {
+    "path": "jyutping-wong-16000-v6/can3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/can4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/can5.wav",
+    "size": 12058
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cang2.wav",
+    "size": 12526
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cang4.wav",
+    "size": 11920
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cap1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cap3.wav",
+    "size": 9612
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cat1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cat3.wav",
+    "size": 10420
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cat6.wav",
+    "size": 9044
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cau1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cau2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cau3.wav",
+    "size": 12890
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cau4.wav",
+    "size": 11276
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cau5.wav",
+    "size": 12344
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ce1.wav",
+    "size": 11284
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ce2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ce3.wav",
+    "size": 12210
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ce4.wav",
+    "size": 10812
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ce5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ce6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cek3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ceng1.wav",
+    "size": 9014
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ceng2.wav",
+    "size": 10414
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ceng4.wav",
+    "size": 10776
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ceoi1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ceoi2.wav",
+    "size": 12456
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ceoi3.wav",
+    "size": 12682
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ceoi4.wav",
+    "size": 11744
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ceoi5.wav",
+    "size": 13000
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ceon1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ceon2.wav",
+    "size": 13238
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ceon4.wav",
+    "size": 12516
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ceot1.wav",
+    "size": 7814
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ci1.wav",
+    "size": 11118
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ci2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ci3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ci4.wav",
+    "size": 11130
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ci5.wav",
+    "size": 12030
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cik1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cik3.wav",
+    "size": 10288
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cim1.wav",
+    "size": 12564
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cim2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cim3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cim4.wav",
+    "size": 13530
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cin1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cin2.wav",
+    "size": 13552
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cin4.wav",
+    "size": 12612
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cin5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cing1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cing2.wav",
+    "size": 9050
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cing3.wav",
+    "size": 12520
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cing4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cing6.wav",
+    "size": 12046
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cip3.wav",
+    "size": 10388
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cit1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cit3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ciu1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ciu2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ciu3.wav",
+    "size": 13354
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ciu4.wav",
+    "size": 11236
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ciu5.wav",
+    "size": 12056
+   },
+   {
+    "path": "jyutping-wong-16000-v6/co1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/co2.wav",
+    "size": 12006
+   },
+   {
+    "path": "jyutping-wong-16000-v6/co3.wav",
+    "size": 12658
+   },
+   {
+    "path": "jyutping-wong-16000-v6/co4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/co5.wav",
+    "size": 12114
+   },
+   {
+    "path": "jyutping-wong-16000-v6/coei3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/coek3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/coek5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/coeng1.wav",
+    "size": 13272
+   },
+   {
+    "path": "jyutping-wong-16000-v6/coeng2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/coeng3.wav",
+    "size": 12940
+   },
+   {
+    "path": "jyutping-wong-16000-v6/coeng4.wav",
+    "size": 12390
+   },
+   {
+    "path": "jyutping-wong-16000-v6/coi1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/coi2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/coi3.wav",
+    "size": 12878
+   },
+   {
+    "path": "jyutping-wong-16000-v6/coi4.wav",
+    "size": 11290
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cok3.wav",
+    "size": 12068
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cong1.wav",
+    "size": 12664
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cong2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cong3.wav",
+    "size": 14434
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cong4.wav",
+    "size": 12814
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cou1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cou2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cou3.wav",
+    "size": 13270
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cou4.wav",
+    "size": 12546
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cou5.wav",
+    "size": 13398
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cuk1.wav",
+    "size": 8796
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cuk3.wav",
+    "size": 10488
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cuk6.wav",
+    "size": 9854
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cun1.wav",
+    "size": 12122
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cung1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cung2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cung3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cung4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cung5.wav",
+    "size": 13554
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cyu1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cyu2.wav",
+    "size": 13180
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cyu3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cyu4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cyu5.wav",
+    "size": 12848
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cyun1.wav",
+    "size": 12744
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cyun2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cyun3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cyun4.wav",
+    "size": 13478
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cyun5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cyut1.wav",
+    "size": 9804
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cyut3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/cyut6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daa1.wav",
+    "size": 10298
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daa2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daai2.wav",
+    "size": 11252
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daai3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daai4.wav",
+    "size": 10796
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daai6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daak1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daam1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daam2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daam3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daam6.wav",
+    "size": 11986
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daan1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daan2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daan3.wav",
+    "size": 12040
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daan6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daap3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daap6.wav",
+    "size": 8608
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daat3.wav",
+    "size": 9048
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daat6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daau1.wav",
+    "size": 10582
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daau2.wav",
+    "size": 10268
+   },
+   {
+    "path": "jyutping-wong-16000-v6/daau6.wav",
+    "size": 10858
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dai1.wav",
+    "size": 9050
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dai2.wav",
+    "size": 9740
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dai3.wav",
+    "size": 10442
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dai6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dak1.wav",
+    "size": 6798
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dak6.wav",
+    "size": 8168
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dam1.wav",
+    "size": 9806
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dam2.wav",
+    "size": 10088
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dam3.wav",
+    "size": 11000
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dam4.wav",
+    "size": 8932
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dam6.wav",
+    "size": 11208
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dan1.wav",
+    "size": 9802
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dan2.wav",
+    "size": 9822
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dan3.wav",
+    "size": 10720
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dan6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dang1.wav",
+    "size": 10396
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dang2.wav",
+    "size": 9822
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dang3.wav",
+    "size": 11284
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dang6.wav",
+    "size": 10930
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dap1.wav",
+    "size": 6440
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dap3.wav",
+    "size": 8104
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dap6.wav",
+    "size": 6556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dat1.wav",
+    "size": 6796
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dat3.wav",
+    "size": 6800
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dat6.wav",
+    "size": 7706
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dau1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dau2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dau3.wav",
+    "size": 10686
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dau6.wav",
+    "size": 9896
+   },
+   {
+    "path": "jyutping-wong-16000-v6/de1.wav",
+    "size": 9042
+   },
+   {
+    "path": "jyutping-wong-16000-v6/de2.wav",
+    "size": 9800
+   },
+   {
+    "path": "jyutping-wong-16000-v6/de4.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dei2.wav",
+    "size": 6798
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dei6.wav",
+    "size": 8332
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dek6.wav",
+    "size": 9044
+   },
+   {
+    "path": "jyutping-wong-16000-v6/deng1.wav",
+    "size": 10594
+   },
+   {
+    "path": "jyutping-wong-16000-v6/deng2.wav",
+    "size": 9810
+   },
+   {
+    "path": "jyutping-wong-16000-v6/deng3.wav",
+    "size": 11300
+   },
+   {
+    "path": "jyutping-wong-16000-v6/deng6.wav",
+    "size": 10812
+   },
+   {
+    "path": "jyutping-wong-16000-v6/deoi1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/deoi2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/deoi3.wav",
+    "size": 10390
+   },
+   {
+    "path": "jyutping-wong-16000-v6/deoi6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/deon1.wav",
+    "size": 10294
+   },
+   {
+    "path": "jyutping-wong-16000-v6/deon6.wav",
+    "size": 10586
+   },
+   {
+    "path": "jyutping-wong-16000-v6/deot1.wav",
+    "size": 7180
+   },
+   {
+    "path": "jyutping-wong-16000-v6/deu6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/di1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/di4.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dik1.wav",
+    "size": 7540
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dik6.wav",
+    "size": 7548
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dim1.wav",
+    "size": 11048
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dim2.wav",
+    "size": 11292
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dim3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dim6.wav",
+    "size": 9892
+   },
+   {
+    "path": "jyutping-wong-16000-v6/din1.wav",
+    "size": 10016
+   },
+   {
+    "path": "jyutping-wong-16000-v6/din2.wav",
+    "size": 10398
+   },
+   {
+    "path": "jyutping-wong-16000-v6/din3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/din6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ding1.wav",
+    "size": 11290
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ding2.wav",
+    "size": 10858
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ding3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ding6.wav",
+    "size": 9732
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dip6.wav",
+    "size": 8038
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dit3.wav",
+    "size": 8432
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dit6.wav",
+    "size": 8076
+   },
+   {
+    "path": "jyutping-wong-16000-v6/diu1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/diu2.wav",
+    "size": 9768
+   },
+   {
+    "path": "jyutping-wong-16000-v6/diu3.wav",
+    "size": 11294
+   },
+   {
+    "path": "jyutping-wong-16000-v6/diu6.wav",
+    "size": 9962
+   },
+   {
+    "path": "jyutping-wong-16000-v6/do1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/do2.wav",
+    "size": 9836
+   },
+   {
+    "path": "jyutping-wong-16000-v6/do3.wav",
+    "size": 10076
+   },
+   {
+    "path": "jyutping-wong-16000-v6/do6.wav",
+    "size": 9758
+   },
+   {
+    "path": "jyutping-wong-16000-v6/doe1.wav",
+    "size": 9782
+   },
+   {
+    "path": "jyutping-wong-16000-v6/doe2.wav",
+    "size": 10492
+   },
+   {
+    "path": "jyutping-wong-16000-v6/doe3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/doe4.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/doe6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/doek3.wav",
+    "size": 9746
+   },
+   {
+    "path": "jyutping-wong-16000-v6/doek6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/doeng1.wav",
+    "size": 10806
+   },
+   {
+    "path": "jyutping-wong-16000-v6/doi6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dok6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dong1.wav",
+    "size": 10632
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dong2.wav",
+    "size": 10648
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dong3.wav",
+    "size": 10908
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dong6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dou1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dou2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dou3.wav",
+    "size": 9748
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dou6.wav",
+    "size": 9740
+   },
+   {
+    "path": "jyutping-wong-16000-v6/duk1.wav",
+    "size": 7512
+   },
+   {
+    "path": "jyutping-wong-16000-v6/duk6.wav",
+    "size": 8450
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dung1.wav",
+    "size": 10498
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dung2.wav",
+    "size": 11118
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dung3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dung4.wav",
+    "size": 9908
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dung6.wav",
+    "size": 11300
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dyun1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dyun2.wav",
+    "size": 11292
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dyun3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dyun6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dyut1.wav",
+    "size": 8210
+   },
+   {
+    "path": "jyutping-wong-16000-v6/dyut6.wav",
+    "size": 8774
+   },
+   {
+    "path": "jyutping-wong-16000-v6/e4.wav",
+    "size": 8646
+   },
+   {
+    "path": "jyutping-wong-16000-v6/e6.wav",
+    "size": 7894
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ei6.wav",
+    "size": 11150
+   },
+   {
+    "path": "jyutping-wong-16000-v6/eot1.wav",
+    "size": 8446
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faa1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faa3.wav",
+    "size": 14450
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faa6.wav",
+    "size": 11998
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faai1.wav",
+    "size": 13418
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faai2.wav",
+    "size": 12974
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faai3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faai4.wav",
+    "size": 12812
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faai6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faak1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faan1.wav",
+    "size": 13414
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faan2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faan3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faan4.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faan5.wav",
+    "size": 14244
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faan6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faat1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faat3.wav",
+    "size": 12012
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faat6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faau2.wav",
+    "size": 12998
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faau4.wav",
+    "size": 11284
+   },
+   {
+    "path": "jyutping-wong-16000-v6/faau6.wav",
+    "size": 13312
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fai2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fai3.wav",
+    "size": 13408
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fai6.wav",
+    "size": 11996
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fan1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fan2.wav",
+    "size": 12068
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fan3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fan4.wav",
+    "size": 13146
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fan5.wav",
+    "size": 12820
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fan6.wav",
+    "size": 12902
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fang4.wav",
+    "size": 13238
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fang6.wav",
+    "size": 12216
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fat1.wav",
+    "size": 10310
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fat3.wav",
+    "size": 10110
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fat6.wav",
+    "size": 9766
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fau2.wav",
+    "size": 12582
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fau4.wav",
+    "size": 11884
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fau6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fe1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fe3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fei1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fei2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fei4.wav",
+    "size": 11928
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fei6.wav",
+    "size": 12098
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fik1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fing3.wav",
+    "size": 12234
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fit1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fiu3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fo1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fo2.wav",
+    "size": 12000
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fo3.wav",
+    "size": 12046
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fok3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fong1.wav",
+    "size": 12006
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fong2.wav",
+    "size": 12030
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fong3.wav",
+    "size": 13000
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fong4.wav",
+    "size": 12944
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fu1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fu2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fu3.wav",
+    "size": 12554
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fu4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fu5.wav",
+    "size": 12198
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fu6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fui1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fui2.wav",
+    "size": 12014
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fui3.wav",
+    "size": 12944
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fui4.wav",
+    "size": 12816
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fuk1.wav",
+    "size": 9732
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fuk6.wav",
+    "size": 9808
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fun1.wav",
+    "size": 12200
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fun2.wav",
+    "size": 12214
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fun3.wav",
+    "size": 13532
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fung1.wav",
+    "size": 12874
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fung2.wav",
+    "size": 12452
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fung3.wav",
+    "size": 13542
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fung4.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fung6.wav",
+    "size": 13082
+   },
+   {
+    "path": "jyutping-wong-16000-v6/fut3.wav",
+    "size": 11262
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaa1.wav",
+    "size": 9784
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaa2.wav",
+    "size": 9780
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaa3.wav",
+    "size": 10600
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaa4.wav",
+    "size": 9050
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaa5.wav",
+    "size": 10192
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaai1.wav",
+    "size": 10446
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaai2.wav",
+    "size": 10314
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaai3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaak3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaak6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaam1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaam2.wav",
+    "size": 10864
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaam3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaan1.wav",
+    "size": 10842
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaan2.wav",
+    "size": 11278
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaan3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaang1.wav",
+    "size": 10954
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaang2.wav",
+    "size": 10698
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaang3.wav",
+    "size": 11202
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaap1.wav",
+    "size": 9050
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaap3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaap6.wav",
+    "size": 9038
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaat1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaat3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaat6.wav",
+    "size": 9048
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaau1.wav",
+    "size": 10676
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaau2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gaau3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gai1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gai2.wav",
+    "size": 9840
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gai3.wav",
+    "size": 10556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gai6.wav",
+    "size": 9940
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gak3.wav",
+    "size": 7306
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gam1.wav",
+    "size": 10088
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gam2.wav",
+    "size": 9824
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gam3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gam6.wav",
+    "size": 11026
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gan1.wav",
+    "size": 9818
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gan2.wav",
+    "size": 9840
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gan3.wav",
+    "size": 10852
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gan6.wav",
+    "size": 10518
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gang1.wav",
+    "size": 9908
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gang2.wav",
+    "size": 9756
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gang3.wav",
+    "size": 10146
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gap1.wav",
+    "size": 7238
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gap3.wav",
+    "size": 8264
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gap6.wav",
+    "size": 7934
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gat1.wav",
+    "size": 6800
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gat3.wav",
+    "size": 7472
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gat6.wav",
+    "size": 6800
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gau1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gau2.wav",
+    "size": 10030
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gau3.wav",
+    "size": 9938
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gau6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ge1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ge2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ge3.wav",
+    "size": 10616
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gei1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gei2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gei3.wav",
+    "size": 9970
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gei6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/geng1.wav",
+    "size": 10698
+   },
+   {
+    "path": "jyutping-wong-16000-v6/geng2.wav",
+    "size": 10108
+   },
+   {
+    "path": "jyutping-wong-16000-v6/geng3.wav",
+    "size": 11300
+   },
+   {
+    "path": "jyutping-wong-16000-v6/geng6.wav",
+    "size": 10740
+   },
+   {
+    "path": "jyutping-wong-16000-v6/geoi1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/geoi2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/geoi3.wav",
+    "size": 10566
+   },
+   {
+    "path": "jyutping-wong-16000-v6/geoi6.wav",
+    "size": 10698
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gep1.wav",
+    "size": 6888
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gi1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gik1.wav",
+    "size": 6800
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gik3.wav",
+    "size": 8152
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gik6.wav",
+    "size": 7462
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gim1.wav",
+    "size": 10988
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gim2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gim3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gim6.wav",
+    "size": 10822
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gin1.wav",
+    "size": 10760
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gin2.wav",
+    "size": 11172
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gin3.wav",
+    "size": 11142
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gin6.wav",
+    "size": 10422
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ging1.wav",
+    "size": 10340
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ging2.wav",
+    "size": 10276
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ging3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ging4.wav",
+    "size": 11296
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ging6.wav",
+    "size": 9760
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gip1.wav",
+    "size": 7648
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gip3.wav",
+    "size": 8446
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gip6.wav",
+    "size": 8066
+   },
+   {
+    "path": "jyutping-wong-16000-v6/git3.wav",
+    "size": 8396
+   },
+   {
+    "path": "jyutping-wong-16000-v6/git6.wav",
+    "size": 8902
+   },
+   {
+    "path": "jyutping-wong-16000-v6/giu1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/giu2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/giu3.wav",
+    "size": 11252
+   },
+   {
+    "path": "jyutping-wong-16000-v6/giu6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/go1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/go2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/go3.wav",
+    "size": 10672
+   },
+   {
+    "path": "jyutping-wong-16000-v6/go6.wav",
+    "size": 9048
+   },
+   {
+    "path": "jyutping-wong-16000-v6/goe1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/goe3.wav",
+    "size": 11274
+   },
+   {
+    "path": "jyutping-wong-16000-v6/goe4.wav",
+    "size": 9820
+   },
+   {
+    "path": "jyutping-wong-16000-v6/goei2.wav",
+    "size": 9012
+   },
+   {
+    "path": "jyutping-wong-16000-v6/goek3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/goeng1.wav",
+    "size": 11178
+   },
+   {
+    "path": "jyutping-wong-16000-v6/goeng2.wav",
+    "size": 10974
+   },
+   {
+    "path": "jyutping-wong-16000-v6/goeng3.wav",
+    "size": 11298
+   },
+   {
+    "path": "jyutping-wong-16000-v6/goeng6.wav",
+    "size": 11260
+   },
+   {
+    "path": "jyutping-wong-16000-v6/goi1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/goi2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/goi3.wav",
+    "size": 10910
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gok3.wav",
+    "size": 9824
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gon1.wav",
+    "size": 11294
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gon2.wav",
+    "size": 11300
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gon3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gong1.wav",
+    "size": 11054
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gong2.wav",
+    "size": 10424
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gong3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gong4.wav",
+    "size": 10544
+   },
+   {
+    "path": "jyutping-wong-16000-v6/got3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gou1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gou2.wav",
+    "size": 9742
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gou3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gu1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gu2.wav",
+    "size": 9764
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gu3.wav",
+    "size": 9740
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gui2.wav",
+    "size": 9866
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gui3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gui6.wav",
+    "size": 10248
+   },
+   {
+    "path": "jyutping-wong-16000-v6/guk1.wav",
+    "size": 7414
+   },
+   {
+    "path": "jyutping-wong-16000-v6/guk6.wav",
+    "size": 8338
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gun1.wav",
+    "size": 10292
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gun2.wav",
+    "size": 11140
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gun3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gung1.wav",
+    "size": 11298
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gung2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gung3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gung6.wav",
+    "size": 11298
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gut2.wav",
+    "size": 8938
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gut4.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gut6.wav",
+    "size": 8078
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaa1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaa2.wav",
+    "size": 11292
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaa3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaai1.wav",
+    "size": 11176
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaai2.wav",
+    "size": 10996
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaai3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaai6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaak3.wav",
+    "size": 9766
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaan1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaan2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaan3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaan6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaang6.wav",
+    "size": 11292
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaat1.wav",
+    "size": 9904
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaat3.wav",
+    "size": 10252
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwaat6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwai1.wav",
+    "size": 10474
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwai2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwai3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwai6.wav",
+    "size": 10796
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwan1.wav",
+    "size": 10858
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwan2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwan3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwan6.wav",
+    "size": 11274
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwang1.wav",
+    "size": 11056
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwang2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwat1.wav",
+    "size": 8134
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwat3.wav",
+    "size": 8552
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwat6.wav",
+    "size": 8288
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwe1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwi1.wav",
+    "size": 6800
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwik1.wav",
+    "size": 7494
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwik6.wav",
+    "size": 7948
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwing1.wav",
+    "size": 9904
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwing2.wav",
+    "size": 10722
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwit1.wav",
+    "size": 8138
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwit3.wav",
+    "size": 8206
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwo1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwo2.wav",
+    "size": 10296
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwo3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwo6.wav",
+    "size": 11286
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwok3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwok6.wav",
+    "size": 8992
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwong1.wav",
+    "size": 10932
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwong2.wav",
+    "size": 11088
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwong3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwong6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gwun2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gyun1.wav",
+    "size": 10730
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gyun2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gyun3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gyun6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gyut3.wav",
+    "size": 8198
+   },
+   {
+    "path": "jyutping-wong-16000-v6/gyut6.wav",
+    "size": 8716
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haa1.wav",
+    "size": 11298
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haa2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haa4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haa5.wav",
+    "size": 10842
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haa6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haai4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haai5.wav",
+    "size": 12788
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haai6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haak1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haak3.wav",
+    "size": 11294
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haam1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haam2.wav",
+    "size": 12816
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haam3.wav",
+    "size": 13534
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haam4.wav",
+    "size": 13540
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haam5.wav",
+    "size": 12470
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haam6.wav",
+    "size": 13276
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haan1.wav",
+    "size": 12022
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haan2.wav",
+    "size": 13110
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haan4.wav",
+    "size": 13468
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haan5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haan6.wav",
+    "size": 12724
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haang3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haang4.wav",
+    "size": 11954
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haang6.wav",
+    "size": 12534
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haap1.wav",
+    "size": 9764
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haap3.wav",
+    "size": 12180
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haap6.wav",
+    "size": 10284
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haat6.wav",
+    "size": 10652
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haau1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haau2.wav",
+    "size": 11990
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haau3.wav",
+    "size": 12604
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haau4.wav",
+    "size": 12100
+   },
+   {
+    "path": "jyutping-wong-16000-v6/haau6.wav",
+    "size": 12320
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hai2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hai4.wav",
+    "size": 12932
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hai5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hai6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hak1.wav",
+    "size": 8078
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ham1.wav",
+    "size": 11298
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ham2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ham3.wav",
+    "size": 12776
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ham4.wav",
+    "size": 11948
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ham5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ham6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/han1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/han2.wav",
+    "size": 12276
+   },
+   {
+    "path": "jyutping-wong-16000-v6/han4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/han6.wav",
+    "size": 12028
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hang2.wav",
+    "size": 12312
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hang4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hang5.wav",
+    "size": 12426
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hang6.wav",
+    "size": 11996
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hap1.wav",
+    "size": 7346
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hap3.wav",
+    "size": 10080
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hap6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hat1.wav",
+    "size": 8558
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hat6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hau1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hau2.wav",
+    "size": 12040
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hau3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hau4.wav",
+    "size": 11296
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hau5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hau6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/he2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/he3.wav",
+    "size": 12542
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hei1.wav",
+    "size": 11006
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hei2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hei3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hek3.wav",
+    "size": 10682
+   },
+   {
+    "path": "jyutping-wong-16000-v6/heng1.wav",
+    "size": 12446
+   },
+   {
+    "path": "jyutping-wong-16000-v6/heoi1.wav",
+    "size": 10922
+   },
+   {
+    "path": "jyutping-wong-16000-v6/heoi2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/heoi3.wav",
+    "size": 13368
+   },
+   {
+    "path": "jyutping-wong-16000-v6/heoi5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/heoi6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hi1.wav",
+    "size": 10086
+   },
+   {
+    "path": "jyutping-wong-16000-v6/him1.wav",
+    "size": 12384
+   },
+   {
+    "path": "jyutping-wong-16000-v6/him2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/him3.wav",
+    "size": 13178
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hin1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hin2.wav",
+    "size": 13430
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hin3.wav",
+    "size": 13276
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hing1.wav",
+    "size": 11238
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hing2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hing3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hing5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hip3.wav",
+    "size": 9696
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hip6.wav",
+    "size": 10098
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hit3.wav",
+    "size": 10364
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hiu1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hiu2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hiu3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hiu6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hm1.wav",
+    "size": 10758
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hng6.wav",
+    "size": 12400
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ho1.wav",
+    "size": 11300
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ho2.wav",
+    "size": 11152
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ho4.wav",
+    "size": 10952
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ho6.wav",
+    "size": 11282
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hoe1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hoeng1.wav",
+    "size": 12078
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hoeng2.wav",
+    "size": 12538
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hoeng3.wav",
+    "size": 13244
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hoi1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hoi2.wav",
+    "size": 12480
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hoi3.wav",
+    "size": 12616
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hoi4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hoi5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hoi6.wav",
+    "size": 12034
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hok3.wav",
+    "size": 11048
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hok6.wav",
+    "size": 11064
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hon1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hon2.wav",
+    "size": 12262
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hon3.wav",
+    "size": 12722
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hon4.wav",
+    "size": 12008
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hon5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hon6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hong1.wav",
+    "size": 12658
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hong2.wav",
+    "size": 12646
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hong3.wav",
+    "size": 12492
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hong4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hong5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hong6.wav",
+    "size": 11990
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hot3.wav",
+    "size": 10574
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hou1.wav",
+    "size": 10604
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hou2.wav",
+    "size": 10844
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hou3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hou4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hou5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hou6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/huk1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/huk6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hung1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hung2.wav",
+    "size": 12398
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hung3.wav",
+    "size": 12080
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hung4.wav",
+    "size": 12276
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hung6.wav",
+    "size": 12000
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hyun1.wav",
+    "size": 11984
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hyun2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hyun3.wav",
+    "size": 12064
+   },
+   {
+    "path": "jyutping-wong-16000-v6/hyut3.wav",
+    "size": 9682
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jaa1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jaa2.wav",
+    "size": 11972
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jaa4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jaa5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jaa6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jaai2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jaak3.wav",
+    "size": 10442
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jaang3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jaap3.wav",
+    "size": 10070
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jaau1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jai4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jai5.wav",
+    "size": 11982
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jai6.wav",
+    "size": 11964
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jam1.wav",
+    "size": 12096
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jam2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jam3.wav",
+    "size": 12572
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jam4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jam5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jam6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jan1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jan2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jan3.wav",
+    "size": 12750
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jan4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jan5.wav",
+    "size": 12282
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jan6.wav",
+    "size": 12498
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jap1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jap6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jat1.wav",
+    "size": 8884
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jat3.wav",
+    "size": 8890
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jat6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jau1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jau2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jau3.wav",
+    "size": 12396
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jau4.wav",
+    "size": 11892
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jau5.wav",
+    "size": 12154
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jau6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/je2.wav",
+    "size": 11260
+   },
+   {
+    "path": "jyutping-wong-16000-v6/je4.wav",
+    "size": 11956
+   },
+   {
+    "path": "jyutping-wong-16000-v6/je5.wav",
+    "size": 12130
+   },
+   {
+    "path": "jyutping-wong-16000-v6/je6.wav",
+    "size": 13150
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jeng2.wav",
+    "size": 9048
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jeng4.wav",
+    "size": 10458
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jeoi1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jeoi3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jeoi4.wav",
+    "size": 11876
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jeoi5.wav",
+    "size": 12426
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jeoi6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jeon6.wav",
+    "size": 12572
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ji1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ji2.wav",
+    "size": 10922
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ji3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ji4.wav",
+    "size": 10890
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ji5.wav",
+    "size": 10762
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ji6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jik1.wav",
+    "size": 8416
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jik6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jim1.wav",
+    "size": 12418
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jim2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jim3.wav",
+    "size": 12028
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jim4.wav",
+    "size": 11966
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jim5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jim6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jin1.wav",
+    "size": 11272
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jin2.wav",
+    "size": 12016
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jin3.wav",
+    "size": 13198
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jin4.wav",
+    "size": 12424
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jin5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jin6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jing1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jing2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jing3.wav",
+    "size": 12090
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jing4.wav",
+    "size": 12358
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jing5.wav",
+    "size": 12030
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jing6.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jip3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jip6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jit3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jit6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jiu1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jiu2.wav",
+    "size": 10062
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jiu3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jiu4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jiu5.wav",
+    "size": 11300
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jiu6.wav",
+    "size": 11290
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jo1.wav",
+    "size": 12088
+   },
+   {
+    "path": "jyutping-wong-16000-v6/joek1.wav",
+    "size": 10738
+   },
+   {
+    "path": "jyutping-wong-16000-v6/joek3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/joek6.wav",
+    "size": 10816
+   },
+   {
+    "path": "jyutping-wong-16000-v6/joeng1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/joeng2.wav",
+    "size": 12032
+   },
+   {
+    "path": "jyutping-wong-16000-v6/joeng3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/joeng4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/joeng5.wav",
+    "size": 12562
+   },
+   {
+    "path": "jyutping-wong-16000-v6/joeng6.wav",
+    "size": 12506
+   },
+   {
+    "path": "jyutping-wong-16000-v6/juk1.wav",
+    "size": 8368
+   },
+   {
+    "path": "jyutping-wong-16000-v6/juk6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jung1.wav",
+    "size": 11300
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jung2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jung4.wav",
+    "size": 11012
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jung5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jung6.wav",
+    "size": 12074
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jyu1.wav",
+    "size": 10356
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jyu2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jyu3.wav",
+    "size": 12504
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jyu4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jyu5.wav",
+    "size": 11040
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jyu6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jyun1.wav",
+    "size": 12024
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jyun2.wav",
+    "size": 12332
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jyun3.wav",
+    "size": 12170
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jyun4.wav",
+    "size": 11942
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jyun5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jyun6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jyut3.wav",
+    "size": 11002
+   },
+   {
+    "path": "jyutping-wong-16000-v6/jyut6.wav",
+    "size": 9738
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaa1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaa2.wav",
+    "size": 11226
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaa3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaa4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaai2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaai3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaai5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaak1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaam1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaam4.wav",
+    "size": 11994
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaam5.wav",
+    "size": 12020
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaan4.wav",
+    "size": 12116
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaap1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaap6.wav",
+    "size": 10162
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaat1.wav",
+    "size": 10006
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaau1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaau3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaau4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kaau5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kai1.wav",
+    "size": 10014
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kai2.wav",
+    "size": 10058
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kai3.wav",
+    "size": 11284
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kai4.wav",
+    "size": 9660
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kak1.wav",
+    "size": 8036
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kak3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kam1.wav",
+    "size": 10722
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kam2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kam4.wav",
+    "size": 10908
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kam5.wav",
+    "size": 11120
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kan4.wav",
+    "size": 11268
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kan5.wav",
+    "size": 11282
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kang2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kang3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kap1.wav",
+    "size": 8598
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kap6.wav",
+    "size": 8752
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kat1.wav",
+    "size": 8192
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kat6.wav",
+    "size": 8354
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kau1.wav",
+    "size": 10320
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kau2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kau3.wav",
+    "size": 13486
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kau4.wav",
+    "size": 10318
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kau5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kau6.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ke1.wav",
+    "size": 10606
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ke4.wav",
+    "size": 10434
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kei1.wav",
+    "size": 10186
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kei2.wav",
+    "size": 9974
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kei3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kei4.wav",
+    "size": 11182
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kei5.wav",
+    "size": 11138
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kek1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kek3.wav",
+    "size": 10428
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kek6.wav",
+    "size": 9792
+   },
+   {
+    "path": "jyutping-wong-16000-v6/keoi1.wav",
+    "size": 10562
+   },
+   {
+    "path": "jyutping-wong-16000-v6/keoi2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/keoi4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/keoi5.wav",
+    "size": 10966
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kep1.wav",
+    "size": 9046
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ki1.wav",
+    "size": 10094
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kik1.wav",
+    "size": 8644
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kim4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kin2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kin4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/king1.wav",
+    "size": 10906
+   },
+   {
+    "path": "jyutping-wong-16000-v6/king2.wav",
+    "size": 11294
+   },
+   {
+    "path": "jyutping-wong-16000-v6/king3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/king4.wav",
+    "size": 11170
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kip1.wav",
+    "size": 9044
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kit1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kit3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kit6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kiu1.wav",
+    "size": 10540
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kiu2.wav",
+    "size": 10906
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kiu3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kiu4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kiu5.wav",
+    "size": 11296
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ko1.wav",
+    "size": 10478
+   },
+   {
+    "path": "jyutping-wong-16000-v6/koe1.wav",
+    "size": 9820
+   },
+   {
+    "path": "jyutping-wong-16000-v6/koe4.wav",
+    "size": 10474
+   },
+   {
+    "path": "jyutping-wong-16000-v6/koek3.wav",
+    "size": 10578
+   },
+   {
+    "path": "jyutping-wong-16000-v6/koek6.wav",
+    "size": 10258
+   },
+   {
+    "path": "jyutping-wong-16000-v6/koeng2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/koeng4.wav",
+    "size": 11902
+   },
+   {
+    "path": "jyutping-wong-16000-v6/koeng5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/koeng6.wav",
+    "size": 12032
+   },
+   {
+    "path": "jyutping-wong-16000-v6/koi2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/koi3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kok3.wav",
+    "size": 10232
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kong1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kong2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kong3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kong4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ku1.wav",
+    "size": 9812
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kui1.wav",
+    "size": 11288
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kui2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kuk1.wav",
+    "size": 8242
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kung1.wav",
+    "size": 10666
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kung2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kung4.wav",
+    "size": 11990
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kut3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaa1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaa2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaa3.wav",
+    "size": 12442
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaai2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaai3.wav",
+    "size": 12606
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaai4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaai5.wav",
+    "size": 12036
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaak1.wav",
+    "size": 10734
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaak3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaan1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaan2.wav",
+    "size": 13080
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaan3.wav",
+    "size": 12622
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaan4.wav",
+    "size": 12052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaang2.wav",
+    "size": 12564
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaang3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwaat1.wav",
+    "size": 10370
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwai1.wav",
+    "size": 11124
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwai2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwai3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwai4.wav",
+    "size": 11166
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwai5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwan1.wav",
+    "size": 11012
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwan2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwan3.wav",
+    "size": 12146
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwan4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwik1.wav",
+    "size": 8438
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwok3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwong3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwong4.wav",
+    "size": 12434
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwui2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kwun3.wav",
+    "size": 12252
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kyun4.wav",
+    "size": 11978
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kyut3.wav",
+    "size": 9754
+   },
+   {
+    "path": "jyutping-wong-16000-v6/kyut6.wav",
+    "size": 9456
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laa1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laa2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laa3.wav",
+    "size": 11936
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laa4.wav",
+    "size": 10802
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laa5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laai2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laai3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laai4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laai5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laai6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laak3.wav",
+    "size": 10474
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laak6.wav",
+    "size": 11038
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laam2.wav",
+    "size": 12246
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laam3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laam4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laam5.wav",
+    "size": 11296
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laam6.wav",
+    "size": 12904
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laan1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laan2.wav",
+    "size": 12112
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laan4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laan5.wav",
+    "size": 12434
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laan6.wav",
+    "size": 12244
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laang4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laang5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laang6.wav",
+    "size": 11900
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laap3.wav",
+    "size": 10356
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laap6.wav",
+    "size": 10220
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laat3.wav",
+    "size": 10464
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laat6.wav",
+    "size": 10154
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laau1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laau2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laau4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laau5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/laau6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lai1.wav",
+    "size": 10048
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lai2.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lai3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lai4.wav",
+    "size": 10840
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lai5.wav",
+    "size": 11120
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lai6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lak1.wav",
+    "size": 8320
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lak3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lak6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lam1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lam2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lam3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lam4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lam5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lam6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lan2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lan4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lan5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lang3.wav",
+    "size": 11986
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lang6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lap1.wav",
+    "size": 8046
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lap3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lap6.wav",
+    "size": 8608
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lat1.wav",
+    "size": 8556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lat3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lat6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lau1.wav",
+    "size": 10508
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lau2.wav",
+    "size": 11202
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lau3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lau4.wav",
+    "size": 9574
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lau5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lau6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/le1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/le2.wav",
+    "size": 11274
+   },
+   {
+    "path": "jyutping-wong-16000-v6/le3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/le4.wav",
+    "size": 11282
+   },
+   {
+    "path": "jyutping-wong-16000-v6/le5.wav",
+    "size": 11300
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lei1.wav",
+    "size": 10022
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lei2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lei4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lei5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lei6.wav",
+    "size": 11156
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lek1.wav",
+    "size": 10470
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lek6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lem2.wav",
+    "size": 12540
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leng1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leng3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leng4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leng5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leoi1.wav",
+    "size": 10652
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leoi3.wav",
+    "size": 11298
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leoi4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leoi5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leoi6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leon1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leon2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leon4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leon5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leon6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leot2.wav",
+    "size": 9050
+   },
+   {
+    "path": "jyutping-wong-16000-v6/leot6.wav",
+    "size": 8810
+   },
+   {
+    "path": "jyutping-wong-16000-v6/li1.wav",
+    "size": 10364
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lik1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lik6.wav",
+    "size": 9006
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lim1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lim2.wav",
+    "size": 12004
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lim4.wav",
+    "size": 11956
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lim5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lim6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lin2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lin4.wav",
+    "size": 12176
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lin5.wav",
+    "size": 12514
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lin6.wav",
+    "size": 11976
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ling1.wav",
+    "size": 12516
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ling2.wav",
+    "size": 12342
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ling3.wav",
+    "size": 12660
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ling4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ling5.wav",
+    "size": 12000
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ling6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lip1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lip3.wav",
+    "size": 9746
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lip6.wav",
+    "size": 9008
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lit3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lit6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/liu1.wav",
+    "size": 10850
+   },
+   {
+    "path": "jyutping-wong-16000-v6/liu2.wav",
+    "size": 11300
+   },
+   {
+    "path": "jyutping-wong-16000-v6/liu4.wav",
+    "size": 10934
+   },
+   {
+    "path": "jyutping-wong-16000-v6/liu5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/liu6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lo1.wav",
+    "size": 10828
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lo2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lo3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lo4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lo5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lo6.wav",
+    "size": 11156
+   },
+   {
+    "path": "jyutping-wong-16000-v6/loe1.wav",
+    "size": 10736
+   },
+   {
+    "path": "jyutping-wong-16000-v6/loe2.wav",
+    "size": 11202
+   },
+   {
+    "path": "jyutping-wong-16000-v6/loei6.wav",
+    "size": 12032
+   },
+   {
+    "path": "jyutping-wong-16000-v6/loek3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/loek6.wav",
+    "size": 10158
+   },
+   {
+    "path": "jyutping-wong-16000-v6/loeng2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/loeng4.wav",
+    "size": 10972
+   },
+   {
+    "path": "jyutping-wong-16000-v6/loeng5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/loeng6.wav",
+    "size": 12202
+   },
+   {
+    "path": "jyutping-wong-16000-v6/loet3.wav",
+    "size": 10768
+   },
+   {
+    "path": "jyutping-wong-16000-v6/loi2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/loi4.wav",
+    "size": 11204
+   },
+   {
+    "path": "jyutping-wong-16000-v6/loi6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lok1.wav",
+    "size": 9742
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lok3.wav",
+    "size": 11172
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lok6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/long1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/long2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/long3.wav",
+    "size": 12776
+   },
+   {
+    "path": "jyutping-wong-16000-v6/long4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/long5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/long6.wav",
+    "size": 12618
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lou1.wav",
+    "size": 10092
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lou2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lou4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lou5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lou6.wav",
+    "size": 11282
+   },
+   {
+    "path": "jyutping-wong-16000-v6/luk1.wav",
+    "size": 8378
+   },
+   {
+    "path": "jyutping-wong-16000-v6/luk6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lun4.wav",
+    "size": 10350
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lung1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lung4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lung5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lung6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lyun1.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lyun2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lyun4.wav",
+    "size": 12208
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lyun5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lyun6.wav",
+    "size": 12564
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lyut1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lyut3.wav",
+    "size": 10366
+   },
+   {
+    "path": "jyutping-wong-16000-v6/lyut6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/m2.wav",
+    "size": 10358
+   },
+   {
+    "path": "jyutping-wong-16000-v6/m4.wav",
+    "size": 10546
+   },
+   {
+    "path": "jyutping-wong-16000-v6/m6.wav",
+    "size": 9852
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maa1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maa3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maa4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maa5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maa6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maai4.wav",
+    "size": 12826
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maai5.wav",
+    "size": 12072
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maai6.wav",
+    "size": 12894
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maak1.wav",
+    "size": 10438
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maak3.wav",
+    "size": 11236
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maak6.wav",
+    "size": 9840
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maan1.wav",
+    "size": 13114
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maan4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maan5.wav",
+    "size": 12978
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maan6.wav",
+    "size": 12612
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maang4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maang5.wav",
+    "size": 12082
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maang6.wav",
+    "size": 12048
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maat3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maat6.wav",
+    "size": 11296
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maau1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maau4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maau5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/maau6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mai4.wav",
+    "size": 10814
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mai5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mai6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mak1.wav",
+    "size": 8448
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mak3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mak6.wav",
+    "size": 9904
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mam1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/man1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/man2.wav",
+    "size": 12318
+   },
+   {
+    "path": "jyutping-wong-16000-v6/man3.wav",
+    "size": 12636
+   },
+   {
+    "path": "jyutping-wong-16000-v6/man4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/man5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/man6.wav",
+    "size": 12034
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mang2.wav",
+    "size": 12284
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mang3.wav",
+    "size": 13074
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mang4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mang5.wav",
+    "size": 12638
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mang6.wav",
+    "size": 13094
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mat1.wav",
+    "size": 8426
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mat6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mau1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mau4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mau5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mau6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/me1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/me2.wav",
+    "size": 12014
+   },
+   {
+    "path": "jyutping-wong-16000-v6/me5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mei1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mei3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mei4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mei5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mei6.wav",
+    "size": 12294
+   },
+   {
+    "path": "jyutping-wong-16000-v6/meng4.wav",
+    "size": 12504
+   },
+   {
+    "path": "jyutping-wong-16000-v6/meng6.wav",
+    "size": 12736
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mi1.wav",
+    "size": 10032
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mik2.wav",
+    "size": 9524
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mik6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/min2.wav",
+    "size": 12492
+   },
+   {
+    "path": "jyutping-wong-16000-v6/min4.wav",
+    "size": 11944
+   },
+   {
+    "path": "jyutping-wong-16000-v6/min5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/min6.wav",
+    "size": 13516
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ming1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ming4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ming5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ming6.wav",
+    "size": 13076
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mit1.wav",
+    "size": 9006
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mit6.wav",
+    "size": 9736
+   },
+   {
+    "path": "jyutping-wong-16000-v6/miu1.wav",
+    "size": 11246
+   },
+   {
+    "path": "jyutping-wong-16000-v6/miu2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/miu4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/miu5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/miu6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mo1.wav",
+    "size": 10802
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mo2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mo4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mo6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/moi4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mok1.wav",
+    "size": 9996
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mok3.wav",
+    "size": 10142
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mok6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mong1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mong4.wav",
+    "size": 10954
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mong5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mong6.wav",
+    "size": 12004
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mou2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mou4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mou5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mou6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mui2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mui4.wav",
+    "size": 11906
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mui5.wav",
+    "size": 11288
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mui6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/muk1.wav",
+    "size": 8158
+   },
+   {
+    "path": "jyutping-wong-16000-v6/muk6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mun1.wav",
+    "size": 10724
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mun2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mun4.wav",
+    "size": 10902
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mun5.wav",
+    "size": 12882
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mun6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mung1.wav",
+    "size": 11066
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mung2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mung4.wav",
+    "size": 11922
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mung5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mung6.wav",
+    "size": 12464
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mut1.wav",
+    "size": 8954
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mut3.wav",
+    "size": 10702
+   },
+   {
+    "path": "jyutping-wong-16000-v6/mut6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naa1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naa2.wav",
+    "size": 12508
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naa4.wav",
+    "size": 11046
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naa5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naa6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naai2.wav",
+    "size": 12008
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naai3.wav",
+    "size": 12944
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naai4.wav",
+    "size": 11300
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naai5.wav",
+    "size": 12082
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naai6.wav",
+    "size": 12022
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naam3.wav",
+    "size": 12994
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naam4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naam5.wav",
+    "size": 13134
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naan2.wav",
+    "size": 12058
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naan3.wav",
+    "size": 12304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naan4.wav",
+    "size": 12190
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naan5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naan6.wav",
+    "size": 12114
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naang4.wav",
+    "size": 12210
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naap1.wav",
+    "size": 9690
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naap6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naat3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naat6.wav",
+    "size": 10702
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naau1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naau2.wav",
+    "size": 12408
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naau4.wav",
+    "size": 12512
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naau5.wav",
+    "size": 12528
+   },
+   {
+    "path": "jyutping-wong-16000-v6/naau6.wav",
+    "size": 12090
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nai4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nai5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nak1.wav",
+    "size": 8112
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nam1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nam2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nam4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nam5.wav",
+    "size": 12092
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nam6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nan2.wav",
+    "size": 12434
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nan4.wav",
+    "size": 12604
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nan5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nan6.wav",
+    "size": 12372
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nang2.wav",
+    "size": 12034
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nang3.wav",
+    "size": 13204
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nang4.wav",
+    "size": 12340
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nap1.wav",
+    "size": 8952
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nap6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nat1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nat6.wav",
+    "size": 9050
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nau1.wav",
+    "size": 10816
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nau2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nau4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nau6.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ne1.wav",
+    "size": 11138
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ne6.wav",
+    "size": 12042
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nei1.wav",
+    "size": 10586
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nei4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nei5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nei6.wav",
+    "size": 12204
+   },
+   {
+    "path": "jyutping-wong-16000-v6/neng2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/neoi2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/neoi3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/neoi5.wav",
+    "size": 12096
+   },
+   {
+    "path": "jyutping-wong-16000-v6/neoi6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/neot6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ng1.wav",
+    "size": 10962
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ng2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ng4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ng5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ng6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaa1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaa3.wav",
+    "size": 12034
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaa4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaa5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaa6.wav",
+    "size": 12310
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaai4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaai5.wav",
+    "size": 11996
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaai6.wav",
+    "size": 12490
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaak1.wav",
+    "size": 9830
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaak3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaak6.wav",
+    "size": 10006
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaam1.wav",
+    "size": 12642
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaam4.wav",
+    "size": 12530
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaan3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaan4.wav",
+    "size": 12672
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaan5.wav",
+    "size": 13074
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaan6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaang6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaap3.wav",
+    "size": 10262
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaat3.wav",
+    "size": 10496
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaat6.wav",
+    "size": 10486
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaau1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaau3.wav",
+    "size": 12038
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaau4.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaau5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngaau6.wav",
+    "size": 12548
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngai2.wav",
+    "size": 12018
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngai3.wav",
+    "size": 12830
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngai4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngai5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngai6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngak1.wav",
+    "size": 8418
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngak6.wav",
+    "size": 9732
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngam1.wav",
+    "size": 12288
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngam2.wav",
+    "size": 12236
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngam3.wav",
+    "size": 12902
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngam4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngam6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngan1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngan2.wav",
+    "size": 12910
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngan3.wav",
+    "size": 12632
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngan4.wav",
+    "size": 12056
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngan6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngang2.wav",
+    "size": 12580
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngang6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngap1.wav",
+    "size": 9048
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngap6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngat1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngat6.wav",
+    "size": 9014
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngau1.wav",
+    "size": 10992
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngau3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngau4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngau5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngau6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nge4.wav",
+    "size": 11140
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngi1.wav",
+    "size": 10394
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngit6.wav",
+    "size": 8998
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngo4.wav",
+    "size": 11016
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngo5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngo6.wav",
+    "size": 11166
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngoi1.wav",
+    "size": 10962
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngoi2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngoi3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngoi4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngoi6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngok3.wav",
+    "size": 10862
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngok6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngon1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngon3.wav",
+    "size": 13376
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngon6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngong1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngong3.wav",
+    "size": 13030
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngong4.wav",
+    "size": 11978
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngong5.wav",
+    "size": 12028
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngong6.wav",
+    "size": 12018
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngou1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngou3.wav",
+    "size": 12498
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngou4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngou6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nguk1.wav",
+    "size": 7540
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngung1.wav",
+    "size": 10932
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngung2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ngung3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ni1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nik1.wav",
+    "size": 7560
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nik6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nim1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nim2.wav",
+    "size": 12268
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nim3.wav",
+    "size": 12642
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nim4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nim6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nin1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nin2.wav",
+    "size": 11300
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nin4.wav",
+    "size": 11984
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nin5.wav",
+    "size": 12014
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ning1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ning4.wav",
+    "size": 11298
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ning6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nip1.wav",
+    "size": 8546
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nip6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nit6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/niu1.wav",
+    "size": 10686
+   },
+   {
+    "path": "jyutping-wong-16000-v6/niu4.wav",
+    "size": 10676
+   },
+   {
+    "path": "jyutping-wong-16000-v6/niu5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/niu6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/no1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/no4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/no5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/no6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/noei2.wav",
+    "size": 12424
+   },
+   {
+    "path": "jyutping-wong-16000-v6/noeng4.wav",
+    "size": 11928
+   },
+   {
+    "path": "jyutping-wong-16000-v6/noi5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/noi6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nok6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nong4.wav",
+    "size": 11968
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nong5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nong6.wav",
+    "size": 12004
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nou4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nou5.wav",
+    "size": 12860
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nou6.wav",
+    "size": 12048
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nuk1.wav",
+    "size": 8184
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nuk6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nung1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nung2.wav",
+    "size": 12260
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nung4.wav",
+    "size": 12308
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nung6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nyun5.wav",
+    "size": 12612
+   },
+   {
+    "path": "jyutping-wong-16000-v6/nyun6.wav",
+    "size": 12598
+   },
+   {
+    "path": "jyutping-wong-16000-v6/o1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/o2.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/oe1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/oi1.wav",
+    "size": 10066
+   },
+   {
+    "path": "jyutping-wong-16000-v6/oi2.wav",
+    "size": 10686
+   },
+   {
+    "path": "jyutping-wong-16000-v6/oi3.wav",
+    "size": 10338
+   },
+   {
+    "path": "jyutping-wong-16000-v6/oi6.wav",
+    "size": 9772
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ok3.wav",
+    "size": 8970
+   },
+   {
+    "path": "jyutping-wong-16000-v6/om1.wav",
+    "size": 11200
+   },
+   {
+    "path": "jyutping-wong-16000-v6/on1.wav",
+    "size": 10286
+   },
+   {
+    "path": "jyutping-wong-16000-v6/on3.wav",
+    "size": 11280
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ong1.wav",
+    "size": 10748
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ong3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ou1.wav",
+    "size": 9038
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ou2.wav",
+    "size": 10242
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ou3.wav",
+    "size": 10250
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ou4.wav",
+    "size": 9832
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paa1.wav",
+    "size": 10700
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paa3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paa4.wav",
+    "size": 10868
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paai2.wav",
+    "size": 11242
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paai3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paai4.wav",
+    "size": 10642
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paai6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paak1.wav",
+    "size": 9050
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paak3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paan1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paan3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paan4.wav",
+    "size": 10752
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paan5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paang4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paang5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paang6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paat6.wav",
+    "size": 10500
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paau1.wav",
+    "size": 10992
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paau2.wav",
+    "size": 11296
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paau3.wav",
+    "size": 12274
+   },
+   {
+    "path": "jyutping-wong-16000-v6/paau4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pai3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pai4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pai5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pak1.wav",
+    "size": 8870
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pak3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pak6.wav",
+    "size": 9044
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pan1.wav",
+    "size": 11084
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pan3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pan4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pan5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pang4.wav",
+    "size": 11178
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pang5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pat1.wav",
+    "size": 8432
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pau1.wav",
+    "size": 11014
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pau2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pau3.wav",
+    "size": 11294
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pau4.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pe1.wav",
+    "size": 9812
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pe5.wav",
+    "size": 10474
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pei1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pei2.wav",
+    "size": 9744
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pei3.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pei4.wav",
+    "size": 10466
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pei5.wav",
+    "size": 11288
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pek1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pek3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pek6.wav",
+    "size": 10108
+   },
+   {
+    "path": "jyutping-wong-16000-v6/peng1.wav",
+    "size": 10936
+   },
+   {
+    "path": "jyutping-wong-16000-v6/peng2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/peng4.wav",
+    "size": 10650
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pet1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pet6.wav",
+    "size": 9050
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pik1.wav",
+    "size": 7716
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pin1.wav",
+    "size": 10706
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pin2.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pin3.wav",
+    "size": 13006
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pin4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pin5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ping1.wav",
+    "size": 10896
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ping2.wav",
+    "size": 10614
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ping3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ping4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ping6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pit3.wav",
+    "size": 9032
+   },
+   {
+    "path": "jyutping-wong-16000-v6/piu1.wav",
+    "size": 10286
+   },
+   {
+    "path": "jyutping-wong-16000-v6/piu2.wav",
+    "size": 10320
+   },
+   {
+    "path": "jyutping-wong-16000-v6/piu3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/piu4.wav",
+    "size": 9168
+   },
+   {
+    "path": "jyutping-wong-16000-v6/piu5.wav",
+    "size": 10870
+   },
+   {
+    "path": "jyutping-wong-16000-v6/po1.wav",
+    "size": 10360
+   },
+   {
+    "path": "jyutping-wong-16000-v6/po2.wav",
+    "size": 9724
+   },
+   {
+    "path": "jyutping-wong-16000-v6/po3.wav",
+    "size": 10884
+   },
+   {
+    "path": "jyutping-wong-16000-v6/po4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/po5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pok1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pok3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pong1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pong3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pong4.wav",
+    "size": 11274
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pong5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pong6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pou1.wav",
+    "size": 10270
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pou2.wav",
+    "size": 10530
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pou3.wav",
+    "size": 11290
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pou4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pou5.wav",
+    "size": 11292
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pui1.wav",
+    "size": 10854
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pui3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pui4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pui5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/puk1.wav",
+    "size": 9044
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pun1.wav",
+    "size": 11262
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pun2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pun3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pun4.wav",
+    "size": 11292
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pun5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pun6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pung1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pung2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pung3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/pung4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/put3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saa1.wav",
+    "size": 12040
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saa2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saa3.wav",
+    "size": 13538
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saai1.wav",
+    "size": 12370
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saai2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saai3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saai4.wav",
+    "size": 13540
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saai5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saai6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saak1.wav",
+    "size": 12026
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saak3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saam1.wav",
+    "size": 13366
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saam2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saam3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saam4.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saam6.wav",
+    "size": 14254
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saan1.wav",
+    "size": 13448
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saan2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saan3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saan4.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saan5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saan6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saang1.wav",
+    "size": 12680
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saang2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saang3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saang6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saap1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saap3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saap6.wav",
+    "size": 11968
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saat1.wav",
+    "size": 11280
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saat3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saat6.wav",
+    "size": 11980
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saau1.wav",
+    "size": 12410
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saau2.wav",
+    "size": 13098
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saau3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/saau4.wav",
+    "size": 13320
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sai2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sai3.wav",
+    "size": 12874
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sai6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sak1.wav",
+    "size": 9916
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sak3.wav",
+    "size": 11290
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sam1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sam2.wav",
+    "size": 12702
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sam3.wav",
+    "size": 13518
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sam4.wav",
+    "size": 11916
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sam6.wav",
+    "size": 12912
+   },
+   {
+    "path": "jyutping-wong-16000-v6/san1.wav",
+    "size": 13198
+   },
+   {
+    "path": "jyutping-wong-16000-v6/san2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/san3.wav",
+    "size": 12548
+   },
+   {
+    "path": "jyutping-wong-16000-v6/san4.wav",
+    "size": 13112
+   },
+   {
+    "path": "jyutping-wong-16000-v6/san5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/san6.wav",
+    "size": 12982
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sang1.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sang2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sang3.wav",
+    "size": 13550
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sang6.wav",
+    "size": 12748
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sap1.wav",
+    "size": 9792
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sap3.wav",
+    "size": 12160
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sap6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sat1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sat3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sat6.wav",
+    "size": 10226
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sau1.wav",
+    "size": 12020
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sau2.wav",
+    "size": 12250
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sau3.wav",
+    "size": 13226
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sau4.wav",
+    "size": 12972
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sau6.wav",
+    "size": 12386
+   },
+   {
+    "path": "jyutping-wong-16000-v6/se1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/se2.wav",
+    "size": 12584
+   },
+   {
+    "path": "jyutping-wong-16000-v6/se3.wav",
+    "size": 12868
+   },
+   {
+    "path": "jyutping-wong-16000-v6/se4.wav",
+    "size": 11290
+   },
+   {
+    "path": "jyutping-wong-16000-v6/se5.wav",
+    "size": 12396
+   },
+   {
+    "path": "jyutping-wong-16000-v6/se6.wav",
+    "size": 12026
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sei2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sei3.wav",
+    "size": 12922
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sek3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sek6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seng1.wav",
+    "size": 12030
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seng2.wav",
+    "size": 13224
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seng3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seng4.wav",
+    "size": 12482
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seoi1.wav",
+    "size": 12530
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seoi2.wav",
+    "size": 12804
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seoi3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seoi4.wav",
+    "size": 11870
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seoi5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seoi6.wav",
+    "size": 13534
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seon1.wav",
+    "size": 12798
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seon2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seon3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seon4.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seon5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seon6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seot1.wav",
+    "size": 10848
+   },
+   {
+    "path": "jyutping-wong-16000-v6/seot6.wav",
+    "size": 10476
+   },
+   {
+    "path": "jyutping-wong-16000-v6/si1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/si2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/si3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/si4.wav",
+    "size": 12632
+   },
+   {
+    "path": "jyutping-wong-16000-v6/si5.wav",
+    "size": 12680
+   },
+   {
+    "path": "jyutping-wong-16000-v6/si6.wav",
+    "size": 12740
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sik1.wav",
+    "size": 9738
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sik3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sik6.wav",
+    "size": 10238
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sim1.wav",
+    "size": 12052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sim2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sim3.wav",
+    "size": 14688
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sim4.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sim6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sin1.wav",
+    "size": 13544
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sin2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sin3.wav",
+    "size": 14224
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sin4.wav",
+    "size": 12238
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sin5.wav",
+    "size": 14326
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sin6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sing1.wav",
+    "size": 13210
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sing2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sing3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sing4.wav",
+    "size": 13064
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sing6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sip3.wav",
+    "size": 11258
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sip6.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sit3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sit6.wav",
+    "size": 11138
+   },
+   {
+    "path": "jyutping-wong-16000-v6/siu1.wav",
+    "size": 13398
+   },
+   {
+    "path": "jyutping-wong-16000-v6/siu2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/siu3.wav",
+    "size": 13036
+   },
+   {
+    "path": "jyutping-wong-16000-v6/siu4.wav",
+    "size": 11822
+   },
+   {
+    "path": "jyutping-wong-16000-v6/siu6.wav",
+    "size": 13272
+   },
+   {
+    "path": "jyutping-wong-16000-v6/so1.wav",
+    "size": 13098
+   },
+   {
+    "path": "jyutping-wong-16000-v6/so2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/so3.wav",
+    "size": 12246
+   },
+   {
+    "path": "jyutping-wong-16000-v6/so4.wav",
+    "size": 12532
+   },
+   {
+    "path": "jyutping-wong-16000-v6/soe4.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/soek3.wav",
+    "size": 12028
+   },
+   {
+    "path": "jyutping-wong-16000-v6/soeng1.wav",
+    "size": 13308
+   },
+   {
+    "path": "jyutping-wong-16000-v6/soeng2.wav",
+    "size": 13114
+   },
+   {
+    "path": "jyutping-wong-16000-v6/soeng3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/soeng4.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/soeng5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/soeng6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/soet1.wav",
+    "size": 11272
+   },
+   {
+    "path": "jyutping-wong-16000-v6/soi1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/soi2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sok3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sok6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/song1.wav",
+    "size": 12312
+   },
+   {
+    "path": "jyutping-wong-16000-v6/song2.wav",
+    "size": 12686
+   },
+   {
+    "path": "jyutping-wong-16000-v6/song3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sou1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sou2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sou3.wav",
+    "size": 12986
+   },
+   {
+    "path": "jyutping-wong-16000-v6/suk1.wav",
+    "size": 9998
+   },
+   {
+    "path": "jyutping-wong-16000-v6/suk6.wav",
+    "size": 10142
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sung1.wav",
+    "size": 12068
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sung2.wav",
+    "size": 13418
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sung3.wav",
+    "size": 13306
+   },
+   {
+    "path": "jyutping-wong-16000-v6/sung4.wav",
+    "size": 13522
+   },
+   {
+    "path": "jyutping-wong-16000-v6/syu1.wav",
+    "size": 12028
+   },
+   {
+    "path": "jyutping-wong-16000-v6/syu2.wav",
+    "size": 12318
+   },
+   {
+    "path": "jyutping-wong-16000-v6/syu3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/syu4.wav",
+    "size": 13450
+   },
+   {
+    "path": "jyutping-wong-16000-v6/syu5.wav",
+    "size": 13268
+   },
+   {
+    "path": "jyutping-wong-16000-v6/syu6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/syun1.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/syun2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/syun3.wav",
+    "size": 14546
+   },
+   {
+    "path": "jyutping-wong-16000-v6/syun4.wav",
+    "size": 14970
+   },
+   {
+    "path": "jyutping-wong-16000-v6/syun5.wav",
+    "size": 14306
+   },
+   {
+    "path": "jyutping-wong-16000-v6/syun6.wav",
+    "size": 14586
+   },
+   {
+    "path": "jyutping-wong-16000-v6/syut3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taa1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taa4.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taai1.wav",
+    "size": 10574
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taai2.wav",
+    "size": 11154
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taai3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taai4.wav",
+    "size": 11296
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taai5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taam1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taam2.wav",
+    "size": 12428
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taam3.wav",
+    "size": 12264
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taam4.wav",
+    "size": 11290
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taam5.wav",
+    "size": 12312
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taam6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taan1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taan2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taan3.wav",
+    "size": 11280
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taan4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taan5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taang1.wav",
+    "size": 11048
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taang4.wav",
+    "size": 10970
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taap3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taap6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taat3.wav",
+    "size": 9744
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taau2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taau3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/taau4.wav",
+    "size": 10956
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tai1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tai2.wav",
+    "size": 9714
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tai3.wav",
+    "size": 9760
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tai4.wav",
+    "size": 10450
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tai5.wav",
+    "size": 10704
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tam1.wav",
+    "size": 10418
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tam2.wav",
+    "size": 10882
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tam3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tam4.wav",
+    "size": 11066
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tam5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tan1.wav",
+    "size": 10260
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tan2.wav",
+    "size": 10478
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tan3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tan4.wav",
+    "size": 10474
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tang4.wav",
+    "size": 10450
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tap1.wav",
+    "size": 7994
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tap3.wav",
+    "size": 8914
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tat3.wav",
+    "size": 8358
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tau1.wav",
+    "size": 9798
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tau2.wav",
+    "size": 10696
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tau3.wav",
+    "size": 10412
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tau4.wav",
+    "size": 10868
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tek3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/teng1.wav",
+    "size": 10830
+   },
+   {
+    "path": "jyutping-wong-16000-v6/teng5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/teoi1.wav",
+    "size": 10044
+   },
+   {
+    "path": "jyutping-wong-16000-v6/teoi2.wav",
+    "size": 10746
+   },
+   {
+    "path": "jyutping-wong-16000-v6/teoi3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/teoi4.wav",
+    "size": 10742
+   },
+   {
+    "path": "jyutping-wong-16000-v6/teoi6.wav",
+    "size": 10918
+   },
+   {
+    "path": "jyutping-wong-16000-v6/teon1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/teon2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/teon3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/teon5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ti1.wav",
+    "size": 10690
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ti4.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tik1.wav",
+    "size": 8198
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tik6.wav",
+    "size": 7974
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tim1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tim2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tim3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tim4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tim5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tim6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tin1.wav",
+    "size": 9734
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tin2.wav",
+    "size": 8940
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tin3.wav",
+    "size": 9970
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tin4.wav",
+    "size": 8908
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tin5.wav",
+    "size": 9736
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ting1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ting2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ting3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ting4.wav",
+    "size": 11300
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ting5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tip1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tip3.wav",
+    "size": 8998
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tit3.wav",
+    "size": 9030
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tiu1.wav",
+    "size": 10152
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tiu3.wav",
+    "size": 10662
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tiu4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tiu5.wav",
+    "size": 10998
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tiu6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/to1.wav",
+    "size": 10918
+   },
+   {
+    "path": "jyutping-wong-16000-v6/to2.wav",
+    "size": 10502
+   },
+   {
+    "path": "jyutping-wong-16000-v6/to3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/to4.wav",
+    "size": 9838
+   },
+   {
+    "path": "jyutping-wong-16000-v6/to5.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/toe3.wav",
+    "size": 11032
+   },
+   {
+    "path": "jyutping-wong-16000-v6/toe5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/toi1.wav",
+    "size": 10846
+   },
+   {
+    "path": "jyutping-wong-16000-v6/toi4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/toi5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/toi6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tok3.wav",
+    "size": 10136
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tok6.wav",
+    "size": 9684
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tong1.wav",
+    "size": 11286
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tong2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tong3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tong4.wav",
+    "size": 11094
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tou1.wav",
+    "size": 10672
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tou2.wav",
+    "size": 10400
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tou3.wav",
+    "size": 11294
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tou4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tou5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tuk1.wav",
+    "size": 8390
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tung1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tung2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tung3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tung4.wav",
+    "size": 10624
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tung6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tyun2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tyun4.wav",
+    "size": 10932
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tyun5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/tyut3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/uk1.wav",
+    "size": 8086
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ung3.wav",
+    "size": 11292
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waa1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waa2.wav",
+    "size": 12022
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waa4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waa5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waa6.wav",
+    "size": 11298
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waai1.wav",
+    "size": 12072
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waai2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waai3.wav",
+    "size": 13308
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waai4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waai5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waai6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waak1.wav",
+    "size": 11110
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waak6.wav",
+    "size": 10684
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waan1.wav",
+    "size": 12062
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waan2.wav",
+    "size": 13286
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waan3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waan4.wav",
+    "size": 12650
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waan5.wav",
+    "size": 13092
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waan6.wav",
+    "size": 12752
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waang4.wav",
+    "size": 12148
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waang6.wav",
+    "size": 12000
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waat1.wav",
+    "size": 10824
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waat3.wav",
+    "size": 12546
+   },
+   {
+    "path": "jyutping-wong-16000-v6/waat6.wav",
+    "size": 11126
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wai2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wai3.wav",
+    "size": 12122
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wai4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wai5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wai6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wak6.wav",
+    "size": 8984
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wan1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wan2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wan3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wan4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wan5.wav",
+    "size": 12962
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wan6.wav",
+    "size": 11982
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wang4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wat1.wav",
+    "size": 8020
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wat3.wav",
+    "size": 9030
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wat6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wau4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/we2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/we5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wen1.wav",
+    "size": 12150
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wet1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wi1.wav",
+    "size": 9846
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wik1.wav",
+    "size": 8096
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wik6.wav",
+    "size": 8478
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wing1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wing4.wav",
+    "size": 11080
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wing5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wing6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wo1.wav",
+    "size": 10922
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wo2.wav",
+    "size": 12024
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wo3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wo4.wav",
+    "size": 11300
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wo5.wav",
+    "size": 10974
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wo6.wav",
+    "size": 10804
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wok1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wok3.wav",
+    "size": 9898
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wok6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wong1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wong2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wong4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wong5.wav",
+    "size": 12056
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wong6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wu1.wav",
+    "size": 9740
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wu2.wav",
+    "size": 10412
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wu3.wav",
+    "size": 10186
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wu4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wu6.wav",
+    "size": 11272
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wui1.wav",
+    "size": 10068
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wui2.wav",
+    "size": 10940
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wui3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wui4.wav",
+    "size": 10756
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wui5.wav",
+    "size": 11176
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wui6.wav",
+    "size": 10902
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wun1.wav",
+    "size": 11286
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wun2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wun4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wun5.wav",
+    "size": 12034
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wun6.wav",
+    "size": 12000
+   },
+   {
+    "path": "jyutping-wong-16000-v6/wut6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaa1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaa2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaa3.wav",
+    "size": 12712
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaa6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaai1.wav",
+    "size": 12028
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaai2.wav",
+    "size": 12006
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaai3.wav",
+    "size": 12780
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaai6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaak1.wav",
+    "size": 10146
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaak3.wav",
+    "size": 11070
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaak6.wav",
+    "size": 10290
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaam1.wav",
+    "size": 13206
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaam2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaam3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaam4.wav",
+    "size": 12958
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaam5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaam6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaan1.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaan2.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaan3.wav",
+    "size": 13280
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaan4.wav",
+    "size": 12562
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaan5.wav",
+    "size": 12576
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaan6.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaang1.wav",
+    "size": 12822
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaang3.wav",
+    "size": 12858
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaang6.wav",
+    "size": 13004
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaap1.wav",
+    "size": 11278
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaap3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaap6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaat3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaat6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaau1.wav",
+    "size": 11996
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaau2.wav",
+    "size": 12478
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaau3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaau4.wav",
+    "size": 12608
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaau5.wav",
+    "size": 12910
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zaau6.wav",
+    "size": 13038
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zai1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zai2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zai3.wav",
+    "size": 12778
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zai4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zai6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zak1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zak3.wav",
+    "size": 10168
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zak6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zam1.wav",
+    "size": 12032
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zam2.wav",
+    "size": 12578
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zam3.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zam4.wav",
+    "size": 11970
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zam6.wav",
+    "size": 12646
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zan1.wav",
+    "size": 12790
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zan2.wav",
+    "size": 12150
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zan3.wav",
+    "size": 12164
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zan6.wav",
+    "size": 12496
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zang1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zang2.wav",
+    "size": 12046
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zang3.wav",
+    "size": 12554
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zang6.wav",
+    "size": 12042
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zap1.wav",
+    "size": 9702
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zap3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zap6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zat1.wav",
+    "size": 9044
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zat3.wav",
+    "size": 9050
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zat6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zau1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zau2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zau3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zau6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ze1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ze2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ze3.wav",
+    "size": 12550
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ze4.wav",
+    "size": 11182
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ze5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ze6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zek1.wav",
+    "size": 9832
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zek3.wav",
+    "size": 10614
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zek6.wav",
+    "size": 9930
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeng1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeng2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeng3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeng6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeoi1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeoi2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeoi3.wav",
+    "size": 12162
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeoi4.wav",
+    "size": 11296
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeoi6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeon1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeon2.wav",
+    "size": 11996
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeon3.wav",
+    "size": 11298
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeon4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeon6.wav",
+    "size": 11972
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeot1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeot3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zeot6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zi1.wav",
+    "size": 10368
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zi2.wav",
+    "size": 10118
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zi3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zi4.wav",
+    "size": 10938
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zi5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zi6.wav",
+    "size": 11936
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zik1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zik3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zik6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zim1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zim2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zim3.wav",
+    "size": 12402
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zim4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zim5.wav",
+    "size": 12044
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zim6.wav",
+    "size": 12540
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zin1.wav",
+    "size": 12824
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zin2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zin3.wav",
+    "size": 12254
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zin4.wav",
+    "size": 11966
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zin5.wav",
+    "size": 12220
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zin6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zing1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zing2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zing3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zing4.wav",
+    "size": 10762
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zing6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zip1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zip3.wav",
+    "size": 10322
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zip6.wav",
+    "size": 9802
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zit1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zit3.wav",
+    "size": 10012
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zit6.wav",
+    "size": 9050
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ziu1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ziu2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ziu3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ziu4.wav",
+    "size": 10742
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ziu5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/ziu6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zo2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zo3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zo6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zoe1.wav",
+    "size": 9468
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zoei6.wav",
+    "size": 11964
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zoek3.wav",
+    "size": 11280
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zoek6.wav",
+    "size": 10120
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zoeng1.wav",
+    "size": 12218
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zoeng2.wav",
+    "size": 12860
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zoeng3.wav",
+    "size": 12676
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zoeng4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zoeng5.wav",
+    "size": 12614
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zoeng6.wav",
+    "size": 11966
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zoi1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zoi2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zoi3.wav",
+    "size": 11998
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zoi6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zok3.wav",
+    "size": 11054
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zok6.wav",
+    "size": 10790
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zong1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zong2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zong3.wav",
+    "size": 12130
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zong6.wav",
+    "size": 11974
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zou1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zou2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zou3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zou6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zui6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zuk1.wav",
+    "size": 8126
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zuk3.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zuk6.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zung1.wav",
+    "size": 11216
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zung2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zung3.wav",
+    "size": 12382
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zung4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zung5.wav",
+    "size": 12026
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zung6.wav",
+    "size": 11990
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyu1.wav",
+    "size": 10780
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyu2.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyu3.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyu4.wav",
+    "size": 11302
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyu5.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyu6.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyun1.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyun2.wav",
+    "size": 12012
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyun3.wav",
+    "size": 13550
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyun4.wav",
+    "size": 11304
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyun5.wav",
+    "size": 13556
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyun6.wav",
+    "size": 12562
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyut1.wav",
+    "size": 9052
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyut3.wav",
+    "size": 9768
+   },
+   {
+    "path": "jyutping-wong-16000-v6/zyut6.wav",
+    "size": 9052
+   },
+   {
+    "path": "zhy.dict",
+    "size": 236554
+   },
+   {
+    "path": "zhy_list",
+    "size": 501083
+   }
+  ],
+  "id": "ekho-cantonese",
+  "installBytes": 26009948,
+  "manifestSha256": "027a6224d35a74a26307c7542c4c0dc6329f64f425b63ae32afa39692e1edb59",
+  "target": "ekho-160",
+  "title": "Ekho Cantonese (CantoneseWong syllables)",
+  "zip": "ekho-cantonese.zip",
+  "zipBytes": 24161407,
+  "zipSha256": "568e0e8ce0d8ec635c82aa5b0de662db65aaf048166bbd58350d29b07dc0d05c"
+ }
+]

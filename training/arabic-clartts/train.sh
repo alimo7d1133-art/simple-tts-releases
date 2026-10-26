@@ -1,6 +1,6 @@
 #!/bin/bash
 set -x
-cd "${TRAIN_ROOT:-arabic-train-clartts}"
+cd /workspace/arabic-train-clartts
 export FESTVOXDIR=$PWD/tools/festvox ESTDIR=$PWD/tools/speech_tools FLITEDIR=$PWD/tools/flite SPTKDIR=$PWD/tools/SPTK
 export PATH=$ESTDIR/bin:$PWD/tools/festival/bin:$PATH
 mkdir ofl_ar_clartts_ar && cd ofl_ar_clartts_ar

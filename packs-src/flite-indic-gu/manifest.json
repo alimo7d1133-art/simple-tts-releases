@@ -1,0 +1,24 @@
+{
+ "files": [
+  {
+   "path": "cmu_indic_guj_ad.flitevox",
+   "sha256": "d4aa1cf05c2b6aabe90fcd817f81ac5bbe7cb1f7b20811278840773ac4aa4731",
+   "size": 11368818
+  },
+  {
+   "path": "cmu_indic_guj_dp.flitevox",
+   "sha256": "96eb5fdadf81e6c669883c0bc947cc52e6b55a9abdefaf77a116e38cdd188862",
+   "size": 10235186
+  },
+  {
+   "path": "cmu_indic_guj_kt.flitevox",
+   "sha256": "f21fab793752c68eb55e9424a7925d49e37e5e3ae17462ef8b14247171c70413",
+   "size": 5912668
+  }
+ ],
+ "format": 1,
+ "pack": "flite-indic-gu",
+ "target": "flite-extra",
+ "title": "Gujarati (CMU Indic, 3 voices)",
+ "version": "1.9.0"
+}

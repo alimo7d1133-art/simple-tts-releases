@@ -23,6 +23,14 @@ public final class FlitePlugin implements EnginePlugin {
    if(Character.isLetter(cp)){Character.UnicodeScript us=Character.UnicodeScript.of(cp);if(!us.name().equals(script)&&!(latin&&us==Character.UnicodeScript.LATIN))return false;any=true;}
    else if(Character.isDigit(cp)&&!digits)return false;}
   return any;}
+ private static boolean isBase(int voice){return voice<5||voice==9||(voice>=21&&voice<=26);}
+ public String requiredPack(int voice){
+  if(isBase(voice)||voice>=IDS.length)return null;
+  PackStore.Pack p=PackStore.packForFile("flite-extra",EXTRA[voice-5]);return p==null?null:p.id;
+ }
+ public boolean voiceAvailable(Context c,int voice){
+  if(isBase(voice))return true;return PackStore.fileReady(c,"flite-extra",EXTRA[voice-5]);
+ }
  private static boolean isArabic(int voice){return voice==9||voice==21||voice==22||voice==23||voice==24;}
  private volatile Context context;
  private File directory;
@@ -34,7 +42,7 @@ public final class FlitePlugin implements EnginePlugin {
  public String sampleText(){return "Hello. This is the classic Flite voice inside Simple TTS.";}
  public String sampleText(int voice){if(voice>=22&&voice<IDS.length&&!NEWSAMPLE[voice-22].isEmpty())return NEWSAMPLE[voice-22];return isArabic(voice)?"مَرْحَبًا بِكُمْ. هَذِهِ تَجْرِبَةٌ لِلصَّوْتِ الْعَرَبِيِّ الْقَدِيمِ.":sampleText();}
  public String[] noticeAssets(){return new String[]{"FLITE-COPYING.txt","FLITE-ACKNOWLEDGEMENTS.txt","SOURCE-NOTICES.txt","flite-extra/EXTRA-VOICES-NOTICE.txt","asc/asc-MIT-LICENSE.txt","asc/asc-CORPUS-CC-BY-4.txt","clartts/CLARTTS-NOTICE.txt","flite-extra/NEW-VOICES-1.8-NOTICE.txt"};}
- public String languageNotice(){return "Flite: 22 صوتًا إنجليزيًا محليًا و5 أصوات عربية و13 صوتًا هنديًا (هندي وبنغالي وغوجاراتي وكانادا وماراثي وبنجابي وتاميل وتيلوغو). تُستخرج النماذج الإضافية عند اختيارها لأول مرة. اكتب بحرف لغة الصوت.";}
+ public String languageNotice(){return "Flite: 22 صوتًا إنجليزيًا محليًا و5 أصوات عربية و13 صوتًا هنديًا (هندي وبنغالي وغوجاراتي وكانادا وماراثي وبنجابي وتاميل وتيلوغو). الأصوات الكبيرة (الإنجليزية الإضافية والهندية) تأتي في حزم منفصلة تنقلها إلى مجلد Simple TTS data. اكتب بحرف لغة الصوت.";}
  public void initialize(Context c){
   if(context!=null)return;
   synchronized(this){if(context!=null)return;
@@ -50,6 +58,7 @@ public final class FlitePlugin implements EnginePlugin {
    if(context==null)throw new IllegalStateException("Flite must be initialized with an Android context");
    int i=voice-5;File out=new File(directory,EXTRA[i]);
    if(!out.isFile()||out.length()!=SIZES[i]){
+    if(!isBase(voice))throw new PackStore.PackMissingException(requiredPack(voice));
     File tmp=new File(directory,EXTRA[i]+".tmp");
     try(InputStream in=context.getAssets().open((i==4?"asc/":"flite-extra/")+EXTRA[i]);FileOutputStream fos=new FileOutputStream(tmp)){
      byte[] b=new byte[32768];int n;long copied=0;while((n=in.read(b))!=-1){fos.write(b,0,n);copied+=n;}

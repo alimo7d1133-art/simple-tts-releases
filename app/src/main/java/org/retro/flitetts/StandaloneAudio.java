@@ -26,6 +26,7 @@ public final class StandaloneAudio {
  }
  public static Pcm render(Context context,EnginePlugin engine,int voice,String text,float rate,float pitch,boolean useRawi,boolean highQuality,Cancellation cancel) throws IOException {
   if(text==null||text.trim().isEmpty()||text.length()>MAX_TEXT_LENGTH||voice<0||voice>=engine.voiceIds().length||!engine.acceptsText(text,voice))throw new IllegalArgumentException("Unsupported text or voice");
+  if(!engine.voiceAvailable(context,voice)){String need=engine.requiredPack(voice);throw new PackStore.PackMissingException(need==null?engine.id():need);}
   check(cancel);
   if(useRawi&&"ar".equals(engine.voiceLocale(voice).getLanguage())){try{text=RawiDiacritizer.diacritize(context,text);}catch(CancellationException cancelled){throw cancelled;}catch(Exception failure){throw new RawiFailure(failure);}check(cancel);}
   synchronized(ENGINE_LOCK){

@@ -1,0 +1,14 @@
+{
+ "files": [
+  {
+   "path": "cmu_indic_ben_rm.flitevox",
+   "sha256": "03be69080049c0cb29f42b13cd59e3e5bcb826e87634c37b2a833b85bc989bdc",
+   "size": 8868578
+  }
+ ],
+ "format": 1,
+ "pack": "flite-indic-bn",
+ "target": "flite-extra",
+ "title": "Bengali (CMU Indic)",
+ "version": "1.9.0"
+}

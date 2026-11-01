@@ -1,7 +1,7 @@
 <resources>
  <string name="app_name">Simple TTS</string>
  <string name="title">Simple TTS</string>
- <string name="intro">Esta aplicación independiente reproduce voz localmente y puede guardar archivos MP3. Escuchar no necesita acceso al almacenamiento; al guardar se solicita el acceso necesario cuando hace falta.</string>
+ <string name="intro">Esta aplicación independiente reproduce voz localmente y puede guardar archivos MP3 o WAV. Escuchar no necesita acceso al almacenamiento; al guardar se solicita el acceso necesario cuando hace falta.</string>
  <string name="arabic_notice">Árabe: MBROLA AR1/AR2, Flite ASC y Festival HTS Ziad. Cuatro opciones reales con distinta calidad.</string>
  <string name="choose_engine">Elegir motor</string>
  <string name="engine">Motor de voz</string>
@@ -60,11 +60,11 @@
  <string name="checking_data">Comprobando los datos de voz locales. Puedes volver atrás para cancelar.</string>
  <string name="settings_unavailable">Los ajustes opcionales de voz del dispositivo no están disponibles en este dispositivo.</string>
  <string name="save_mp3">Guardar MP3</string>
- <string name="folder_hint">La primera vez que abras la aplicación, concede el permiso de almacenamiento (Android 8–10) o activa el acceso a todos los archivos en Ajustes (Android 11 o posterior). Simple TTS crea automáticamente su carpeta en la raíz del almacenamiento interno compartido y guarda allí los archivos MP3. Si omites el acceso, puedes seguir escuchando; Guardar podrá volver a intentarlo más tarde.</string>
+ <string name="folder_hint">Al iniciar la aplicación por primera vez, concede el permiso de almacenamiento (Android 8–10) o activa el acceso a todos los archivos en Ajustes (Android 11+). Simple TTS crea automáticamente su carpeta en la raíz del almacenamiento interno compartido y guarda allí archivos de audio MP3/WAV. Si omites el acceso, puedes seguir escuchando y volver a intentar guardar más tarde.</string>
  <string name="generating">Generando audio…</string>
  <string name="saving_mp3">Guardando MP3…</string>
  <string name="mp3_saved">MP3 guardado.</string>
- <string name="save_failed">No se pudo guardar el MP3.</string>
+ <string name="save_failed">No se pudo guardar el archivo de audio.</string>
  <string name="save_cancelled">Guardado de MP3 cancelado.</string>
  <string name="busy">Espera a que termine la operación actual.</string>
  <string name="rawi_toggle">Diacritización automática del árabe — Rawi</string>
@@ -73,7 +73,7 @@
  <string name="rawi_failed">La diacritización de Rawi falló. Desactívala para usar el texto original.</string>
  <string name="standalone_notice">Esta aplicación independiente no está disponible como motor de texto a voz del sistema Android.</string>
  <string name="storage_first_title">Acceso al almacenamiento</string>
- <string name="storage_first_message">Simple TTS necesita acceso al almacenamiento para guardar archivos MP3. En Android 11 o posterior, el acceso a todos los archivos es más amplio que el acceso solo al audio, pero Simple TTS únicamente escribe sus propios archivos MP3 generados y no lee otros archivos. La aplicación crea automáticamente la carpeta Simple TTS en la raíz del almacenamiento interno compartido. Puedes escuchar aunque omitas este paso; Guardar podrá volver a intentarlo más tarde.</string>
+ <string name="storage_first_message">Simple TTS necesita acceso al almacenamiento para guardar archivos de audio MP3 y WAV. En Android 11+, el acceso a todos los archivos es más amplio que el acceso al audio, pero Simple TTS solo escribe archivos de audio que genera y no lee archivos ajenos. La aplicación crea automáticamente la carpeta Simple TTS en la raíz del almacenamiento interno compartido. Puedes escuchar aunque omitas este paso y volver a guardar más tarde.</string>
  <string name="storage_open">Abrir permisos</string>
  <string name="storage_later">Ahora no</string>
  <string name="storage_denied">No se concedió el permiso de almacenamiento. Puedes seguir escuchando.</string>
@@ -83,7 +83,7 @@
  <string name="notice_festival">Ziad: árabe HTS, 48 kHz, GPL-3.0 y corpus CC BY 4.0; Rawi opcional. Kurt: inglés estadounidense LPC/dífonos, 16 kHz, licencia de Edimburgo. Ambos locales; elija el idioma correspondiente.</string>
  <string name="slider_value">%1$s: %2$d / 100 (50 = normal)</string>
  <string name="hq_toggle">Salida de 48 kHz para todas las voces</string>
- <string name="hq_hint">Se aplica a todas las voces en reproducción y MP3. Activado: 48 kHz. Desactivado: frecuencia original. La velocidad y el tono elegidos no cambian. Las voces nativas de 48 kHz conservan esa frecuencia en ambos modos. No recupera detalles ausentes.</string>
+ <string name="hq_hint">Se aplica a todas las voces al reproducir y exportar MP3/WAV. Activado: 48 kHz. Desactivado: frecuencia original. La velocidad y el tono elegidos no cambian. Las voces nativas de 48 kHz conservan esa frecuencia en ambos modos. El remuestreo no recupera detalles ausentes.</string>
  <string name="diacritize_text">Añadir diacríticos</string>
  <string name="diacritize_done">El texto con diacríticos ha reemplazado al original.</string>
  <string name="diacritize_text_changed">El texto cambió durante el proceso; se conservaron los cambios.</string>
@@ -93,6 +93,9 @@
  <string name="notice_flitehts">Flite + HTS: una voz femenina de inglés americano (CMU ARCTIC SLT) de la familia estadística HMM. Local y sin conexión; sin árabe.</string>
  <string name="engine_ekho">Ekho — Cantonés</string>
  <string name="notice_ekho">Ekho: cantonés de Hong Kong con CantoneseWong; sin árabe ni inglés. Síntesis local por sílabas y salida opcional a 48 kHz.</string>
+ <string name="engine_kilohertz">Kilohertz — tonos experimentales</string>
+ <string name="notice_kilohertz">Generador experimental de tonos sinusoidales; no es voz ni produce habla inteligible. Introduce de 1 a 128 frecuencias de 40 a 5000 Hz, separadas por espacios, comas o punto y coma (por ejemplo: 440, 660, 1.2kHz). Los números sin unidad son Hz; kHz significa kilohercios. Puedes reproducir los tonos o guardarlos como MP3/WAV. Mantén bajo el volumen del dispositivo.</string>
+ <string name="kilohertz_hint">Introduce frecuencias de 40 a 5000 Hz, separadas por espacios, comas o punto y coma; por ejemplo 440, 660, 1.2kHz. Esto genera tonos, no voz.</string>
  <string name="engine_system">Voces instaladas en Android</string>
  <string name="notice_system">Voces del sistema: los motores de texto a voz instalados en este teléfono (Google, Samsung, ...) usados a través de Android. Son externos, no forman parte de Simple TTS, pueden ser neuronales y pueden usar internet según su propia configuración. Simple TTS no tiene permiso de internet ni es un motor del sistema.</string>
  <string name="system_engine_label">Motor instalado</string>
@@ -122,4 +125,14 @@
  <string name="pack_missing">Esta voz necesita el paquete «%1$s». Descargue %2$s de la página de versiones de Simple TTS, descomprímalo y mueva la carpeta «%3$s» a «%4$s» en el almacenamiento interno; luego abra Paquetes de voces y pulse Actualizar.</string>
  <string name="voices_unavailable_hint">%1$d voces más de este motor están ocultas porque su paquete no está instalado. Abra Paquetes de voces para añadirlas.</string>
  <string name="no_voices_available">Aún no hay voces disponibles de este motor. Abra Paquetes de voces para instalar su paquete.</string>
+ <string name="wav_bit_depth">Profundidad del contenedor PCM WAV</string>
+ <string name="wav_bit_depth_desc">Elige el ancho del contenedor PCM para exportar WAV; MP3 no cambia.</string>
+ <string name="wav_depth_8">PCM de 8 bits</string>
+ <string name="wav_depth_16">PCM de 16 bits</string>
+ <string name="wav_depth_24">PCM de 24 bits</string>
+ <string name="wav_depth_32">PCM de 32 bits</string>
+ <string name="wav_bit_depth_hint">2 bits PCM no es una opción estándar compatible en WAV. Opciones: 8, 16, 24 o 32 bits. Los motores generan PCM16; los WAV de 24/32 bits guardan las mismas muestras en un contenedor más ancho, sin añadir detalle. Solo afecta a WAV; MP3 no cambia.</string>
+ <string name="save_wav">Guardar WAV</string>
+ <string name="saving_wav">Guardando WAV…</string>
+ <string name="wav_saved">WAV guardado.</string>
 </resources>

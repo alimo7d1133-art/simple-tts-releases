@@ -11,6 +11,8 @@ public interface EnginePlugin {
  String sampleText();
  default String sampleText(int voice){return sampleText();}
  default void initialize(android.content.Context context) {}
+ /** True when the engine needs the complete input string in one synthesis call. */
+ default boolean synthesizeWholeText(){return false;}
  String languageNotice();
  String[] noticeAssets();
  default Locale voiceLocale(int voice){return locale();}

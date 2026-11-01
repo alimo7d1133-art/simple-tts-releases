@@ -1,7 +1,7 @@
 <resources>
  <string name="app_name">Simple TTS</string>
  <string name="title">Simple TTS</string>
- <string name="intro">يشغّل هذا التطبيق المستقل النطق محليًا ويمكنه حفظ ملفات MP3. لا يحتاج الاستماع إلى الوصول إلى وحدة التخزين؛ ويطلب الحفظ الوصول المطلوب عند الحاجة.</string>
+ <string name="intro">يشغّل هذا التطبيق المستقل النطق محليًا ويمكنه حفظ ملفات MP3 أو WAV. لا يحتاج الاستماع إلى الوصول إلى وحدة التخزين؛ ويطلب الحفظ الوصول المطلوب عند الحاجة.</string>
  <string name="arabic_notice">العربية: MBROLA ‏AR1 وAR2، وFlite ‏ASC، وFestival HTS زياد. أربعة خيارات صوتية فعلية، تختلف في الجودة والنطق.</string>
  <string name="choose_engine">اختيار المحرك</string>
  <string name="engine">محرك النطق</string>
@@ -60,11 +60,11 @@
  <string name="checking_data">جارٍ التحقق من بيانات الصوت المحلية. يمكنك الرجوع للإلغاء.</string>
  <string name="settings_unavailable">إعدادات نطق الجهاز الاختيارية غير متاحة على هذا الجهاز.</string>
  <string name="save_mp3">حفظ MP3</string>
- <string name="folder_hint">عند تشغيل التطبيق لأول مرة، امنح إذن التخزين (Android 8–10) أو فعّل الوصول إلى جميع الملفات في الإعدادات (Android 11+). ينشئ Simple TTS مجلده تلقائيًا في جذر وحدة التخزين المشتركة الداخلية ويحفظ ملفات MP3 هناك. إذا تخطيت الوصول، يظل الاستماع متاحًا ويمكن إعادة المحاولة عند الحفظ لاحقًا.</string>
+ <string name="folder_hint">عند تشغيل التطبيق لأول مرة، امنح إذن التخزين (Android 8–10) أو فعّل الوصول إلى جميع الملفات في الإعدادات (Android 11+). ينشئ Simple TTS مجلده تلقائيًا في جذر وحدة التخزين المشتركة الداخلية ويحفظ فيه ملفات MP3 وWAV. إذا تخطيت الوصول، يظل الاستماع متاحًا ويمكن إعادة المحاولة عند الحفظ لاحقًا.</string>
  <string name="generating">جارٍ إنشاء الصوت…</string>
  <string name="saving_mp3">جارٍ حفظ MP3…</string>
  <string name="mp3_saved">تم حفظ MP3.</string>
- <string name="save_failed">تعذّر حفظ MP3.</string>
+ <string name="save_failed">تعذّر حفظ ملف الصوت.</string>
  <string name="save_cancelled">أُلغي حفظ MP3.</string>
  <string name="busy">يرجى الانتظار حتى تكتمل العملية الحالية.</string>
  <string name="rawi_toggle">التشكيل العربي التلقائي — Rawi</string>
@@ -73,7 +73,7 @@
  <string name="rawi_failed">فشل تشكيل Rawi. أوقفه لاستخدام النص الأصلي.</string>
  <string name="standalone_notice">هذا التطبيق المستقل غير متاح كمحرك تحويل النص إلى كلام لنظام Android.</string>
  <string name="storage_first_title">الوصول إلى وحدة التخزين</string>
- <string name="storage_first_message">يحتاج Simple TTS إلى الوصول إلى وحدة التخزين لحفظ ملفات MP3. في Android 11+، يكون الوصول إلى جميع الملفات أوسع من الوصول إلى الصوت، لكن Simple TTS يكتب ملفات MP3 التي أنشأها بنفسه فقط ولا يقرأ ملفات أخرى. ينشئ التطبيق مجلد Simple TTS تلقائيًا في جذر وحدة التخزين المشتركة الداخلية. يمكنك الاستماع إذا تخطيت ذلك، ويمكن إعادة المحاولة عند الحفظ لاحقًا.</string>
+ <string name="storage_first_message">يحتاج Simple TTS إلى الوصول لوحدة التخزين لحفظ ملفات MP3 وWAV. في Android 11+، يكون الوصول إلى جميع الملفات أوسع من الوصول إلى الصوت، لكن Simple TTS يكتب ملفات الصوت التي أنشأها فقط ولا يقرأ ملفات أخرى. ينشئ التطبيق مجلد Simple TTS تلقائيًا في جذر وحدة التخزين المشتركة الداخلية. يمكنك الاستماع إذا تخطيت ذلك، وإعادة محاولة الحفظ لاحقًا.</string>
  <string name="storage_open">فتح الأذونات</string>
  <string name="storage_later">ليس الآن</string>
  <string name="storage_denied">لم يُمنح إذن التخزين. يظل الاستماع متاحًا.</string>
@@ -83,7 +83,7 @@
  <string name="notice_festival">زياد: عربي HTS عند 48 كيلوهرتز، GPL-3.0 وبيانات CC BY 4.0؛ راوي اختياري. كورت: إنجليزي أمريكي LPC/diphone عند 16 كيلوهرتز بشروط إدنبرة الحرة. كلاهما محلي؛ اختر لغة النص المناسبة للصوت.</string>
  <string name="slider_value">%1$s: %2$d من 100 (50 = طبيعي)</string>
  <string name="hq_toggle">إخراج 48 كيلوهرتز لجميع الأصوات</string>
- <string name="hq_hint">يشمل كل الأصوات عند الاستماع وحفظ MP3. عند التفعيل: إخراج بمعدل 48 كيلوهرتز. عند الإيقاف: معدل الصوت الأصلي. تبقى السرعة وطبقة الصوت المختارتان دون تغيير؛ والأصوات الأصلية بمعدل 48 كيلوهرتز تبقى كذلك في الحالتين. التحويل لا يستعيد تفاصيل مفقودة.</string>
+ <string name="hq_hint">يشمل كل الأصوات عند الاستماع وتصدير MP3 وWAV. عند التفعيل: إخراج 48 كيلوهرتز. عند الإيقاف: معدل الصوت الأصلي. تبقى السرعة وطبقة الصوت المختارتان دون تغيير؛ والأصوات الأصلية بمعدل 48 كيلوهرتز تبقى كذلك في الحالتين. التحويل لا يستعيد تفاصيل مفقودة.</string>
  <string name="diacritize_text">تشكيل النص</string>
  <string name="diacritize_done">تم تشكيل النص واستبدال النص القديم في الحقل.</string>
  <string name="diacritize_text_changed">تغيّر النص أثناء التشكيل؛ احتُفظ بتعديلاتك دون استبدالها.</string>
@@ -93,6 +93,9 @@
  <string name="notice_flitehts">Flite + HTS: صوت أمريكي نسائي واحد (CMU ARCTIC SLT) من عائلة HMM الإحصائية. يعمل محليًا دون إنترنت؛ لا يدعم العربية.</string>
  <string name="engine_ekho">Ekho — الكانتونية</string>
  <string name="notice_ekho">Ekho: الكانتونية في هونغ كونغ بصوت CantoneseWong، دون العربية أو الإنجليزية. تركيب مقطعي محلي مع إخراج اختياري 48 كيلوهرتز.</string>
+ <string name="engine_kilohertz">كيلوهرتز — نغمات تجريبية</string>
+ <string name="notice_kilohertz">مولّد نغمات جيبية تجريبي، وليس نطقًا ولا كلامًا مفهومًا. أدخل من تردد واحد إلى 128 ترددًا بين 40 و5000 هرتز، مفصولة بمسافات أو فواصل، مثل: 440، 660، 1.2kHz. الأرقام العادية تعني هرتز، وkHz تعني كيلوهرتز. يمكن تشغيل النغمات أو حفظها MP3/WAV؛ اخفض مستوى صوت الهاتف.</string>
+ <string name="kilohertz_hint">أدخل ترددات بين 40 و5000 هرتز مفصولة بمسافات أو فواصل؛ مثل 440، 660، 1.2kHz. الناتج نغمات وليس كلامًا.</string>
  <string name="engine_system">أصوات أندرويد المثبتة</string>
  <string name="notice_system">أصوات النظام: محركات تحويل النص إلى كلام المثبتة على هذا الهاتف (Google وSamsung وغيرها) تُستخدم عبر أندرويد. هي محركات خارجية وليست جزءًا من Simple TTS، وقد تكون عصبية، وقد تستخدم الإنترنت حسب إعداداتها. أما Simple TTS نفسه فلا يملك إذن إنترنت وليس محرك نظام.</string>
  <string name="system_engine_label">المحرك المثبت على الهاتف</string>
@@ -122,4 +125,14 @@
  <string name="pack_missing">هذا الصوت يحتاج الحزمة «%1$s». نزّل الملف %2$s من صفحة إصدار Simple TTS، وفُكّ ضغطه، وانقل المجلد «%3$s» إلى «%4$s» في وحدة التخزين الداخلية، ثم افتح «حزم الأصوات» واضغط «تحديث».</string>
  <string name="voices_unavailable_hint">هناك %1$d صوتًا آخر في هذا المحرك مخفية لأن حزمتها غير مثبتة. افتح «حزم الأصوات» لإضافتها.</string>
  <string name="no_voices_available">لا يوجد بعد أي صوت متاح في هذا المحرك. افتح «حزم الأصوات» لتثبيت حزمته.</string>
+ <string name="wav_bit_depth">عمق حاوية PCM في WAV</string>
+ <string name="wav_bit_depth_desc">اختر عرض حاوية PCM عند تصدير WAV؛ لا يتغير MP3.</string>
+ <string name="wav_depth_8">PCM ‏8 بت</string>
+ <string name="wav_depth_16">PCM ‏16 بت</string>
+ <string name="wav_depth_24">PCM ‏24 بت</string>
+ <string name="wav_depth_32">PCM ‏32 بت</string>
+ <string name="wav_bit_depth_hint">عمق 2 بت ليس خيارًا متوافقًا في WAV القياسي. الخيارات: 8 و16 و24 و32 بت. تنتج المحركات PCM16؛ لذا تخزّن ملفات 24/32 بت العينات نفسها في حاوية أوسع ولا تضيف تفاصيل للمصدر. يؤثر ذلك على WAV فقط؛ ويبقى MP3 كما هو.</string>
+ <string name="save_wav">حفظ WAV</string>
+ <string name="saving_wav">جارٍ حفظ WAV…</string>
+ <string name="wav_saved">تم حفظ WAV.</string>
 </resources>

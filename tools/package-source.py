@@ -47,6 +47,10 @@ with zipfile.ZipFile(out) as archive:
                 'app/src/main/assets/rawi/source/LICENSE-APACHE-2.0.txt', 'app/src/main/assets/LAME-COPYING.txt',
                 'app/src/main/assets/ONNX-RUNTIME-LICENSE.txt', 'app/src/androidTest/java/org/retro/flitetts/RawiInstrumentation.java']
     required += ['app/src/main/java/org/retro/flitetts/EkhoPlugin.java', 'app/src/main/cpp/ekho/CMakeLists.txt', 'app/src/main/cpp/ekho/ekho_jni.cpp', 'app/src/main/cpp/ekho/disabled_features.cpp', 'app/src/main/cpp/ekho/sonic/sonic.c', 'app/src/main/cpp/ekho/libsndfile-src/sndfile.c', 'app/src/main/cpp/ekho/sr-convert/dsp.cpp', 'packs-src/ekho-cantonese/jyutping-wong-16000-v6/aa1.wav', 'packs-src/ekho-cantonese/zhy_list', 'packs-src/ekho-cantonese/zhy.dict', 'app/src/main/assets/ekho/licenses/COPYING-jyutping-wong', 'app/src/main/assets/ekho/licenses/CC-BY-SA-3.0.txt', 'packs-src/flite-en-us-1/cmu_us_aew.flitevox', 'packs-src/flite-en-us-2/cmu_us_ahw.flitevox', 'packs-src/flite-en-in/cmu_us_aup.flitevox', 'festival-voice-source/voices/english/ked_diphone/group/kedlpc16k.group', 'festival-lexicon-source/dicts/cmu/cmulex.scm', 'festival-lexicon-source/dicts/wsj.wp39.poslexR', 'app/src/main/assets/festival/CMU-LEXICON-COPYRIGHT.txt', 'app/src/main/assets/festival/KD-COPYRIGHT.txt', 'app/src/main/assets/festival/data.zip', 'app/src/main/cpp/openjtalk/CMakeLists.txt', 'app/src/main/java/org/retro/flitetts/OpenJtalkPlugin.java', 'ADDITIONS-1.6.0.md']
+    required += ['app/src/main/java/org/retro/flitetts/KilohertzPlugin.java',
+                 'app/src/main/java/org/retro/flitetts/WavEncoder.java',
+                 'app/src/main/java/org/retro/flitetts/EnginePlugin.java',
+                 'ADDITIONS-2.0.0.md']
     for member in required:
         if 'Simple-TTS/' + member not in archive.namelist():
             raise RuntimeError('Missing source/data member: ' + member)

@@ -1,7 +1,7 @@
 <resources>
  <string name="app_name">Simple TTS</string>
  <string name="title">Simple TTS</string>
- <string name="intro">This standalone app plays speech locally and can save MP3 files. Listening needs no storage access; saving requests the required access when needed.</string>
+ <string name="intro">This standalone app plays speech locally and can save MP3 or WAV files. Listening needs no storage access; saving requests the required access when needed.</string>
  <string name="arabic_notice">Arabic: MBROLA AR1/AR2, Flite ASC, and Festival HTS Ziad. These are four actual voice options; quality and pronunciation differ.</string>
  <string name="choose_engine">Choose engine</string>
  <string name="engine">Speech engine</string>
@@ -60,11 +60,11 @@
  <string name="checking_data">Checking local voice data. You can go back to cancel.</string>
  <string name="settings_unavailable">Optional device speech settings are unavailable on this device.</string>
  <string name="save_mp3">Save MP3</string>
- <string name="folder_hint">On first launch, grant storage permission (Android 8–10) or enable All files access in Settings (Android 11+). Simple TTS creates its folder automatically at the root of internal shared storage and saves MP3 files there. If you skip access, listening still works; Save can retry later.</string>
+ <string name="folder_hint">On first launch, grant storage permission (Android 8–10) or enable All files access in Settings (Android 11+). Simple TTS creates its folder automatically at the root of internal shared storage and saves MP3/WAV audio files there. If you skip access, listening still works; saving can retry later.</string>
  <string name="generating">Generating audio…</string>
  <string name="saving_mp3">Saving MP3…</string>
  <string name="mp3_saved">MP3 saved.</string>
- <string name="save_failed">Could not save MP3.</string>
+ <string name="save_failed">Could not save the audio file.</string>
  <string name="save_cancelled">MP3 save cancelled.</string>
  <string name="busy">Please wait for the current operation to finish.</string>
  <string name="rawi_toggle">Automatic Arabic diacritization — Rawi</string>
@@ -73,7 +73,7 @@
  <string name="rawi_failed">Rawi diacritization failed. Turn it off to use the original text.</string>
  <string name="standalone_notice">This standalone app is not available as an Android system TTS engine.</string>
  <string name="storage_first_title">Storage access</string>
- <string name="storage_first_message">Simple TTS needs storage access to save MP3 files. On Android 11+, All files access is broader than audio access, but Simple TTS writes only its own generated MP3 files and does not read unrelated files. The app creates the Simple TTS folder automatically at the root of internal shared storage. You can listen if you skip this; Save can retry later.</string>
+ <string name="storage_first_message">Simple TTS needs storage access to save MP3 and WAV audio files. On Android 11+, All files access is broader than audio access, but Simple TTS writes only its own generated audio files and does not read unrelated files. The app creates the Simple TTS folder automatically at the root of internal shared storage. You can listen if you skip this; saving can retry later.</string>
  <string name="storage_open">Open permissions</string>
  <string name="storage_later">Not now</string>
  <string name="storage_denied">Storage permission was not granted. Listening still works.</string>
@@ -83,7 +83,7 @@
  <string name="notice_festival">Ziad: Arabic HTS, 48 kHz, GPL-3.0 with corpus CC BY 4.0; optional Rawi. Kurt: American English LPC/diphone, 16 kHz, Edinburgh permissions. Both local; select the matching text language.</string>
  <string name="slider_value">%1$s: %2$d / 100 (50 = normal)</string>
  <string name="hq_toggle">48 kHz output for all voices</string>
- <string name="hq_hint">Applies to every voice for playback and MP3. On: output at 48 kHz. Off: keep the native sample rate. Selected speed and pitch stay unchanged; native 48 kHz voices remain at 48 kHz in either mode. Resampling does not restore missing detail.</string>
+ <string name="hq_hint">Applies to every voice for playback and MP3/WAV exports. On: output at 48 kHz. Off: keep the native sample rate. Selected speed and pitch stay unchanged; native 48 kHz voices remain at 48 kHz in either mode. Resampling does not restore missing detail.</string>
  <string name="diacritize_text">Diacritize text</string>
  <string name="diacritize_done">Diacritized text replaced the original in the editor.</string>
  <string name="diacritize_text_changed">The text changed while processing; your edits were kept.</string>
@@ -93,6 +93,9 @@
  <string name="notice_flitehts">Flite + HTS: one American English female voice (CMU ARCTIC SLT) from the statistical HMM family. Local and offline; no Arabic.</string>
  <string name="engine_ekho">Ekho — Cantonese</string>
  <string name="notice_ekho">Ekho: Hong Kong Cantonese, CantoneseWong recordings; no Arabic or English. Local syllable synthesis with optional 48 kHz output.</string>
+ <string name="engine_kilohertz">Kilohertz — experimental tones</string>
+ <string name="notice_kilohertz">Experimental sine-tone generator, not speech. Enter 1–128 frequencies from 40–5000 Hz, separated by spaces, commas, or semicolons (for example: 440, 660, 1.2kHz). Bare numbers mean Hz; kHz means kilohertz. Tones can be played or saved as MP3/WAV. Keep the device volume low.</string>
+ <string name="kilohertz_hint">Enter frequencies from 40–5000 Hz, separated by spaces, commas, or semicolons; for example 440, 660, 1.2kHz. This generates tones, not speech.</string>
  <string name="engine_system">Android installed voices</string>
  <string name="notice_system">System voices: the text-to-speech engines installed on this phone (Google, Samsung, ...) used through Android. They are external, not part of Simple TTS, and may be neural; they may also use the internet according to their own settings. Simple TTS itself has no internet permission and is not a system engine.</string>
  <string name="system_engine_label">Installed engine</string>
@@ -122,4 +125,14 @@
  <string name="pack_missing">This voice needs the pack “%1$s”. Download %2$s from the Simple TTS release page, unzip it and move the folder “%3$s” into “%4$s” in internal storage, then open Voice packs and press Refresh.</string>
  <string name="voices_unavailable_hint">%1$d more voices of this engine are hidden because their voice pack is not installed. Open Voice packs to add them.</string>
  <string name="no_voices_available">No voice of this engine is available yet. Open Voice packs to install its pack.</string>
+ <string name="wav_bit_depth">WAV PCM container depth</string>
+ <string name="wav_bit_depth_desc">Select the PCM container width for WAV exports; MP3 is unchanged.</string>
+ <string name="wav_depth_8">8-bit PCM</string>
+ <string name="wav_depth_16">16-bit PCM</string>
+ <string name="wav_depth_24">24-bit PCM</string>
+ <string name="wav_depth_32">32-bit PCM</string>
+ <string name="wav_bit_depth_hint">2-bit PCM is not a compatible standard WAV option. Choose 8, 16, 24 or 32-bit. Speech engines produce PCM16, so 24/32-bit files use a wider container but cannot add source detail. WAV only; MP3 is unchanged.</string>
+ <string name="save_wav">Save WAV</string>
+ <string name="saving_wav">Saving WAV…</string>
+ <string name="wav_saved">WAV saved.</string>
 </resources>

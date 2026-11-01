@@ -24,7 +24,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
-/** Deterministic 1.5.0 regression coverage for HQ 48 kHz across all 63 voices. */
+/** Regression coverage for HQ 48 kHz across the 63 speech voices and tone generator. */
 public final class AllVoices48kInstrumentation extends Instrumentation {
     private static final String TAG = "OldTTS-AllVoices48k";
     private static final float RATE = 1.25f;
@@ -48,7 +48,7 @@ public final class AllVoices48kInstrumentation extends Instrumentation {
             writeJson(new File(root, "all-voices-48k.json"), records);
             note("PASS all-voices 48k instrumentation; JSON=" + new File(root, "all-voices-48k.json"));
             Bundle result = new Bundle();
-            result.putString("stream", "PASS all 63 voices native off/on, deterministic PCM, HQ WAV/MP3, UI persistence; JSON=" + new File(root, "all-voices-48k.json") + "\n");
+            result.putString("stream", "PASS all 64 built-in voice/tone options native off/on, deterministic PCM, HQ WAV/MP3, UI persistence; JSON=" + new File(root, "all-voices-48k.json") + "\n");
             finish(Activity.RESULT_OK, result);
         } catch (Throwable failure) {
             note("FAIL " + failure);
@@ -58,9 +58,9 @@ public final class AllVoices48kInstrumentation extends Instrumentation {
     }
 
     private List<String> verifyAllVoices(Context c, File root) throws Exception {
-        require(EngineRegistry.all().size() == 12, "expected 12 engines");
+        require(EngineRegistry.all().size() == 13, "expected 13 engines");
         int totalVoices = 0; for (EnginePlugin e : EngineRegistry.all()) totalVoices += e.voiceIds().length;
-        require(totalVoices == 63, "expected 63 voices, got " + totalVoices);
+        require(totalVoices == 64, "expected 64 built-in voice/tone options, got " + totalVoices);
         File wav = new File(root, "wav"); File mp3 = new File(root, "mp3");
         require(wav.mkdirs() || wav.isDirectory(), "cannot create WAV directory");
         require(mp3.mkdirs() || mp3.isDirectory(), "cannot create MP3 directory");
@@ -102,7 +102,7 @@ public final class AllVoices48kInstrumentation extends Instrumentation {
             records.add(jsonRecord(engine, voice, off, deterministicHq, realHq, out, recording)); count++;
             note("PASS " + id + " native=" + off.sampleRate + "Hz/" + off.samples.length + " HQ=48000Hz/" + realHq.samples.length + " MP3=" + out.length());
         }
-        require(count == 63, "rendered " + count + " voices");
+        require(count == 64, "rendered " + count + " built-in voice/tone options");
         return records;
     }
 
@@ -147,7 +147,7 @@ public final class AllVoices48kInstrumentation extends Instrumentation {
         }
         require(persisted, "HQ preference lost on restart");
         require(!c.getSharedPreferences("retro", 0).getBoolean("high_quality_48000", true), "HQ off not persisted");
-        note("PASS UI persistence on restart and HQ visible across all 30 engine/voice choices"); return restarted;
+        note("PASS UI persistence on restart and HQ visible across all engine/voice choices"); return restarted;
     }
 
     private static String jsonRecord(EnginePlugin e, int voice, StandaloneAudio.Pcm off, StandaloneAudio.Pcm converted, StandaloneAudio.Pcm realHq, File mp3, RecordingPlugin r) {
@@ -173,11 +173,11 @@ public final class AllVoices48kInstrumentation extends Instrumentation {
     private static final class RecordingPlugin implements EnginePlugin {
         final EnginePlugin delegate; final List<short[]> parts=new ArrayList<>(); int sampleRate; boolean rateOk=true,pitchOk=true;
         RecordingPlugin(EnginePlugin d){delegate=d;}
-        public String id(){return delegate.id();} public String label(){return delegate.label();} public Locale locale(){return delegate.locale();} public String[] voiceIds(){return delegate.voiceIds();} public String[] voiceLabels(){return delegate.voiceLabels();} public String sampleText(){return delegate.sampleText();} public String sampleText(int v){return delegate.sampleText(v);} public void initialize(Context c){delegate.initialize(c);} public String languageNotice(){return delegate.languageNotice();} public String[] noticeAssets(){return delegate.noticeAssets();} public Locale voiceLocale(int v){return delegate.voiceLocale(v);} public int languageAvailability(String l,String c,String v){return delegate.languageAvailability(l,c,v);} public boolean acceptsText(String t){return delegate.acceptsText(t);} public boolean acceptsText(String t,int v){return delegate.acceptsText(t,v);} public int sampleRate(int v){sampleRate=delegate.sampleRate(v);return sampleRate;} public short[] synthesize(String t,int v,float rate,float pitch){rateOk &= Math.abs(rate-RATE)<.0001f; pitchOk &= Math.abs(pitch-PITCH)<.0001f; short[] p=delegate.synthesize(t,v,rate,pitch); require(p!=null&&p.length>0,"engine returned empty PCM "+id()); parts.add(p.clone()); return p;}
+        public String id(){return delegate.id();} public String label(){return delegate.label();} public Locale locale(){return delegate.locale();} public String[] voiceIds(){return delegate.voiceIds();} public String[] voiceLabels(){return delegate.voiceLabels();} public String sampleText(){return delegate.sampleText();} public String sampleText(int v){return delegate.sampleText(v);} public void initialize(Context c){delegate.initialize(c);} public boolean synthesizeWholeText(){return delegate.synthesizeWholeText();} public String languageNotice(){return delegate.languageNotice();} public String[] noticeAssets(){return delegate.noticeAssets();} public Locale voiceLocale(int v){return delegate.voiceLocale(v);} public int languageAvailability(String l,String c,String v){return delegate.languageAvailability(l,c,v);} public boolean acceptsText(String t){return delegate.acceptsText(t);} public boolean acceptsText(String t,int v){return delegate.acceptsText(t,v);} public int sampleRate(int v){sampleRate=delegate.sampleRate(v);return sampleRate;} public short[] synthesize(String t,int v,float rate,float pitch){rateOk &= Math.abs(rate-RATE)<.0001f; pitchOk &= Math.abs(pitch-PITCH)<.0001f; short[] p=delegate.synthesize(t,v,rate,pitch); require(p!=null&&p.length>0,"engine returned empty PCM "+id()); parts.add(p.clone()); return p;}
         short[] joined(){int n=0;for(short[] p:parts)n+=p.length;short[] r=new short[n];int at=0;for(short[] p:parts){System.arraycopy(p,0,r,at,p.length);at+=p.length;}return r;}
     }
     private static final class FixedPlugin implements EnginePlugin {
         final EnginePlugin d; final List<short[]> parts; final int rate; int index; FixedPlugin(EnginePlugin d,List<short[]> p,int r){this.d=d;parts=p;rate=r;}
-        public String id(){return d.id();} public String label(){return d.label();} public Locale locale(){return d.locale();} public String[] voiceIds(){return d.voiceIds();} public String[] voiceLabels(){return d.voiceLabels();} public String sampleText(){return d.sampleText();} public String sampleText(int v){return d.sampleText(v);} public String languageNotice(){return d.languageNotice();} public String[] noticeAssets(){return d.noticeAssets();} public Locale voiceLocale(int v){return d.voiceLocale(v);} public int languageAvailability(String l,String c,String v){return d.languageAvailability(l,c,v);} public boolean acceptsText(String t){return d.acceptsText(t);} public boolean acceptsText(String t,int v){return d.acceptsText(t,v);} public int sampleRate(int v){return rate;} public short[] synthesize(String t,int v,float r,float p){require(Math.abs(r-RATE)<.0001f&&Math.abs(p-PITCH)<.0001f,"HQ changed engine parameters"); require(index<parts.size(),"HQ chunk count changed"); return parts.get(index++).clone();}
+        public String id(){return d.id();} public String label(){return d.label();} public Locale locale(){return d.locale();} public String[] voiceIds(){return d.voiceIds();} public String[] voiceLabels(){return d.voiceLabels();} public String sampleText(){return d.sampleText();} public String sampleText(int v){return d.sampleText(v);} public boolean synthesizeWholeText(){return d.synthesizeWholeText();} public String languageNotice(){return d.languageNotice();} public String[] noticeAssets(){return d.noticeAssets();} public Locale voiceLocale(int v){return d.voiceLocale(v);} public int languageAvailability(String l,String c,String v){return d.languageAvailability(l,c,v);} public boolean acceptsText(String t){return d.acceptsText(t);} public boolean acceptsText(String t,int v){return d.acceptsText(t,v);} public int sampleRate(int v){return rate;} public short[] synthesize(String t,int v,float r,float p){require(Math.abs(r-RATE)<.0001f&&Math.abs(p-PITCH)<.0001f,"HQ changed engine parameters"); require(index<parts.size(),"HQ chunk count changed"); return parts.get(index++).clone();}
     }
 }

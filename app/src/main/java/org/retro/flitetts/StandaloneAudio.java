@@ -32,7 +32,12 @@ public final class StandaloneAudio {
   synchronized(ENGINE_LOCK){
    check(cancel);EngineRegistry.prepare(context,engine);int hz=engine.sampleRate(voice);if(hz<8000||hz>96000)throw new IOException("Invalid sample rate");
    ArrayList<short[]> parts=new ArrayList<>();int total=0,offset=0;
-   while(offset<text.length()){
+   if(engine.synthesizeWholeText()){
+    check(cancel);short[] pcm=engine.synthesize(text,voice,Math.max(.25f,Math.min(4,rate)),Math.max(.5f,Math.min(2,pitch)));check(cancel);
+    if(pcm==null)throw new IOException("Synthesis failed");
+    if(pcm.length>12000000)throw new IOException("Audio exceeds memory-safe length; shorten the text");
+    parts.add(pcm);total=pcm.length;
+   }else while(offset<text.length()){
     check(cancel);int end=Math.min(offset+160,text.length());
     if(end<text.length()){int cut=end;while(cut>offset+60&&!Character.isWhitespace(text.charAt(cut-1)))cut--;if(cut>offset+60)end=cut;if(end>offset&&Character.isHighSurrogate(text.charAt(end-1)))end--;}
     String part=text.substring(offset,end).trim();offset=end;if(part.isEmpty())continue;

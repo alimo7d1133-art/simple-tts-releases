@@ -1,7 +1,7 @@
 <resources>
  <string name="app_name">Simple TTS</string>
  <string name="title">Simple TTS</string>
- <string name="intro">Cette application autonome lit la parole localement et peut enregistrer des fichiers MP3. L’écoute ne nécessite aucun accès au stockage ; l’enregistrement demande l’accès requis si nécessaire.</string>
+ <string name="intro">Cette application autonome lit la parole localement et peut enregistrer des fichiers MP3 ou WAV. L’écoute ne nécessite aucun accès au stockage ; l’enregistrement demande l’accès requis si nécessaire.</string>
  <string name="arabic_notice">Arabe : MBROLA AR1/AR2, Flite ASC et Festival HTS Ziad. Quatre options réelles de qualité différente.</string>
  <string name="choose_engine">Choisir le moteur</string>
  <string name="engine">Moteur vocal</string>
@@ -60,11 +60,11 @@
  <string name="checking_data">Vérification des données vocales locales. Vous pouvez revenir en arrière pour annuler.</string>
  <string name="settings_unavailable">Les réglages vocaux facultatifs de l’appareil ne sont pas disponibles sur cet appareil.</string>
  <string name="save_mp3">Enregistrer en MP3</string>
- <string name="folder_hint">Lors du premier lancement, accordez l’autorisation d’accéder au stockage (Android 8 à 10) ou activez l’accès à tous les fichiers dans les réglages (Android 11 et versions ultérieures). Simple TTS crée automatiquement son dossier à la racine du stockage partagé interne et y enregistre les fichiers MP3. Si vous ignorez cet accès, l’écoute reste possible ; l’enregistrement pourra réessayer plus tard.</string>
+ <string name="folder_hint">Au premier lancement, accordez l’autorisation de stockage (Android 8–10) ou activez l’accès à tous les fichiers dans les réglages (Android 11+). Simple TTS crée automatiquement son dossier à la racine du stockage partagé interne et y enregistre des fichiers audio MP3/WAV. Sans cet accès, l’écoute reste possible ; l’enregistrement pourra réessayer plus tard.</string>
  <string name="generating">Génération de l’audio…</string>
  <string name="saving_mp3">Enregistrement du MP3…</string>
  <string name="mp3_saved">MP3 enregistré.</string>
- <string name="save_failed">Impossible d’enregistrer le MP3.</string>
+ <string name="save_failed">Impossible d’enregistrer le fichier audio.</string>
  <string name="save_cancelled">Enregistrement du MP3 annulé.</string>
  <string name="busy">Veuillez attendre la fin de l’opération en cours.</string>
  <string name="rawi_toggle">Diacritisation automatique de l’arabe — Rawi</string>
@@ -73,7 +73,7 @@
  <string name="rawi_failed">Échec de la diacritisation Rawi. Désactivez-la pour utiliser le texte original.</string>
  <string name="standalone_notice">Cette application autonome n’est pas disponible comme moteur de synthèse vocale du système Android.</string>
  <string name="storage_first_title">Accès au stockage</string>
- <string name="storage_first_message">Simple TTS a besoin d’un accès au stockage pour enregistrer des fichiers MP3. Sous Android 11 et versions ultérieures, l’accès à tous les fichiers est plus large que le simple accès audio, mais Simple TTS écrit uniquement ses propres fichiers MP3 générés et ne lit pas les autres fichiers. L’application crée automatiquement le dossier Simple TTS à la racine du stockage partagé interne. Vous pouvez écouter sans accorder cet accès ; l’enregistrement pourra réessayer plus tard.</string>
+ <string name="storage_first_message">Simple TTS a besoin d’accéder au stockage pour enregistrer des fichiers audio MP3 et WAV. Sous Android 11+, l’accès à tous les fichiers est plus large que l’accès audio, mais Simple TTS écrit uniquement les fichiers audio qu’il génère et ne lit aucun fichier tiers. L’application crée son dossier automatiquement à la racine du stockage partagé interne. Vous pouvez écouter sans cet accès et réessayer l’enregistrement plus tard.</string>
  <string name="storage_open">Ouvrir les autorisations</string>
  <string name="storage_later">Plus tard</string>
  <string name="storage_denied">L’autorisation d’accéder au stockage n’a pas été accordée. L’écoute reste possible.</string>
@@ -83,7 +83,7 @@
  <string name="notice_festival">Ziad : arabe HTS, 48 kHz, GPL-3.0 et corpus CC BY 4.0 ; Rawi facultatif. Kurt : anglais américain LPC/diphones, 16 kHz, licence Edinburgh. Synthèse locale ; choisir la langue correspondante.</string>
  <string name="slider_value">%1$s : %2$d / 100 (50 = normal)</string>
  <string name="hq_toggle">Sortie 48 kHz pour toutes les voix</string>
- <string name="hq_hint">Pour toutes les voix en lecture et MP3. Activé : 48 kHz. Désactivé : fréquence native. La vitesse et la hauteur choisies restent inchangées. Les voix natives à 48 kHz restent à 48 kHz dans les deux modes. Les détails absents ne sont pas restaurés.</string>
+ <string name="hq_hint">S’applique à toutes les voix en lecture et à l’export MP3/WAV. Activé : 48 kHz. Désactivé : fréquence native. La vitesse et la hauteur choisies restent inchangées. Les voix natives à 48 kHz restent à 48 kHz dans les deux modes. Le rééchantillonnage ne restaure pas les détails absents.</string>
  <string name="diacritize_text">Ajouter les diacritiques</string>
  <string name="diacritize_done">Le texte vocalisé a remplacé le texte original.</string>
  <string name="diacritize_text_changed">Le texte a changé pendant le traitement ; vos modifications sont conservées.</string>
@@ -93,6 +93,9 @@
  <string name="notice_flitehts">Flite + HTS : une voix féminine d’anglais américain (CMU ARCTIC SLT) de la famille statistique HMM. Locale et hors ligne ; pas d’arabe.</string>
  <string name="engine_ekho">Ekho — Cantonais</string>
  <string name="notice_ekho">Ekho : cantonais de Hong Kong avec CantoneseWong ; ni arabe ni anglais. Synthèse locale par syllabes, sortie 48 kHz facultative.</string>
+ <string name="engine_kilohertz">Kilohertz — tonalités expérimentales</string>
+ <string name="notice_kilohertz">Générateur expérimental de tonalités sinusoïdales : ce n’est pas de la parole et il ne produit pas de voix intelligible. Saisissez 1 à 128 fréquences de 40 à 5000 Hz, séparées par des espaces, des virgules ou des points-virgules (par exemple : 440, 660, 1.2kHz). Les nombres sans unité sont en Hz ; kHz signifie kilohertz. Les tonalités peuvent être lues ou enregistrées en MP3/WAV. Gardez le volume de l’appareil bas.</string>
+ <string name="kilohertz_hint">Saisissez des fréquences de 40 à 5000 Hz, séparées par des espaces, des virgules ou des points-virgules, par exemple 440, 660, 1.2kHz. Cela produit des tonalités, pas de la parole.</string>
  <string name="engine_system">Voix installées sur Android</string>
  <string name="notice_system">Voix du système : les moteurs de synthèse vocale installés sur ce téléphone (Google, Samsung, ...) utilisés via Android. Ils sont externes, ne font pas partie de Simple TTS, peuvent être neuronaux et peuvent utiliser internet selon leurs propres réglages. Simple TTS n’a aucune autorisation internet et n’est pas un moteur système.</string>
  <string name="system_engine_label">Moteur installé</string>
@@ -122,4 +125,14 @@
  <string name="pack_missing">Cette voix nécessite le paquet « %1$s ». Téléchargez %2$s depuis la page des versions de Simple TTS, décompressez-le et déplacez le dossier « %3$s » dans « %4$s » du stockage interne, puis ouvrez Paquets de voix et appuyez sur Actualiser.</string>
  <string name="voices_unavailable_hint">%1$d autres voix de ce moteur sont masquées car leur paquet n’est pas installé. Ouvrez Paquets de voix pour les ajouter.</string>
  <string name="no_voices_available">Aucune voix de ce moteur n’est encore disponible. Ouvrez Paquets de voix pour installer son paquet.</string>
+ <string name="wav_bit_depth">Largeur du conteneur PCM WAV</string>
+ <string name="wav_bit_depth_desc">Choisir la largeur du conteneur PCM pour les exports WAV ; MP3 reste inchangé.</string>
+ <string name="wav_depth_8">PCM 8 bits</string>
+ <string name="wav_depth_16">PCM 16 bits</string>
+ <string name="wav_depth_24">PCM 24 bits</string>
+ <string name="wav_depth_32">PCM 32 bits</string>
+ <string name="wav_bit_depth_hint">Le PCM 2 bits n’est pas une option WAV standard compatible. Choix : 8, 16, 24 ou 32 bits. Les moteurs génèrent du PCM16 ; les WAV 24/32 bits stockent les mêmes échantillons dans un conteneur plus large, sans ajouter de détails. WAV uniquement ; MP3 reste inchangé.</string>
+ <string name="save_wav">Enregistrer en WAV</string>
+ <string name="saving_wav">Enregistrement du WAV…</string>
+ <string name="wav_saved">WAV enregistré.</string>
 </resources>

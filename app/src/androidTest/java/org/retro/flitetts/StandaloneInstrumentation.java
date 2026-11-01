@@ -73,15 +73,15 @@ public final class StandaloneInstrumentation extends Instrumentation {
     }
 
     private void verifyRegistry() {
-        require(EngineRegistry.all().size() == 12, "expected 12 engines");
+        require(EngineRegistry.all().size() == 13, "expected 13 engines");
         int voices = 0;
         for (EnginePlugin engine : EngineRegistry.all()) {
             require(engine.voiceIds().length == engine.voiceLabels().length,
                     "voice metadata mismatch for " + engine.id());
             voices += engine.voiceIds().length;
         }
-        require(voices == 63, "expected 63 voices, got " + voices);
-        note("PASS registry engines=11 voices=63");
+        require(voices == 64, "expected 64 built-in voice/tone options, got " + voices);
+        note("PASS registry engines=13 entries voices=64 built-in options");
     }
 
     private void verifyCancellationAndValidation(Context context) throws Exception {
@@ -132,7 +132,7 @@ public final class StandaloneInstrumentation extends Instrumentation {
                         + " mp3=" + mp3.length());
             }
         }
-        require(rendered == 63, "rendered " + rendered + " voices, expected 63");
+        require(rendered == 64, "rendered " + rendered + " built-in voice/tone options, expected 64");
     }
 
     private void verifyArabicRatePitchAndChunking(Context context) throws Exception {

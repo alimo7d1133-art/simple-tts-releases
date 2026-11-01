@@ -56,10 +56,10 @@ public final class ArabicExpansionInstrumentation extends Instrumentation {
 
     private void verifyRegistryAndVoices() {
         require(FestivalPlugin.normalizeDiacritics("ص\u064e\u0651").equals("ص\u0651\u064e"), "Festival canonical shadda ordering regression");
-        require(EngineRegistry.all().size() == 12, "expected engines=12");
+        require(EngineRegistry.all().size() == 13, "expected engines=13");
         int count = 0;
         for (EnginePlugin e : EngineRegistry.all()) count += e.voiceIds().length;
-        require(count == 63, "expected voices=63, got " + count);
+        require(count == 64, "expected built-in voice/tone options=64, got " + count);
         EnginePlugin festival = EngineRegistry.find("festival");
         require(festival != null && festival.voiceIds().length == 2, "Festival voice missing");
         require(FESTIVAL.equals(festival.voiceIds()[0]), "wrong Festival id");

@@ -1,12 +1,15 @@
 # Simple TTS
 
-Simple TTS is a standalone, fully offline Android app that turns text into speech, plays it, and saves it as MP3. It offers **12 engine entries and 63 built-in voice options** (plus whatever text-to-speech engines are installed on the phone) (English, Arabic, Japanese, Cantonese and more) and needs no internet connection, no account and no cloud service. It is **not** an Android system TTS engine: it cannot be selected as the default engine or used by TalkBack.
+Simple TTS is a standalone, fully offline Android app that turns text into speech, plays it, and saves it as MP3 or WAV. It offers **13 engine entries and 64 built-in options** (63 speech voices plus one experimental tone generator; installed phone TTS engines can also be selected). The new Kilohertz option creates sine tones from entered frequencies; it is explicitly **not speech**. The app needs no internet connection, account or cloud service and is **not** an Android system TTS engine: it cannot be selected as the default engine or used by TalkBack.
+
+WAV export supports mono PCM in 8-, 16-, 24- or 32-bit containers. Speech engines generate PCM16, so choosing 24 or 32 bits stores the same samples in a wider container and does not add source detail; this setting does not affect MP3.
 
 - Package id: `org.oldtts.android` (kept stable so updates install over older versions)
-- Version: `1.9.0` (versionCode `12`), minSdk 26 (Android 8), targetSdk 36
+- Version: `2.0.0` (versionCode `14`), minSdk 26 (Android 8), targetSdk 36
 - ABIs: `arm64-v8a`, `armeabi-v7a`, `x86_64`, `x86`
 - UI languages: Arabic (RTL), English, German, Spanish, French, Italian
 - Arabic documentation: [README_AR.md](README_AR.md) (full feature description, in Arabic)
+- 2.0.0 addition: [ADDITIONS-2.0.0.md](ADDITIONS-2.0.0.md) (Kilohertz tone engine and release identity)
 
 **Voice packs (new in 1.9.0):** the app itself is much smaller because the large voice data (English Flite voices, Indian-language voices, MBROLA English, Open JTalk Japanese and Ekho Cantonese) is split into 14 separate packs published as ZIP files on the release page. The app has **no INTERNET permission** and never downloads anything. To add a pack: download its ZIP, unzip it, move the folder into `Simple TTS data/` in the phone's internal storage (the app asks for file access only for this), and open the app: it verifies every file with SHA-256 against a manifest whose hash is compiled into the app, copies the files to private storage and activates the voices. The *Voice packs* screen lists every pack with its size and status and can delete a pack again (the folder you copied is never touched). Voices of packs that are not installed are hidden and the app says which pack to add. Arabic basics (MBROLA AR1/AR2, Flite ASC, ClArTTS, IQC, CVM, CVF, Festival Ziad), Pico, rsynth, Klatt, Gnuspeech, FreeTTS, HF92/HM6097 and the SLT HTS voice stay inside the app. Updating from 1.8.0 keeps the voices that were already extracted. A new engine entry, *Android installed voices*, lists the voices of other TTS engines installed on the phone; those engines are not part of this project and may be neural. See [ADDITIONS-1.9.0.md](ADDITIONS-1.9.0.md).
 
@@ -15,7 +18,7 @@ Simple TTS is a standalone, fully offline Android app that turns text into speec
 
 ## What is in this repository
 
-This repository is the complete corresponding source of the 1.9.0 release: the Android app, all engine sources and runtime data, voice models, build scripts, tests, test evidence, and the license notices of every component. Nothing needed to build is left out. Signing keys and credentials were never part of the source and are not here.
+This repository is the complete corresponding source of the 2.0.0 release: the Android app, all engine sources and runtime data, voice models, build scripts, tests, test evidence, and the license notices of every component. Nothing needed to build is left out. Signing keys and credentials were never part of the source and are not here.
 
 | Path | Contents |
 |---|---|
@@ -49,6 +52,7 @@ C/C++ sources for MBROLA, rsynth, Klatt, Ekho (with libsndfile, Sonic, sr-conver
 | Festival | Ziad (Arabic HTS, 48 kHz), Kurt (American English LPC/diphone, 16 kHz) |
 | Open JTalk | Nitech ATR503 (Japanese, 48 kHz) |
 | Ekho | CantoneseWong (Cantonese, 16 kHz) |
+| Kilohertz (experimental) | User-entered sine-tone sequence (40–5000 Hz); not speech |
 
 The count is options, not unique speakers: KAL and KAL16 are one speaker at two bandwidths, the two Klatt options are excitation modes, and ASC and Ziad are both trained on the Arabic Speech Corpus. The Arabic voices are Flite ASC, Flite ClArTTS (a different speaker, best with fully diacritized text), Festival Ziad (HTS), and MBROLA AR1 and AR2. An optional on-device diacritizer (Rawi v3, via ONNX Runtime) can add Arabic diacritics. Details and limits are in [ADDITIONS-1.8.0.md](ADDITIONS-1.8.0.md), [ADDITIONS-1.7.0.md](ADDITIONS-1.7.0.md) and [README_AR.md](README_AR.md).
 
@@ -66,7 +70,7 @@ chmod +x gradlew tools/*.sh
 # output: app/build/outputs/apk/release/app-release-unsigned.apk
 ```
 
-The release build is **unsigned**; sign it with your own key (`apksigner`). An APK you sign yourself will not install as an update over the officially published APK, because Android requires the same signing certificate (the published APK's certificate SHA-256 is `d6dd597bff7d93705d810318f5540c989a9b2ea511fc185449d62805966ab75c`). Uninstall first, or change the package id.
+The 2.0.0 release APK is **unsigned** because the project's original private signing key is not available. It cannot update an already-installed signed release. Signing it with a different key will not fix that; installing it requires removing the old app first (which may erase its preferences), or signing with the original private key. Earlier official APKs used certificate SHA-256 `d6dd597bff7d93705d810318f5540c989a9b2ea511fc185449d62805966ab75c`.
 
 Prebuilt Festival static libraries for the four ABIs are committed in `festival-runtime/prebuilt/<abi>/` because the Festival cross-build is slow. They can be regenerated on Linux:
 
